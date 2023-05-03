@@ -41,7 +41,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                     fill="black"
                   />
                 </svg>
-                (+91) 123-4567
+                (+91) 7733001121
               </a>
               <p className="text-right">
                 <svg
