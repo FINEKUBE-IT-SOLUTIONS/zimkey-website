@@ -4,7 +4,7 @@ function Contact() {
   return (
     <>
       <Layout>
-        <section className="section-box">
+        {/* <section className="section-box">
           <div className="banner-hero banner-breadcrums">
             <div className="container text-center">
               <h1 className="text-heading-2 color-gray-1000 mb-20">
@@ -12,7 +12,7 @@ function Contact() {
               </h1>
             </div>
           </div>
-        </section>
+        </section> */}
         <section className="section-box">
           <div className="container mb-20 mt-140">
             <div className="bdrd-58 box-gray-100 icon-wave">
@@ -22,48 +22,36 @@ function Contact() {
                     Contact us
                   </span>
                   <h2 className="text-heading-3 color-gray-900 mt-10">
-                    Have an inquiry?
+                    Got a question/ comment?
                   </h2>
                 </div>
                 <div className="col-lg-12">
                   <div className="row">
                     <div className="col-lg-6">
                       <div className="form-group">
-                        <input
-                          className="form-control"
-                          placeholder="Enter your name"
-                        />
+                        <input className="form-control" placeholder="Name" />
                       </div>
                     </div>
                     <div className="col-lg-6">
                       <div className="form-group">
-                        <input
-                          className="form-control"
-                          placeholder="Company (optioanl)"
-                        />
+                        <input className="form-control" placeholder="Company" />
                       </div>
                     </div>
                     <div className="col-lg-6">
                       <div className="form-group">
-                        <input
-                          className="form-control"
-                          placeholder="Your email"
-                        />
+                        <input className="form-control" placeholder="Email" />
                       </div>
                     </div>
                     <div className="col-lg-6">
                       <div className="form-group">
-                        <input
-                          className="form-control"
-                          placeholder="Phone number"
-                        />
+                        <input className="form-control" placeholder="Phone" />
                       </div>
                     </div>
                     <div className="col-lg-12">
                       <div className="form-group">
                         <textarea
                           className="form-control"
-                          placeholder="Tell us about yourself"
+                          placeholder="Type your message here"
                         />
                       </div>
                     </div>
@@ -72,7 +60,7 @@ function Contact() {
                         className="btn btn-black icon-arrow-right-white mr-40 mb-20"
                         type="submit"
                       >
-                        Send Message
+                        Submit
                       </button>
                       <br className="d-lg-none d-block" />
                       <span className="text-body-text-md color-gray-500 mb-20">
@@ -109,9 +97,10 @@ function Contact() {
                     </span>
                     <h4 className="text-heading-4">Address</h4>
                     <p className="text-body-text color-gray-1100 mt-15">
-                      Kochi, Kerala
-                      <br />
-                      India
+                      ZIMKEY No. 6/858-M, 2nd Floor, Suite No. 684 Valamkottil
+                      Towers, Judgemukku Kakkanad, Kochi – 682021, Kerala
+                      {/* <br />
+                      Kerala */}
                     </p>
                   </div>
                 </div>
@@ -127,9 +116,9 @@ function Contact() {
                     </span>
                     <h4 className="text-heading-4">Contact</h4>
                     <p className="text-body-text color-gray-1100 mt-15">
-                      Phone: (+91) 123-4567
+                      Phone: (+91) 7733001121
                       <br />
-                      Email: contact@zimkey.in
+                      Email: admin@zimkey.in
                     </p>
                   </div>
                 </div>
