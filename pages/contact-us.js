@@ -63,10 +63,10 @@ function Contact() {
                         Submit
                       </button>
                       <br className="d-lg-none d-block" />
-                      <span className="text-body-text-md color-gray-500 mb-20">
+                      {/* <span className="text-body-text-md color-gray-500 mb-20">
                         By clicking contact us button, you agree our terms and
                         policy,
-                      </span>
+                      </span> */}
                     </div>
                   </div>
                 </div>

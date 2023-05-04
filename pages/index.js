@@ -298,7 +298,7 @@ function Home() {
                                   $420
                                 </span>
                                 <span className="text-month text-body-small color-gray-400">
-                                  &nbsp; 3-4 hours
+                                  &nbsp; 1-2 hours
                                 </span>
                                 <span className="text-month for-year text-body-small color-gray-400">
                                   /year
@@ -463,7 +463,7 @@ function Home() {
                           </span>
                           <span className="text-heading-3 for-year">$1068</span>
                           <span className="text-month text-body-small color-gray-400">
-                            &nbsp; 3-4 hours
+                            &nbsp; 3-7 hours
                           </span>
                           <span className="text-month for-year text-body-small color-gray-400">
                             /year
@@ -471,7 +471,7 @@ function Home() {
                         </div>
                         <div className="line-bd-bottom">
                           <h4 className="text-heading-5 mb-15">
-                            1 BDR Apartment
+                            Deep Cleaning
                           </h4>
                           {/* <p className="text-body-small color-gray-400">
                             Service includes general cleaning for 4 times per
@@ -517,7 +517,7 @@ function Home() {
                           </span>
                           <span className="text-heading-3 for-year">$420</span>
                           <span className="text-month text-body-small color-gray-400">
-                            &nbsp; 3-4 hours
+                            &nbsp; 3-7 hours
                           </span>
                           <span className="text-month for-year text-body-small color-gray-400">
                             /year
@@ -643,10 +643,9 @@ function Home() {
                       <span className="icon-left">
                         <img src="/assets/imgs/page/homepage6/icon-acquis.svg" />
                       </span>
-                      <h4 className="text-heading-4">1. Title</h4>
+                      {/* <h4 className="text-heading-4">1. Title</h4> */}
                       <p className="text-body-text color-gray-600 mt-15">
-                        Excepteur sint occaecat cupidatat non proident, sunt in
-                        culpa qui officia
+                        All our professionals undergo a rigorous background check before getting onboarded
                       </p>
                     </div>
                   </div>
@@ -657,10 +656,9 @@ function Home() {
                       <span className="icon-left">
                         <img src="/assets/imgs/page/homepage6/icon-active.svg" />
                       </span>
-                      <h4 className="text-heading-4">2. Title</h4>
+                      {/* <h4 className="text-heading-4">2. Title</h4> */}
                       <p className="text-body-text color-gray-600 mt-15">
-                        Lorem ipsum dolor sit amet, consec adipiscing elit, sed
-                        do eiusmod
+                        Our service providers follow all standard safety protocols
                       </p>
                     </div>
                   </div>
@@ -671,10 +669,9 @@ function Home() {
                       <span className="icon-left">
                         <img src="/assets/imgs/page/homepage6/icon-retent.svg" />
                       </span>
-                      <h4 className="text-heading-4">3. Title</h4>
+                      {/* <h4 className="text-heading-4">3. Title</h4> */}
                       <p className="text-body-text color-gray-600 mt-15">
-                        Ut enim ad minim veniam, quis nostrud exercitation
-                        ullamco laboris nisi ut a
+                        All our service providers are fully vaccinated and continue to follow the required covid safety protocols
                       </p>
                     </div>
                   </div>
@@ -761,7 +758,7 @@ function Home() {
           </div>
         </section>
 
-        <section className="section-box">
+        {/* <section className="section-box">
           <div className="container mt-100">
             <div className="row">
               <div className="col-lg-6 col-sm-12 block-img-we-do">
@@ -804,7 +801,7 @@ function Home() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
       </Layout>
     </>
   );
