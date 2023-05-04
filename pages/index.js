@@ -297,9 +297,9 @@ function Home() {
                                 <span className="text-heading-3 for-year">
                                   $420
                                 </span>
-                                {/* <span className="text-month text-body-small color-gray-400">
-                                  &nbsp; 1 BHK
-                                </span> */}
+                                <span className="text-month text-body-small color-gray-400">
+                                  &nbsp; 3-4 hours
+                                </span>
                                 <span className="text-month for-year text-body-small color-gray-400">
                                   /year
                                 </span>
@@ -308,9 +308,9 @@ function Home() {
                                 <h4 className="text-heading-5 mb-15">
                                   General Cleaning
                                 </h4>
-                                <p className="text-body-small color-gray-400">
+                                {/* <p className="text-body-small color-gray-400">
                                   3 - 4 Hours
-                                </p>
+                                </p> */}
                               </div>
                               <ul className="list-package-feature" style={{minHeight: '190px'}}>
                                 <li>Dusting</li>
@@ -463,7 +463,7 @@ function Home() {
                           </span>
                           <span className="text-heading-3 for-year">$1068</span>
                           <span className="text-month text-body-small color-gray-400">
-                            /week
+                            &nbsp; 3-4 hours
                           </span>
                           <span className="text-month for-year text-body-small color-gray-400">
                             /year
