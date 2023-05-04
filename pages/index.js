@@ -312,7 +312,7 @@ function Home() {
                                   3 - 4 Hours
                                 </p> */}
                               </div>
-                              <ul className="list-package-feature" style={{minHeight: '190px'}}>
+                              <ul className="list-package-feature" style={{minHeight: '206px'}}>
                                 <li>Dusting</li>
                                 <li>Sweeping and Mopping</li>
                                 <div
@@ -735,8 +735,8 @@ function Home() {
                 </div>
               </div>
               <div className="col-lg-4 col-md-12 col-sm-12">
-                <div className="list-icons mt-40 hover-up">
-                  <div className="item-icon">
+                <div className="list-icons mt-0 hover-up" style={{marginTop: '8px !important'}}>
+                  <div className="item-icon" style={{paddingBottom: '16px'}}>
                     {/* <span className="icon-left">
                       <img
                         src="/assets/imgs/page/homepage2/icon-acquis.svg"
