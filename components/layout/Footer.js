@@ -176,16 +176,16 @@ const FooterV1 = () => {
               </div>
               <div className="col-md-6 text-center text-lg-end text-md-end">
                 <div className="footer-social">
-                  <Link href="https://facebook.com">
+                  <Link href="https://www.facebook.com/zimkey.in">
                     <a className="icon-socials icon-facebook"></a>
                   </Link>
                   <Link href="https://twitter.com">
                     <a className="icon-socials icon-twitter"></a>
                   </Link>
-                  <Link href="https://www.instagram.com">
+                  <Link href="https://www.instagram.com/zimkey.in/">
                     <a className="icon-socials icon-instagram"></a>
                   </Link>
-                  <Link href="https://www.linkedin.com">
+                  <Link href="https://www.linkedin.com/in/zimkey-home-services-2a5b15251/">
                     <a className="icon-socials icon-linkedin"></a>
                   </Link>
                 </div>

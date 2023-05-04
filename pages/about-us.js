@@ -21,8 +21,8 @@ function About() {
             <div className="container">
               <div className="row">
                 <div className="col-lg-12 text-center">
-                  <h1 className="text-display-2 color-gray-900">Our Story</h1>
-                  <p className="text-heading-4 color-gray-600 mt-40">
+                  <h1 className="text-display-2 color-gray-900">Who we are</h1>
+                  {/* <p className="text-heading-4 color-gray-600 mt-40">
                     We supply enterprises, organizations and institutes of high-
                     <br className="d-lg-block d-none" />
                     tech industries with modern components. We build long-
@@ -30,13 +30,24 @@ function About() {
                     term trusting relationships with our customers and partnes
                     <br className="d-lg-block d-none" />
                     for further fruitful cooperations.
+                  </p> */}
+
+                  <p className="text-heading-4 color-gray-600 mt-40">
+                    We are a one-stop shop that offers a plethora of home
+                    services.
+                    <br className="d-lg-block d-none" />
+                    Our staff at Zimkey are trained to meet all the safety
+                    <br className="d-lg-block d-none" />
+                    standards to ensure quality and professional services
+                    <br className="d-lg-block d-none" />
+                    to our customers.
                   </p>
                 </div>
               </div>
             </div>
           </div>
         </section>
-        <div className="section-box mt-40">
+        {/* <div className="section-box mt-40">
           <div className="container">
             <div className="row">
               <div className="col-lg-1" />
@@ -59,19 +70,23 @@ function About() {
               <div className="col-lg-1" />
             </div>
           </div>
-        </div>
+        </div> */}
         <section className="section-box mt-100">
           <div className="container">
             <div className="row">
               <div className="col-lg-1 col-sm-1 col-12" />
               <div className="col-lg-10 col-sm-10 col-12 text-center">
-                <h2 className="text-heading-1 color-gray-900 mb-10">
+                {/* <h2 className="text-heading-1 color-gray-900 mb-10">
                   Providing solutions of every kind
-                </h2>
+                </h2> */}
                 <p className="text-body-lead-large color-gray-600 mt-20">
-                  In a professional context it often happens that private or
+                  We are currently offering housekeeping services only. However,
+                  we will soon launch the Zimkey mobile application through
+                  which we will offer other home services including
+                  installation, maintenance, and repair services.
+                  {/* In a professional context it often happens that private or
                   <br className="d-lg-block d-none" />
-                  corporate clients order a publication to publish news.
+                  corporate clients order a publication to publish news. */}
                 </p>
               </div>
               <div className="col-lg-1 col-sm-1 col-12" />
@@ -90,9 +105,8 @@ function About() {
                     </span>
                     <h4 className="text-heading-4">Our Vision</h4>
                     <p className="text-body-text color-gray-600 mt-15">
-                      Excepteur sint occaecat cupidatat non proident, sunt in
-                      culpa qui officia deserunt mollit laborum — semper quis
-                      lectus nulla.
+                      Leverage technology to build a single-point management
+                      platform that provides the best-in-class home services.
                     </p>
                   </div>
                 </div>
@@ -108,9 +122,9 @@ function About() {
                     </span>
                     <h4 className="text-heading-4">Our Mission</h4>
                     <p className="text-body-text color-gray-600 mt-15">
-                      Excepteur sint occaecat cupidatat non proident, sunt in
-                      culpa qui officia deserunt mollit laborum — semper quis
-                      lectus nulla.
+                      Through careful selection and training, empower service
+                      providers to offer an unmatched, hassle-free experience to
+                      our customers.
                     </p>
                   </div>
                 </div>
@@ -123,7 +137,7 @@ function About() {
           <div className="container mt-110">
             <div className="row">
               <div className="col-lg-9 col-sm-8">
-                <h3 className="text-heading-1 mb-10">Our Team</h3>
+                <h3 className="text-heading-1 mb-10">Customer Testimonials</h3>
                 <p className="text-body-lead-large color-gray-600">
                   Decades of experience in design and development
                 </p>
