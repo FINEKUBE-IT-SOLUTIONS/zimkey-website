@@ -445,7 +445,7 @@ function Home() {
                       className="col-xl-3 col-lg-6 col-md-6 wow animate__animated animate__fadeIn"
                       data-wow-delay=".2s"
                     >
-                      <div className="box-pricing-item active hover-up">
+                      <div className="box-pricing-item hover-up">
 
                         <div style={{display: 'flex', marginTop: '-27px', marginBottom: '5px', justifyContent: 'center', color: '#acacac', opacity: '75%'}}>
                           <p id="card2Bhk1" onClick={handleBhkOptions2(1)} style={{fontWeight: 501, cursor: 'pointer'}}>1 BHK</p>
@@ -689,9 +689,9 @@ function Home() {
                 <h2 className="text-heading-1 color-gray-900 mb-10">
                   Launching Soon
                 </h2>
-                <p className="text-body-lead-large color-gray-600 mt-20">
+                {/* <p className="text-body-lead-large color-gray-600 mt-20">
                   Coming soon
-                </p>
+                </p> */}
               </div>
               <div className="col-lg-1 col-sm-1 col-12" />
             </div>
