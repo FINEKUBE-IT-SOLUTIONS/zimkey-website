@@ -47,7 +47,7 @@ function About() {
             </div>
           </div>
         </section>
-        {/* <div className="section-box mt-40">
+        <div className="section-box mt-40">
           <div className="container">
             <div className="row">
               <div className="col-lg-1" />
@@ -70,7 +70,7 @@ function About() {
               <div className="col-lg-1" />
             </div>
           </div>
-        </div> */}
+        </div>
         <section className="section-box mt-100">
           <div className="container">
             <div className="row">
@@ -97,12 +97,12 @@ function About() {
               <div className="col-lg-6 col-md-12 col-sm-12">
                 <div className="list-icons mt-50">
                   <div className="item-icon none-bd">
-                    <span className="icon-left">
+                    {/* <span className="icon-left">
                       <img
                         src="/assets/imgs/page/homepage2/icon-acquis.svg"
                         alt="Zimkey"
                       />
-                    </span>
+                    </span> */}
                     <h4 className="text-heading-4">Our Vision</h4>
                     <p className="text-body-text color-gray-600 mt-15">
                       Leverage technology to build a single-point management
@@ -114,12 +114,12 @@ function About() {
               <div className="col-lg-6 col-md-12 col-sm-12">
                 <div className="list-icons mt-50">
                   <div className="item-icon none-bd">
-                    <span className="icon-left">
+                    {/* <span className="icon-left">
                       <img
                         src="/assets/imgs/page/homepage2/icon-active.svg"
                         alt="Zimkey"
                       />
-                    </span>
+                    </span> */}
                     <h4 className="text-heading-4">Our Mission</h4>
                     <p className="text-body-text color-gray-600 mt-15">
                       Through careful selection and training, empower service
