@@ -120,7 +120,7 @@ function Home() {
               <div className="row">
                 <div className="col-lg-7">
                   <h1 className="text-display-2">
-                    Best Home Services at the Tap of a Key
+                    Best Home Services at the tap of a key
                   </h1>
                   <p className="text-body-lead-large color-gray-500 mt-40 pr-40">
                     Zimkey guarantees safe and hassle-free home services by
@@ -247,7 +247,7 @@ function Home() {
         <section className="section-box mt-70">
           <div className="container mt-50">
             <h3 className="text-heading-1 text-center mb-10">
-              Zimkey Flexible plans
+              Zimkey Flexible Plans
               <br className="d-lg-block d-none" />
               For You
             </h3>
@@ -639,10 +639,10 @@ function Home() {
               <div className="row">
                 <div className="col-lg-4 col-md-12 col-sm-12">
                   <div className="list-icons mt-50">
-                    <div className="item-icon none-bd">
-                      <span className="icon-left">
+                    <div className="item-icon none-bd" style={{paddingLeft: '0px'}}>
+                      {/* <span className="icon-left">
                         <img src="/assets/imgs/page/homepage6/icon-acquis.svg" />
-                      </span>
+                      </span> */}
                       {/* <h4 className="text-heading-4">1. Title</h4> */}
                       <p className="text-body-text color-gray-600 mt-15">
                         All our professionals undergo a rigorous background check before getting onboarded
@@ -653,9 +653,9 @@ function Home() {
                 <div className="col-lg-4 col-md-12 col-sm-12">
                   <div className="list-icons mt-50">
                     <div className="item-icon none-bd">
-                      <span className="icon-left">
+                      {/* <span className="icon-left">
                         <img src="/assets/imgs/page/homepage6/icon-active.svg" />
-                      </span>
+                      </span> */}
                       {/* <h4 className="text-heading-4">2. Title</h4> */}
                       <p className="text-body-text color-gray-600 mt-15">
                         Our service providers follow all standard safety protocols
@@ -666,9 +666,9 @@ function Home() {
                 <div className="col-lg-4 col-md-12 col-sm-12">
                   <div className="list-icons mt-50">
                     <div className="item-icon none-bd">
-                      <span className="icon-left">
+                      {/* <span className="icon-left">
                         <img src="/assets/imgs/page/homepage6/icon-retent.svg" />
-                      </span>
+                      </span> */}
                       {/* <h4 className="text-heading-4">3. Title</h4> */}
                       <p className="text-body-text color-gray-600 mt-15">
                         All our service providers are fully vaccinated and continue to follow the required covid safety protocols
