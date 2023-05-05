@@ -97,8 +97,11 @@ function Contact() {
                     </span>
                     <h4 className="text-heading-4">Address</h4>
                     <p className="text-body-text color-gray-1100 mt-15">
-                      ZIMKEY No. 6/858-M, 2nd Floor, Suite No. 684 Valamkottil
-                      Towers, Judgemukku Kakkanad, Kochi – 682021, Kerala
+                      ZIMKEY Home Services<br/>
+                      No. 6/858-M <br/>
+                      2nd Floor, Suite No. 684 Valamkottil
+                      Towers, Judgemukku <br/>
+                      Kakkanad, Kochi – 682021, Kerala
                       {/* <br />
                       Kerala */}
                     </p>
@@ -107,7 +110,7 @@ function Contact() {
               </div>
               <div className="col-lg-6 col-md-12 col-sm-12">
                 <div className="list-icons hover-up">
-                  <div className="item-icon">
+                  <div className="item-icon" style={{paddingBottom: "6rem"}}>
                     <span className="icon-left">
                       <img
                         src="/assets/imgs/page/homepage2/icon-active.svg"
