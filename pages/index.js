@@ -517,7 +517,7 @@ function Home() {
                           </span>
                           <span className="text-heading-3 for-year">$420</span>
                           <span className="text-month text-body-small color-gray-400">
-                            &nbsp; 3-7 hours
+                            &nbsp; 3-4 hours
                           </span>
                           <span className="text-month for-year text-body-small color-gray-400">
                             /year
