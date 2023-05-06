@@ -176,17 +176,17 @@ const FooterV1 = () => {
               </div>
               <div className="col-md-6 text-center text-lg-end text-md-end">
                 <div className="footer-social">
-                  <a href="https://www.facebook.com/zimkey.in" target="_blank">
-                    <a className="icon-socials icon-facebook"></a>
+                  <a href="https://www.facebook.com/zimkey.in" target="_blank" rel="noopener noreferrer">
+                    <i className="icon-socials icon-facebook"></i>
                   </a>
                   {/* <a href="https://twitter.com" target="_blank">
                     <a className="icon-socials icon-twitter"></a>
                   </a> */}
-                  <a href="https://www.instagram.com/zimkey_home_services/" target="_blank">
-                    <a className="icon-socials icon-instagram"></a>
+                  <a href="https://www.instagram.com/zimkey_home_services/" target="_blank" rel="noopener noreferrer">
+                    <i className="icon-socials icon-instagram"></i>
                   </a>
-                  <a href="https://www.linkedin.com/in/zimkey-home-services-2a5b15251/" target="_blank">
-                    <a className="icon-socials icon-linkedin"></a>
+                  <a href="https://www.linkedin.com/in/zimkey-home-services-2a5b15251/" target="_blank" rel="noopener noreferrer">
+                    <i className="icon-socials icon-linkedin"></i>
                   </a>
                 </div>
               </div>
