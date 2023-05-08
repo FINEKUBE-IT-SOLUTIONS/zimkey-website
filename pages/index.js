@@ -96,7 +96,7 @@ function Home() {
       {/* <Link href="/#">
                 <a>Link</a></Link>
             </Link> */}
-      <Layout>
+      <Layout currentPage={'home'}>
         <Head>
           <title>Zimkey</title>
           <meta name="description" content="Your genie, a tap away!F" />
@@ -120,7 +120,7 @@ function Home() {
               <div className="row">
                 <div className="col-lg-7">
                   <h1 className="text-display-2">
-                    Best Home Services at the tap of a key
+                    Best Home Services at the<br/> Tap of a Key
                   </h1>
                   <p className="text-body-lead-large color-gray-500 mt-40 pr-40">
                     Zimkey guarantees safe and hassle-free home services by
@@ -164,11 +164,11 @@ function Home() {
               </div>
               <div className="col-lg-6 col-md-12 col-sm-12 block-we-do">
                 <h3 className="text-heading-1 mt-30">
-                  Cleaning & Housekeeping
-                </h3>
-                <p className="text-body-lead-large color-gray-400">
                   What we offer
-                </p>
+                </h3>
+                {/* <p className="text-body-lead-large color-gray-400">
+                  What we offer
+                </p> */}
                 <div className="row">
                   <div className="col-lg-6 col-sm-6 col-12 mt-50">
                     <h4 className="text-heading-6">
@@ -298,7 +298,7 @@ function Home() {
                                   $420
                                 </span>
                                 <span className="text-month text-body-small color-gray-400">
-                                  &nbsp; 1-2 hours
+                                  &nbsp; <br/>1-2 hours
                                 </span>
                                 <span className="text-month for-year text-body-small color-gray-400">
                                   /year
@@ -463,7 +463,7 @@ function Home() {
                           </span>
                           <span className="text-heading-3 for-year">$1068</span>
                           <span className="text-month text-body-small color-gray-400">
-                            &nbsp; 3-7 hours
+                            &nbsp; <br/>3-7 hours
                           </span>
                           <span className="text-month for-year text-body-small color-gray-400">
                             /year
@@ -517,15 +517,15 @@ function Home() {
                           </span>
                           <span className="text-heading-3 for-year">$420</span>
                           <span className="text-month text-body-small color-gray-400">
-                            &nbsp; 3-4 hours
+                            &nbsp; <br/>3-4 hours
                           </span>
                           <span className="text-month for-year text-body-small color-gray-400">
                             /year
                           </span>
                         </div>
-                        <div className="line-bd-bottom">
+                        <div className="line-bd-bottom" style={{paddingBottom: "18px"}}>
                           <h4 className="text-heading-5 mb-15">
-                            Kitchen Deep Cleaning
+                            Deep Cleaning (Kitchen)
                           </h4>
                           {/* <p className="text-body-small color-gray-400">
                             3-4 hours
@@ -571,7 +571,7 @@ function Home() {
                           </span>
                           <span className="text-heading-3 for-year">$420</span>
                           <span className="text-month text-body-small color-gray-400">
-                            &nbsp; 3-4 hours
+                            &nbsp; <br/>3-4 hours
                           </span>
                           <span className="text-month for-year text-body-small color-gray-400">
                             /year
@@ -579,7 +579,8 @@ function Home() {
                         </div>
                         <div className="line-bd-bottom" style={{paddingBottom: '18px'}}>
                           <h4 className="text-heading-5 mb-15">
-                            Bathroom Deep Cleaning
+                            Deep Cleaning
+                            (Bathroom)
                           </h4>
                           {/* <p className="text-body-small color-gray-400">
                             Service includes general cleaning for 2 times per
@@ -735,8 +736,8 @@ function Home() {
                 </div>
               </div>
               <div className="col-lg-4 col-md-12 col-sm-12">
-                <div className="list-icons mt-0 hover-up" style={{marginTop: '8px !important'}}>
-                  <div className="item-icon" style={{paddingBottom: '16px'}}>
+                <div className="list-icons mt-4 hover-up" style={{marginTop: '8px !important'}}>
+                  <div className="item-icon" style={{paddingBottom: '23px'}}>
                     {/* <span className="icon-left">
                       <img
                         src="/assets/imgs/page/homepage2/icon-acquis.svg"
@@ -744,7 +745,7 @@ function Home() {
                       />
                     </span> */}
                     <h4 className="text-heading-4">
-                      Installation, Maintenance & Repair Services
+                      Maintenance & Repair Services
                     </h4>
                     {/* <p className="text-body-text color-gray-600 mt-15">
                       Excepteur sint occaecat cupidatat non proident, sunt in
