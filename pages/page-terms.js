@@ -352,7 +352,7 @@ function Terms() {
                         i) The Company encourages all its customers to take full
                         responsibility of his/her items. In case of lost items
                         inside the Company during the journey, Company will try
-                        to locate the items on a "best-effort" basis but is not
+                        to locate the items on a &quot;best-effort&quot; basis but is not
                         responsible for the same in case of loss or damage to
                         the same.
                         <br />
