@@ -104,12 +104,12 @@ function Terms() {
                         bound by the following terms and conditions of use,
                         which together with our privacy policy ZIMKEY
                         relationship with you in relation to this website and
-                        the Service (as described below). The term ' ZIMKEY' or
-                        'us' or 'we' refers to the owner of the website whose
+                        the Service (as described below). The term &apos; ZIMKEY&apos; or
+                        &apos;us&apos; or &apos;we&apos; refers to the owner of the website whose
                         registered office is Taskey Home Services Private
                         Limited, No. 6/858-M, 2nd Floor, Valamkottil Towers,
                         Judgemukku, Thrikkakara P.O., Kakkanad, Kochi,
-                        Ernakulam, Kerala – 682 021, India. The term 'you'
+                        Ernakulam, Kerala – 682 021, India. The term &apos;you&apos;
                         refers to the user or viewer of our website.
                       </p>
                       <h6 className="mt-35 mb-25" id="section-2">
@@ -188,7 +188,7 @@ function Terms() {
                         system is unable to establish unique identity of the
                         user against a valid mobile number or e-mail ID, the
                         account shall be indefinitely suspended. ZIMKEY reserves
-                        the full discretion to suspend a user's account in the
+                        the full discretion to suspend a user&apos;s account in the
                         above event and does not have the liability to share any
                         account information whatsoever.
                       </p>
@@ -202,13 +202,13 @@ function Terms() {
                         provided by them. ZIMKEY may allow user(s) access to
                         content, products or Services offered by third parties
                         through hyperlinks (in the form of word link, banners,
-                        channels or otherwise) to such Third Party's web site.
-                        You are cautioned to read such sites' terms and
+                        channels or otherwise) to such Third Party&apos;s web site.
+                        You are cautioned to read such sites&apos; terms and
                         conditions and/or privacy policies before using such
                         sites in order to be aware of the terms and conditions
                         of your use of such sites. ZIMKEY believes that user(s)
                         acknowledge that ZIMKEY has no control over such third
-                        party's site, does not monitor such sites, and ZIMKEY
+                        party&apos;s site, does not monitor such sites, and ZIMKEY
                         shall not be responsible or liable to anyone for such
                         third-party site, or any content, products or Services
                         made available on such a site.
@@ -258,7 +258,7 @@ function Terms() {
                         ➢ Asking the Serviceman to break any government rules
                         for any purpose. The Serviceman has the right to refuse
                         such a request by the customer. The Serviceman also has
-                        the right to refuse such a work or leave such customer's
+                        the right to refuse such a work or leave such customer&apos;s
                         house.
                         <br />
                         ➢ Misusing the Service or the Software for unlawful
@@ -282,7 +282,7 @@ function Terms() {
                         representation or warranty that:
                         <br />
                         <br />
-                        ➢ The Services will meet the customer's requirements
+                        ➢ The Services will meet the customer&apos;s requirements
                         <br />
                         ➢ The Services will be uninterrupted, timely, secure, or
                         error-free
@@ -294,7 +294,7 @@ function Terms() {
                         of the use of service offered by Company or due to the
                         failure of Company to provide Services to the Customer
                         for any reason whatsoever including but not limited to
-                        the Customer's non-compliance with the Services'
+                        the Customer&apos;s non-compliance with the Services&apos;
                         recorded voice instructions, malfunction, partial or
                         total failure of any network terminal, data processing
                         system, computer tele-transmission or telecommunications
@@ -368,7 +368,7 @@ function Terms() {
                         the Servicemen. However, the Company encourages you to
                         notify it of any complaints that you may have against
                         any Serviceman that you may have hired using the
-                        Company's Services.
+                        Company&apos;s Services.
                         <br />
                         <br />
                         l) The Company shall be entitled to add to, vary or
@@ -376,12 +376,12 @@ function Terms() {
                         and the Customer shall be bound by such addition,
                         variation or amendment once such addition, variation or
                         amendment are incorporated into these terms and
-                        conditions at Company's website at www.zimkey.com on the
+                        conditions at Company&apos;s website at www.zimkey.com on the
                         date that Company may indicate that such addition,
                         variation or amendment is to come into effect.
                         <br />
                         <br />
-                        m) All the calls made to the Company's call centre are
+                        m) All the calls made to the Company&apos;s call centre are
                         recorded by the Company for quality and training
                         purposes.
                         <br />
