@@ -34,7 +34,7 @@ function About() {
 
                   <p className="text-heading-4 color-gray-600 mt-40">
                     We are a one-stop shop that offers a plethora of home
-                    services.
+                    services.&nbsp;
                     <br className="d-lg-block d-none" />
                     Our staff at Zimkey are trained to meet all the safety
                     <br className="d-lg-block d-none" />

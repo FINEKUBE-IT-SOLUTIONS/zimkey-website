@@ -249,7 +249,7 @@ function Home() {
             <h3 className="text-heading-1 text-center mb-10">
               Zimkey Flexible Plans
               <br className="d-lg-block d-none" />
-              For You
+              &nbsp;For You
             </h3>
           </div>
           <div className="container mt-20">
@@ -1213,7 +1213,7 @@ function Home() {
                 </div>
                 <div className="col-lg-4 col-md-12 col-sm-12">
                   <div className="list-icons mt-50">
-                    <div className="item-icon none-bd">
+                    <div className="item-icon none-bd" style={{paddingLeft: '0px'}}>
                       {/* <span className="icon-left">
                         <img src="/assets/imgs/page/homepage6/icon-active.svg" />
                       </span> */}
@@ -1226,7 +1226,7 @@ function Home() {
                 </div>
                 <div className="col-lg-4 col-md-12 col-sm-12">
                   <div className="list-icons mt-50">
-                    <div className="item-icon none-bd">
+                    <div className="item-icon none-bd" style={{paddingLeft: '0px'}}>
                       {/* <span className="icon-left">
                         <img src="/assets/imgs/page/homepage6/icon-retent.svg" />
                       </span> */}

@@ -157,22 +157,33 @@ const FooterV1 = () => {
           <div className="footer-bottom mt-20">
             <div className="row">
               <div className="col-md-6">
-                <span className="color-gray-400 text-body-lead">
-                  © Zimkey 2022
-                </span>
-                <Link href="/privacy-policy">
-                  <a className="text-body-text color-gray-400 ml-50">
-                    Privacy policy
-                  </a>
-                </Link>
-                {/* <Link href="/page-terms">
-                  <a className="text-body-text color-gray-400 ml-50">Cookies</a>
-                </Link> */}
-                <Link href="/page-terms">
-                  <a className="text-body-text color-gray-400 ml-50">
-                    Terms of service
-                  </a>
-                </Link>
+
+              <div className="footerContentt">
+                {/* <div className="col-md-4"> */}
+                  <span className="color-gray-400 text-body-lead">
+                    © Zimkey 2022
+                  </span>
+                  {/* </div> */}
+                  {/* <div className="col-md-4"> */}
+                  <Link href="/privacy-policy">
+                    <a className="text-body-text color-gray-400 ml-50">
+                      Privacy policy
+                    </a>
+                  </Link>
+                  {/* </div> */}
+                  {/* <Link href="/page-terms">
+                    <a className="text-body-text color-gray-400 ml-50">Cookies</a>
+                  </Link> */}
+                  {/* <div className="col-md-4"> */}
+                  <Link href="/page-terms">
+                    <a className="text-body-text color-gray-400 ml-50">
+                      Terms of service
+                    </a>
+                  </Link>
+                  {/* </div> */}
+                  
+                </div>
+
               </div>
               <div className="col-md-6 text-center text-lg-end text-md-end">
                 <div className="footer-social">
