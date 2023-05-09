@@ -165,9 +165,9 @@ const FooterV1 = () => {
                     Privacy policy
                   </a>
                 </Link>
-                <Link href="/page-terms">
+                {/* <Link href="/page-terms">
                   <a className="text-body-text color-gray-400 ml-50">Cookies</a>
-                </Link>
+                </Link> */}
                 <Link href="/page-terms">
                   <a className="text-body-text color-gray-400 ml-50">
                     Terms of service

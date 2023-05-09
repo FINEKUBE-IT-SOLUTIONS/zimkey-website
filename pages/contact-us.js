@@ -1,9 +1,22 @@
 import Layout from "../components/layout/Layout";
+import Swal from 'sweetalert2'
+
 
 function Contact() {
+
+  const openSuccessPopup = () => {
+    // Swal.fire({
+    //   // position: 'top-end',
+    //   icon: 'success',
+    //   title: 'Thank you for contacting Zimkey! Your message has been received and someone from our team will contact you soon.',
+    //   showConfirmButton: false,
+    //   timer: 1500
+    // })
+  }
+
   return (
     <>
-      <Layout>
+      <Layout currentPage={'contact-us'}>
         {/* <section className="section-box">
           <div className="banner-hero banner-breadcrums">
             <div className="container text-center">
@@ -18,9 +31,9 @@ function Contact() {
             <div className="bdrd-58 box-gray-100 icon-wave">
               <div className="row">
                 <div className="col-lg-12 mb-60">
-                  <span className="text-body-capitalized text-uppercase">
+                  {/* <span className="text-body-capitalized text-uppercase">
                     Contact us
-                  </span>
+                  </span> */}
                   <h2 className="text-heading-3 color-gray-900 mt-10">
                     Got a question/ comment?
                   </h2>
@@ -59,6 +72,7 @@ function Contact() {
                       <button
                         className="btn btn-black icon-arrow-right-white mr-40 mb-20"
                         type="submit"
+                        onClick={() => openSuccessPopup()}
                       >
                         Submit
                       </button>
