@@ -10,7 +10,6 @@
     "export": "next build && next export"
   },
   "dependencies": {
-    "bootstrap": "^5.2.3",
     "next": "12.1.5",
     "react": "18.0.0",
     "react-countup": "^6.2.0",
