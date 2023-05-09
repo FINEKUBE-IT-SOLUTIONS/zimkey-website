@@ -171,11 +171,11 @@ function Home() {
                 </p> */}
                 <div className="row">
                   <div className="col-lg-6 col-sm-6 col-12 mt-50">
-                    <h4 className="text-heading-6">
+                    <h4 className="text-heading-6" style={{display: "flex", alignItems: "start", gap: "6px"}}>
                       <img
                         src="https://cdn-icons-png.flaticon.com/512/1048/1048953.png"
                         alt="icon"
-                        className="mt-2"
+                        // className="mt-2"
                         width={22}
                       />{" "}
                       Quick access to quality home services
@@ -186,11 +186,11 @@ function Home() {
                     </p> */}
                   </div>
                   <div className="col-lg-6 col-sm-6 col-12 mt-50">
-                    <h4 className="text-heading-6 ">
+                    <h4 className="text-heading-6 " style={{display: "flex", alignItems: "start", gap: "6px"}}>
                       <img
                         src="https://cdn-icons-png.flaticon.com/512/3151/3151394.png"
                         alt="icon"
-                        className="mt-2"
+                        // className="mt-2"
                         width={22}
                       />
                       Guaranteed safety
@@ -201,11 +201,11 @@ function Home() {
                     </p> */}
                   </div>
                   <div className="col-lg-6 col-sm-6 col-12 mt-50">
-                    <h4 className="text-heading-6 ">
+                    <h4 className="text-heading-6 " style={{display: "flex", alignItems: "start", gap: "6px"}}>
                       <img
                         src="https://cdn-icons-png.flaticon.com/512/870/870175.png"
                         alt="icon"
-                        className="mt-2"
+                        // className="mt-2"
                         width={22}
                       />{" "}
                       Reliable, single-point management
@@ -216,11 +216,11 @@ function Home() {
                     </p> */}
                   </div>
                   <div className="col-lg-6 col-sm-6 col-12 mt-50">
-                    <h4 className="text-heading-6 ">
+                    <h4 className="text-heading-6 " style={{display: "flex", alignItems: "start", gap: "6px"}}>
                       <img
                         src="https://cdn-icons-png.flaticon.com/512/2150/2150150.png"
                         alt="icon"
-                        className="mt-2"
+                        // className="mt-2"
                         width={22}
                       />{" "}
                       No hidden costs
