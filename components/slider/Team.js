@@ -91,7 +91,7 @@ const TeamSlider = () => {
             className="swiper-wrapper pb-70 pt-5"
           >
             {/* {data.map((item, i) => ( */}
-            <SwiperSlide>
+            {/* <SwiperSlide> */}
               <div className="swiper-slide active">
                 <div className="row">
                   {customerData.map((i, k) => (
@@ -214,12 +214,12 @@ const TeamSlider = () => {
                                         </div> */}
                 </div>
               </div>
-            </SwiperSlide>
+            {/* </SwiperSlide> */}
             {/* // ))} */}
           </Swiper>
         </div>
-        <div className="swiper-button-next swiper-button-next-4" />
-        <div className="swiper-button-prev swiper-button-prev-4" />
+        {/* <div className="swiper-button-next swiper-button-next-4" />
+        <div className="swiper-button-prev swiper-button-prev-4" /> */}
       </div>
     </>
   );
