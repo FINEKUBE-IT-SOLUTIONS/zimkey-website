@@ -160,7 +160,7 @@ const FooterV1 = () => {
                 <span className="color-gray-400 text-body-lead">
                   © Zimkey 2022
                 </span>
-                <Link href="/page-terms">
+                <Link href="/privacy-policy">
                   <a className="text-body-text color-gray-400 ml-50">
                     Privacy policy
                   </a>
