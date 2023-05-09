@@ -1,6 +1,19 @@
 import Layout from "../components/layout/Layout";
+import Swal from 'sweetalert2'
+
 
 function Contact() {
+
+  const openSuccessPopup = () => {
+    // Swal.fire({
+    //   // position: 'top-end',
+    //   icon: 'success',
+    //   title: 'Thank you for contacting Zimkey! Your message has been received and someone from our team will contact you soon.',
+    //   showConfirmButton: false,
+    //   timer: 1500
+    // })
+  }
+
   return (
     <>
       <Layout currentPage={'contact-us'}>
@@ -59,6 +72,7 @@ function Contact() {
                       <button
                         className="btn btn-black icon-arrow-right-white mr-40 mb-20"
                         type="submit"
+                        onClick={() => openSuccessPopup()}
                       >
                         Submit
                       </button>
