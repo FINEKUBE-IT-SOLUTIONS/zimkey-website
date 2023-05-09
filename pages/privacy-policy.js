@@ -247,7 +247,7 @@ function Terms() {
 
                       <div style={{width: '25rem'}}>
                         <p style={{ fontSize: "11px" }}>
-                          Zimkey Home Services Private Limited,<br/> No. 6/858-M, 2nd
+                          Zimkey Home Services<br/> No. 6/858-M, 2nd
                           Floor, Valamkottil Towers, Judgemukku, Thrikkakara
                           P.O., Kakkanad, Kochi, Ernakulam, Kerala – 682 021,
                           India
