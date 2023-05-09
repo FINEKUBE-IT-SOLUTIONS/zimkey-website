@@ -145,7 +145,7 @@ function About() {
             </div>
           </div>
           <div className="container mt-80">
-            {/* <TeamSlider /> */}
+            <TeamSlider />
           </div>
         </section>
 
