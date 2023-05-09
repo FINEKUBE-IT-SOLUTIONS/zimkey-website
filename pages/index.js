@@ -270,7 +270,7 @@ function Home() {
                           data-ride="carousel"
                         >
                           <ol
-                            class="carousel-indicators"
+                            className="carousel-indicators"
                             style={{ marginBottom: "-1rem" }}
                           >
                             <li
@@ -282,7 +282,7 @@ function Home() {
                               }}
                               data-target="#carouselExampleIndicators"
                               data-slide-to="0"
-                              class="active"
+                              className="active"
                             ></li>
                             <li
                               style={{
@@ -316,7 +316,7 @@ function Home() {
                             ></li>
                           </ol>
 
-                          <div class="carousel-inner">
+                          <div className="carousel-inner">
 
                             <div
                               className="carousel-item active"
@@ -334,18 +334,18 @@ function Home() {
                         </div>
 
 
-                      {/* <ul class="nav nav-tabs">
-                        <li class="nav-item">
-                          <a class="nav-link active" href="#">1 BHK</a>
+                      {/* <ul className="nav nav-tabs">
+                        <li className="nav-item">
+                          <a className="nav-link active" href="#">1 BHK</a>
                         </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">2 BHK</a>
+                        <li className="nav-item">
+                          <a className="nav-link" href="#">2 BHK</a>
                         </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">3 BHK</a>
+                        <li className="nav-item">
+                          <a className="nav-link" href="#">3 BHK</a>
                         </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">4 BHK</a>
+                        <li className="nav-item">
+                          <a className="nav-link" href="#">4 BHK</a>
                         </li>
                       </ul> */}
 
@@ -555,30 +555,30 @@ function Home() {
                         </div>
 
                         <a
-                            class="carousel-control-prev"
+                            className="carousel-control-prev"
                             href="#carouselExampleIndicators"
                             role="button"
                             data-slide="prev"
                             style={{ marginLeft: "-2rem" }}
                           >
                             <span
-                              class="carousel-control-prev-icon"
+                              className="carousel-control-prev-icon"
                               aria-hidden="true"
                             ></span>
-                            <span class="sr-only">Previous</span>
+                            <span className="sr-only">Previous</span>
                           </a>
                           <a
-                            class="carousel-control-next"
+                            className="carousel-control-next"
                             href="#carouselExampleIndicators"
                             role="button"
                             data-slide="next"
                             style={{ marginRight: "-2rem" }}
                           >
                             <span
-                              class="carousel-control-next-icon"
+                              className="carousel-control-next-icon"
                               aria-hidden="true"
                             ></span>
-                            <span class="sr-only">Next</span>
+                            <span className="sr-only">Next</span>
                           </a>
 
                         </div>
@@ -715,7 +715,7 @@ function Home() {
                           data-ride="carousel"
                         >
                           <ol
-                            class="carousel-indicators"
+                            className="carousel-indicators"
                             style={{ marginBottom: "-1rem" }}
                           >
                             <li
@@ -727,7 +727,7 @@ function Home() {
                               }}
                               data-target="#carouselExampleIndicators2"
                               data-slide-to="0"
-                              class="active"
+                              className="active"
                             ></li>
                             <li
                               style={{
@@ -761,7 +761,7 @@ function Home() {
                             ></li>
                           </ol>
 
-                          <div class="carousel-inner">
+                          <div className="carousel-inner">
 
                           <div
                               className="carousel-item active"
@@ -1035,30 +1035,30 @@ function Home() {
                       </div>
 
                       <a
-                            class="carousel-control-prev"
+                            className="carousel-control-prev"
                             href="#carouselExampleIndicators2"
                             role="button"
                             data-slide="prev"
                             style={{ marginLeft: "-2rem" }}
                           >
                             <span
-                              class="carousel-control-prev-icon"
+                              className="carousel-control-prev-icon"
                               aria-hidden="true"
                             ></span>
-                            <span class="sr-only">Previous</span>
+                            <span className="sr-only">Previous</span>
                           </a>
                           <a
-                            class="carousel-control-next"
+                            className="carousel-control-next"
                             href="#carouselExampleIndicators2"
                             role="button"
                             data-slide="next"
                             style={{ marginRight: "-2rem" }}
                           >
                             <span
-                              class="carousel-control-next-icon"
+                              className="carousel-control-next-icon"
                               aria-hidden="true"
                             ></span>
-                            <span class="sr-only">Next</span>
+                            <span className="sr-only">Next</span>
                           </a>
 
                       </div>
