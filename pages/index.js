@@ -1205,7 +1205,7 @@ function Home() {
                         <img src="/assets/imgs/page/homepage6/icon-acquis.svg" />
                       </span> */}
                       {/* <h4 className="text-heading-4">1. Title</h4> */}
-                      <p className="text-body-text color-gray-600 mt-15">
+                      <p className="text-body-text color-gray-600 mt-15 bullet-point">
                         All our professionals undergo a rigorous background check before getting onboarded
                       </p>
                     </div>
@@ -1218,7 +1218,7 @@ function Home() {
                         <img src="/assets/imgs/page/homepage6/icon-active.svg" />
                       </span> */}
                       {/* <h4 className="text-heading-4">2. Title</h4> */}
-                      <p className="text-body-text color-gray-600 mt-15">
+                      <p className="text-body-text color-gray-600 mt-15 bullet-point">
                         Our service providers follow all standard safety protocols
                       </p>
                     </div>
@@ -1231,7 +1231,7 @@ function Home() {
                         <img src="/assets/imgs/page/homepage6/icon-retent.svg" />
                       </span> */}
                       {/* <h4 className="text-heading-4">3. Title</h4> */}
-                      <p className="text-body-text color-gray-600 mt-15">
+                      <p className="text-body-text color-gray-600 mt-15 bullet-point">
                         All our service providers are fully vaccinated and continue to follow the required covid safety protocols
                       </p>
                     </div>
