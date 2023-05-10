@@ -1199,7 +1199,7 @@ function Home() {
               </div>
               <div className="row">
                 <div className="col-lg-4 col-md-12 col-sm-12">
-                  <div className="list-icons mt-50">
+                  <div className="list-icons mt-25">
                     <div className="item-icon none-bd" style={{paddingLeft: '0px'}}>
                       {/* <span className="icon-left">
                         <img src="/assets/imgs/page/homepage6/icon-acquis.svg" />
@@ -1212,7 +1212,7 @@ function Home() {
                   </div>
                 </div>
                 <div className="col-lg-4 col-md-12 col-sm-12">
-                  <div className="list-icons mt-50">
+                  <div className="list-icons mt-25">
                     <div className="item-icon none-bd" style={{paddingLeft: '0px'}}>
                       {/* <span className="icon-left">
                         <img src="/assets/imgs/page/homepage6/icon-active.svg" />
@@ -1225,7 +1225,7 @@ function Home() {
                   </div>
                 </div>
                 <div className="col-lg-4 col-md-12 col-sm-12">
-                  <div className="list-icons mt-50">
+                  <div className="list-icons mt-25">
                     <div className="item-icon none-bd" style={{paddingLeft: '0px'}}>
                       {/* <span className="icon-left">
                         <img src="/assets/imgs/page/homepage6/icon-retent.svg" />
