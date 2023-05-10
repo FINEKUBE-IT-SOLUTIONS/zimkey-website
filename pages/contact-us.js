@@ -16,7 +16,7 @@ function Contact() {
     setValues({ ...values, [name]: event.target.value });
   };
 
-  const handleSubmit = () => {
+  const handleSubmit = async () => {
     if (
       values.name == "" ||
       values.company == "" ||
@@ -27,7 +27,19 @@ function Contact() {
       document.getElementById("validationMessage").style.display = "block";
     } else {
       document.getElementById("validationMessage").style.display = "none";
+
+      // const rawResponse = await fetch('/api/submit', {
+      //   method: 'POST',
+      //   headers: {
+      //       'Accept': 'application/json',
+      //       'Content-Type': 'application/json'
+      //   },
+      //   body: JSON.stringify(values)
+      // });
+      // const content = await rawResponse.json();
+
       openSuccessPopup();
+
     }
   };
 
@@ -179,12 +191,12 @@ function Contact() {
               <div className="col-lg-6 col-md-12 col-sm-12">
                 <div className="list-icons hover-up">
                   <div className="item-icon">
-                    <span className="icon-left">
+                    {/* <span className="icon-left">
                       <img
                         src="/assets/imgs/page/homepage2/icon-acquis.svg"
                         alt="Zimkey"
                       />
-                    </span>
+                    </span> */}
                     <h4 className="text-heading-4">Address</h4>
                     <p className="text-body-text color-gray-1100 mt-15">
                       ZIMKEY Home Services
@@ -202,15 +214,15 @@ function Contact() {
               <div className="col-lg-6 col-md-12 col-sm-12">
                 <div className="list-icons hover-up">
                   <div className="item-icon" style={{ paddingBottom: "6rem" }}>
-                    <span className="icon-left">
+                    {/* <span className="icon-left">
                       <img
                         src="/assets/imgs/page/homepage2/icon-active.svg"
                         alt="Zimkey"
                       />
-                    </span>
+                    </span> */}
                     <h4 className="text-heading-4">Contact</h4>
                     <p className="text-body-text color-gray-1100 mt-15">
-                      Phone: (+91) 7733001121
+                      Phone: 7733001121
                       <br />
                       Email: admin@zimkey.in
                     </p>
