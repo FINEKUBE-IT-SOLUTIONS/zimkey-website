@@ -49,11 +49,11 @@ function CampaignForm() {
           <div className="row">
             <div className="col-md-12 form-group">
               <div
-                class="dropdown"
+                className="dropdown"
                 onChange={handleValueChange("apartmentType")}
               >
                 <button
-                  class="campaignDropdown compaignInput btn btn-secondary dropdown-toggle"
+                  className="campaignDropdown compaignInput btn btn-secondary dropdown-toggle"
                   type="button"
                   id="dropdownMenuButton"
                   data-toggle="dropdown"
@@ -65,30 +65,30 @@ function CampaignForm() {
                     : "Apartment Type"}
                 </button>
                 <div
-                  class="dropdown-menu"
+                  className="dropdown-menu"
                   aria-labelledby="dropdownMenuButton"
                   style={{ width: "100%" }}
                 >
                   <a
-                    class="campaignDropdownItem dropdown-item"
+                    className="campaignDropdownItem dropdown-item"
                     onClick={() => handleDropdownChange("Apartment")}
                   >
                     Apartment
                   </a>
                   <a
-                    class="campaignDropdownItem dropdown-item"
+                    className="campaignDropdownItem dropdown-item"
                     onClick={() => handleDropdownChange("Villa")}
                   >
                     Villa
                   </a>
                   <a
-                    class="campaignDropdownItem dropdown-item"
+                    className="campaignDropdownItem dropdown-item"
                     onClick={() => handleDropdownChange("Property")}
                   >
                     Property
                   </a>
                   <a
-                    class="campaignDropdownItem dropdown-item"
+                    className="campaignDropdownItem dropdown-item"
                     onClick={() => handleDropdownChange("Other")}
                   >
                     Other
