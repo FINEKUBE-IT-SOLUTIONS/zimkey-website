@@ -86,7 +86,7 @@ function CampaignFooter() {
         <Modal.Body style={{ padding: "0px" }}>
           <button
             type="button"
-            class="close"
+            className="close"
             data-dismiss="modal"
             aria-label="Close"
             style={{ marginRight: "8px", marginTop: "3px" }}
@@ -98,20 +98,20 @@ function CampaignFooter() {
         </Modal.Body>
       </Modal>
       {/* <div
-        class="modal fade"
+        className="modal fade"
         id="exampleModalCenter"
         tabindex="-1"
         role="dialog"
         aria-labelledby="exampleModalCenterTitle"
         aria-hidden="true"
       >
-        <div class="modal-dialog modal-dialog-centered" role="document">
-          <div class="modal-content">
+        <div className="modal-dialog modal-dialog-centered" role="document">
+          <div className="modal-content">
            
-            <div class="modal-body" style={{ padding: "0px" }}>
+            <div className="modal-body" style={{ padding: "0px" }}>
               <button
                 type="button"
-                class="close"
+                className="close"
                 data-dismiss="modal"
                 aria-label="Close"
                 style={{ marginRight: "8px", marginTop: "3px" }}
