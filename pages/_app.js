@@ -32,7 +32,7 @@ function MyApp({ Component, pageProps }) {
         <link rel="stylesheet" href="/public/assets/css/custom.css" />
       </Head>
       <Script
-        src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossOrigin="anonymous"
       />
