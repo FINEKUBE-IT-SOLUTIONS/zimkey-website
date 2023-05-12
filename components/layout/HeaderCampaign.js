@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { useState, useEffect } from "react";
-const Header = ({ handleOpen, headerStyle, activePage }) => {
+const HeaderCampaign = ({ handleOpen, headerStyle, activePage }) => {
   const [scroll, setScroll] = useState(0);
   useEffect(() => {
     document.addEventListener("scroll", () => {
@@ -81,7 +81,7 @@ const Header = ({ handleOpen, headerStyle, activePage }) => {
                 </Link>
               </div>
               <div className="header-nav">
-                <nav
+                {/* <nav
                   className="nav-main-menu d-none d-xl-block"
                   style={{ textAlign: "right" }}
                 >
@@ -102,15 +102,15 @@ const Header = ({ handleOpen, headerStyle, activePage }) => {
                       </Link>
                     </li>
                   </ul>
-                </nav>
-                <div
+                </nav> */}
+                {/* <div
                   className="burger-icon burger-icon-white"
                   onClick={handleOpen}
                 >
                   <span className="burger-icon-top" />
                   <span className="burger-icon-mid" />
                   <span className="burger-icon-bottom" />
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -120,4 +120,4 @@ const Header = ({ handleOpen, headerStyle, activePage }) => {
   );
 };
 
-export default Header;
+export default HeaderCampaign;
