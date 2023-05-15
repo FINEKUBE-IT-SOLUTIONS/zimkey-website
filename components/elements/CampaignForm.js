@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import Dropdown from "react-bootstrap/Dropdown";
 import DropdownButton from "react-bootstrap/DropdownButton";
+import Router from "next/router";
+import Spinner from "react-bootstrap/Spinner";
 
 function CampaignForm() {
   const [values, setValues] = useState({
@@ -8,6 +10,7 @@ function CampaignForm() {
     phone: "",
     propertyType: "",
   });
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   const handleValueChange = (name) => (event) => {
     setValues({ ...values, [name]: event.target.value });
@@ -18,30 +21,37 @@ function CampaignForm() {
   };
 
   const handleSubmit = async (e) => {
-    console.log('ee',e)
-    e.preventDefault()
-    console.log('values::-',values)
-    if (
-      values.name == "" ||
-      values.phone == "" ||
-      values.apartmentType == ""
-    ) {
-    //   document.getElementById("validationMessage").style.display = "block";
-    } else {
-    //   document.getElementById("validationMessage").style.display = "none";
+    e.preventDefault();
+    console.log("values::-", values);
 
-      const rawResponse = await fetch('/api/submit-campaign', {
-        method: 'POST',
-        headers: {
-            'Accept': 'application/json',
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(values)
-      });
-      const content = await rawResponse.json();
+    try {
+      if (
+        values.name == "" ||
+        values.phone == "" ||
+        values.apartmentType == ""
+      ) {
+        //   document.getElementById("validationMessage").style.display = "block";
+      } else {
+        setIsSubmitting(true);
 
-    //   openSuccessPopup();
+        //   document.getElementById("validationMessage").style.display = "none";
 
+        const rawResponse = await fetch("/api/submit-campaign", {
+          method: "POST",
+          headers: {
+            Accept: "application/json",
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(values),
+        });
+        const content = await rawResponse.json();
+
+        setIsSubmitting(false);
+
+        Router.push("/campaign-success");
+      }
+    } catch (error) {
+      setIsSubmitting(false);
     }
   };
 
@@ -68,7 +78,7 @@ function CampaignForm() {
                 name="name"
                 id="name"
                 placeholder="Your name"
-                onChange={handleValueChange('name')}
+                onChange={handleValueChange("name")}
               />
             </div>
           </div>
@@ -82,7 +92,7 @@ function CampaignForm() {
                 placeholder="Phone"
                 maxLength={10}
                 pattern="\d*"
-                onChange={handleValueChange('phone')}
+                onChange={handleValueChange("phone")}
               />
             </div>
           </div>
@@ -141,8 +151,8 @@ function CampaignForm() {
                   id="dropdown-basic"
                   className="campaignDropdown compaignInput"
                 >
-                  {values?.apartmentType
-                    ? values?.apartmentType
+                  {values?.propertyType
+                    ? values?.propertyType
                     : "Property Type"}
                 </Dropdown.Toggle>
 
@@ -204,12 +214,16 @@ function CampaignForm() {
           </div> */}
           <div className="row">
             <div className="col-12 text-center">
-              <input
-                type="submit"
-                defaultValue="Send Message"
-                className="btnCampaign btnCampaign-primary rounded-0 py-2 px-4"
-                style={{ backgroundColor: "#333333" }}
-              />
+              {isSubmitting ? (
+                <Spinner animation="border" />
+              ) : (
+                <input
+                  type="submit"
+                  defaultValue="Send Message"
+                  className="btnCampaign btnCampaign-primary rounded-0 py-2 px-4"
+                  style={{ backgroundColor: "#333333" }}
+                />
+              )}
               <span className="submitting" />
             </div>
           </div>

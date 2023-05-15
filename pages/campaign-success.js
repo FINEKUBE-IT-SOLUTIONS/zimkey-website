@@ -41,4 +41,4 @@ function CampaignSuccess() {
   );
 }
 
-export default ThankYou;
+export default CampaignSuccess;
