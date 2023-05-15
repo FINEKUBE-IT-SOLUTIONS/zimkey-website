@@ -25,7 +25,7 @@ const Header = ({ handleOpen, headerStyle, activePage }) => {
         <div className="container" id="header">
           <div className="row d-flex flex-row" style={{ textAlign: "right" }}>
             <div className="d-flex justify-content-end px-4 gap-4">
-              <a href="tel:+917733001121" style={{paddingRight: '8px'}}>
+              <a href="tel:+917733001121" style={{ paddingRight: "8px" }}>
                 {/* <svg
                   width="24"
                   height="24"
@@ -42,7 +42,15 @@ const Header = ({ handleOpen, headerStyle, activePage }) => {
                     fill="black"
                   />
                 </svg> */}
-                <svg xmlns="http://www.w3.org/2000/svg" fill="#000000" width="18" height="18" viewBox="5 5 22 22"><path d="M11.748 5.773S11.418 5 10.914 5c-.496 0-.754.229-.926.387S6.938 7.91 6.938 7.91s-.837.731-.773 2.106c.054 1.375.323 3.332 1.719 6.058 1.386 2.72 4.855 6.876 7.047 8.337 0 0 2.031 1.558 3.921 2.191.549.173 1.647.398 1.903.398.26 0 .719 0 1.246-.385.536-.389 3.543-2.807 3.543-2.807s.736-.665-.119-1.438c-.859-.773-3.467-2.492-4.025-2.944-.559-.459-1.355-.257-1.699.054-.343.313-.956.828-1.031.893-.112.086-.419.365-.763.226-.438-.173-2.234-1.148-3.899-3.426-1.655-2.276-1.837-3.02-2.084-3.824a.56.56 0 0 1 .225-.657c.248-.172 1.161-.933 1.161-.933s.591-.583.344-1.27-1.906-4.716-1.906-4.716z"/></svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="#000000"
+                  width="18"
+                  height="18"
+                  viewBox="5 5 22 22"
+                >
+                  <path d="M11.748 5.773S11.418 5 10.914 5c-.496 0-.754.229-.926.387S6.938 7.91 6.938 7.91s-.837.731-.773 2.106c.054 1.375.323 3.332 1.719 6.058 1.386 2.72 4.855 6.876 7.047 8.337 0 0 2.031 1.558 3.921 2.191.549.173 1.647.398 1.903.398.26 0 .719 0 1.246-.385.536-.389 3.543-2.807 3.543-2.807s.736-.665-.119-1.438c-.859-.773-3.467-2.492-4.025-2.944-.559-.459-1.355-.257-1.699.054-.343.313-.956.828-1.031.893-.112.086-.419.365-.763.226-.438-.173-2.234-1.148-3.899-3.426-1.655-2.276-1.837-3.02-2.084-3.824a.56.56 0 0 1 .225-.657c.248-.172 1.161-.933 1.161-.933s.591-.583.344-1.27-1.906-4.716-1.906-4.716z" />
+                </svg>
                 {/* (+91)  */}
                 7733001121
               </a>
@@ -88,17 +96,37 @@ const Header = ({ handleOpen, headerStyle, activePage }) => {
                   <ul className="main-menu">
                     <li>
                       <Link href="/">
-                        <a style={activePage == 'home' ? {color: '#006D77'} : {}}>Home</a>
+                        <a
+                          style={
+                            activePage == "home" ? { color: "#006D77" } : {}
+                          }
+                        >
+                          Home
+                        </a>
                       </Link>
                     </li>
                     <li>
                       <Link href="/about-us">
-                        <a style={activePage == 'about-us' ? {color: '#006D77'} : {}}>About Us</a>
+                        <a
+                          style={
+                            activePage == "about-us" ? { color: "#006D77" } : {}
+                          }
+                        >
+                          About Us
+                        </a>
                       </Link>
                     </li>
                     <li>
                       <Link href="/contact-us">
-                        <a style={activePage == 'contact-us' ? {color: '#006D77'} : {}}>Contact Us</a>
+                        <a
+                          style={
+                            activePage == "contact-us"
+                              ? { color: "#006D77" }
+                              : {}
+                          }
+                        >
+                          Contact Us
+                        </a>
                       </Link>
                     </li>
                   </ul>

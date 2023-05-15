@@ -31,24 +31,28 @@
   color: #5d5454;
 }
 .sticky-c {
-  position: fixed;
-  width: 100%;
-  padding: 10px 0;
-  background: #ffa66e;
-  bottom: 0px;
-  z-index: 9;
-  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+	position: fixed;
+    width: 100%;
+    padding: 10px 0;
+    background: #ffffff;
+    bottom: 0px;
+    z-index: 9;
+    box-shadow: 0px 0px 8px rgba(0,0,0,.2);
 }
 .campaign-primary-btn {
-  color: white;
-  background: #ff2b01;
-  border-color: #ff2b01;
-  border-radius: 10px;
+	color: white;
+	background: #ff2b01;
+    border-color: #ff2b01;
+    border-radius: 10px;
+	height: 54px;
+    padding: 17px 19px;
 }
 .campaign-dark-btn {
-  background-color: #343332;
-  border-color: #343332;
-  border-radius: 10px;
+	background-color: #343332;
+	border-color: #343332;
+	border-radius: 10px;
+	height: 54px;
+    padding:17px 19px;
 }
 
 /* Form Css Starts*/
@@ -173,9 +177,9 @@ label.error {
 }
 
 .compaignFormContainer {
-  background-color: #ff962e;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
-  padding-top: 2.5rem !important;
+	background-color: #ff6c37;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
+	padding-top: 2.5rem !important;
 }
 
 .campaignDropdown {
