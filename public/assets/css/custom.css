@@ -44,15 +44,30 @@
 	background: #ff2b01;
     border-color: #ff2b01;
     border-radius: 10px;
-	height: 54px;
-    padding: 17px 19px;
+	height: 61px;
+    padding: 18px 19px;
 }
 .campaign-dark-btn {
 	background-color: #343332;
 	border-color: #343332;
 	border-radius: 10px;
-	height: 54px;
-    padding:17px 19px;
+	height: 61px;
+    padding:18px 19px;
+}
+.campaign-primary-btn-width {
+	color: white;
+	background: #ff2b01;
+    border-color: #ff2b01;
+    border-radius: 10px;
+	height: 61px;
+    padding: 12px 19px;
+}
+.campaign-dark-btn-width {
+	background-color: #343332;
+	border-color: #343332;
+	border-radius: 10px;
+	height: 61px;
+    padding: 12px 19px;
 }
 
 /* Form Css Starts*/

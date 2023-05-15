@@ -113,7 +113,7 @@ function HomeCampaign() {
   }, []);
 
   useEffect(() => {
-    console.log("12", windowSize);
+    console.log("button", windowSize);
   }, [windowSize]);
 
   return (

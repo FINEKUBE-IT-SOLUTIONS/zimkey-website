@@ -25,6 +25,28 @@ function CampaignFooter() {
   };
 
   const [modalShow, setModalShow] = useState(false);
+  const [windowSize, setWindowSize] = useState();
+
+  useEffect(() => {
+    const { innerWidth, innerHeight } = window;
+    setWindowSize({ innerWidth, innerHeight });
+  }, []);
+
+  useEffect(() => {
+    function handleWindowResize() {
+      setWindowSize({ innerWidth, innerHeight });
+    }
+
+    window.addEventListener("resize", handleWindowResize);
+
+    return () => {
+      window.removeEventListener("resize", handleWindowResize);
+    };
+  }, []);
+
+  useEffect(() => {
+    console.log("button", windowSize);
+  }, [windowSize]);
 
   return (
     <>
@@ -33,38 +55,81 @@ function CampaignFooter() {
           className="container text-center"
           style={{ display: "flex", justifyContent: "center" }}
         >
-          <a
-            id="pcQuoteButton"
-            href="#compaign-form"
-            className="campaign-primary-btn btn mx-1"
-          >
-            Get A Free Quote
-          </a>
-          <a
-            id="mobileQuoteButton"
-            href="#compaign-form"
-            className="campaign-primary-btn btn mx-1"
-            data-toggle="modal"
-            data-target="#exampleModalCenter"
-            onClick={() => setModalShow(true)}
-          >
-            Get A Free Quote
-          </a>
-          <a
-            href="tel:+917733001121"
-            className="campaign-dark-btn btn btn-dark mx-1 phone-btn"
-            id="lp-pom-button-646"
-          >
-            Call: 77-33-00-11-21
-          </a>
-          <a
-            href="https://wheatonvl.com/callback.php"
-            className="campaign-dark-btn btn btn-dark mx-1 callback-btn"
-            id="lp-pom-button-1272"
-            style={{ display: "none" }}
-          >
-            Get A Callback
-          </a>
+          {windowSize?.innerWidth < 500 && windowSize?.innerHeight > 600 ? (
+            <>
+              <a
+                id="pcQuoteButton"
+                href="#compaign-form"
+                className="campaign-primary-btn-width btn mx-1"
+              >
+                <b>Get A Free Quote</b>
+              </a>
+
+              <a
+                id="mobileQuoteButton"
+                href="#compaign-form"
+                className="campaign-primary-btn-width btn mx-1"
+                data-toggle="modal"
+                data-target="#exampleModalCenter"
+                onClick={() => setModalShow(true)}
+              >
+                <b>Get A Free Quote</b>
+              </a>
+
+              <a
+                href="tel:+917733001121"
+                className="campaign-dark-btn-width btn btn-dark mx-1 phone-btn"
+                id="lp-pom-button-646"
+              >
+                Call: 77-33-00-11-21
+              </a>
+              <a
+                href="https://wheatonvl.com/callback.php"
+                className="campaign-dark-btn btn-width btn-dark mx-1 callback-btn"
+                id="lp-pom-button-1272"
+                style={{ display: "none" }}
+              >
+                Get A Callback
+              </a>
+            </>
+          ) : (
+            <>
+              <a
+                id="pcQuoteButton"
+                href="#compaign-form"
+                className="campaign-primary-btn btn mx-1"
+              >
+                <b>Get A Free Quote</b>
+              </a>
+
+              <a
+                id="mobileQuoteButton"
+                href="#compaign-form"
+                className="campaign-primary-btn btn mx-1"
+                data-toggle="modal"
+                data-target="#exampleModalCenter"
+                onClick={() => setModalShow(true)}
+              >
+                <b>Get A Free Quote</b>
+              </a>
+
+              <a
+                href="tel:+917733001121"
+                className="campaign-dark-btn btn btn-dark mx-1 phone-btn"
+                id="lp-pom-button-646"
+              >
+                Call: 77-33-00-11-21
+              </a>
+              <a
+                href="https://wheatonvl.com/callback.php"
+                className="campaign-dark-btn btn btn-dark mx-1 callback-btn"
+                id="lp-pom-button-1272"
+                style={{ display: "none" }}
+              >
+                Get A Callback
+              </a>
+            </>
+          )}
         </div>
       </section>
       {/* {hasScrolled && (
