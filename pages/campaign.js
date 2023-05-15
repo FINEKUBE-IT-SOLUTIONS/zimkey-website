@@ -9,10 +9,12 @@ import CampaignFooter from "../components/elements/CampaignFooter";
 import CampaignForm from "../components/elements/CampaignForm";
 import LayoutCampaign from "../components/layout/LayoutCampaign";
 import Carousel from 'react-bootstrap/Carousel';
+import Modal from "react-bootstrap/Modal";
 
 function HomeCampaign() {
   const [isOpen, setOpen] = useState(false);
   const [activeIndex, setActiveIndex] = useState(1);
+ const [modalShow, setModalShow] = useState(false);
 
   const handleOnClick = (index) => {
     setActiveIndex(index); // remove the curly braces
@@ -307,13 +309,20 @@ function HomeCampaign() {
                   </div>
                 </div>
 
-                <div className="mt-40">
+                <div className="mt-40" id="desktopBookNowButton">
                   {/* <Link href="https://api.whatsapp.com/send?phone=917733001121"> */}
                   <Link href="/campaign">
                     <a className="btn btn-pink icon-arrow-right-white text-heading-6">
                       Book now
                     </a>
                   </Link>
+                </div>
+
+                <div className="mt-40" id="mobileBookNowButton">
+                  {/* <Link href="https://api.whatsapp.com/send?phone=917733001121"> */}
+                    <a className="btn btn-pink icon-arrow-right-white text-heading-6" onClick={() => setModalShow(true)}>
+                      Book now
+                    </a>
                 </div>
               </div>
             </div>
@@ -1555,6 +1564,28 @@ function HomeCampaign() {
             </div>
           </div>
         </section>
+
+        <Modal
+        show={modalShow}
+        onHide={() => setModalShow(false)}
+        size="lg"
+        aria-labelledby="contained-modal-title-vcenter"
+        centered
+      >
+        <Modal.Body style={{ padding: "0px" }}>
+          <button
+            type="button"
+            className="close"
+            data-dismiss="modal"
+            aria-label="Close"
+            style={{ marginRight: "8px", marginTop: "3px" }}
+            onClick={() => setModalShow(false)}
+          >
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <CampaignForm />
+        </Modal.Body>
+      </Modal>
 
         {/* <section className="section-box">
           <div className="container mt-100">
