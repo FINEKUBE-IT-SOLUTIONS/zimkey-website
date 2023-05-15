@@ -44,14 +44,14 @@
 	background: #ff2b01;
     border-color: #ff2b01;
     border-radius: 10px;
-	height: 61px;
+	height: 54px;
     padding: 18px 19px;
 }
 .campaign-dark-btn {
 	background-color: #343332;
 	border-color: #343332;
 	border-radius: 10px;
-	height: 61px;
+	height: 54px;
     padding:18px 19px;
 }
 .campaign-primary-btn-width {
@@ -59,14 +59,14 @@
 	background: #ff2b01;
     border-color: #ff2b01;
     border-radius: 10px;
-	height: 61px;
+	height: 54px;
     padding: 12px 19px;
 }
 .campaign-dark-btn-width {
 	background-color: #343332;
 	border-color: #343332;
 	border-radius: 10px;
-	height: 61px;
+	height: 54px;
     padding: 12px 19px;
 }
 
@@ -262,9 +262,19 @@ label.error {
   /* Styles for mobile screen size */
   #mobileQuoteButton {
     display: block;
+	padding: 16px 19px !important;
   }
   #pcQuoteButton {
     display: none;
+  }
+  #lp-pom-button-646 {
+	padding: 16px 19px !important;
+  }
+  #desktopBookNowButton {
+    display: none;
+  }
+  #mobileBookNowButton {
+    display: block;
   }
 }
 
@@ -274,6 +284,13 @@ label.error {
     display: block;
   }
   #mobileQuoteButton {
+    display: none;
+  }
+  
+  #desktopBookNowButton {
+    display: block;
+  }
+  #mobileBookNowButton {
     display: none;
   }
 }
