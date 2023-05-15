@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable @next/next/no-img-element */
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Layout from "../components/layout/Layout";
 import Head from "next/head";
 import Link from "next/link";
@@ -93,6 +93,28 @@ function HomeCampaign() {
       document.getElementById("card2Bhk3").style.fontWeight = 100;
     }
   };
+  const [windowSize, setWindowSize] = useState();
+
+  useEffect(() => {
+    const { innerWidth, innerHeight } = window;
+    setWindowSize({ innerWidth, innerHeight });
+  }, []);
+
+  useEffect(() => {
+    function handleWindowResize() {
+      setWindowSize({ innerWidth, innerHeight });
+    }
+
+    window.addEventListener("resize", handleWindowResize);
+
+    return () => {
+      window.removeEventListener("resize", handleWindowResize);
+    };
+  }, []);
+
+  useEffect(() => {
+    console.log("12", windowSize);
+  }, [windowSize]);
 
   return (
     <>
@@ -123,11 +145,11 @@ function HomeCampaign() {
               <div className="row">
                 <div className="col-lg-7">
                   <h1 className="text-display-2">
-                  Transforming spaces, squeaky clean!
+                    Transforming spaces, squeaky clean!
                     {/* <br /> Tap of a Key */}
                   </h1>
                   <p className="text-body-lead-large color-gray-500 mt-40 pr-40">
-                  Try Zimkey cleaning services to make your world shine
+                    Try Zimkey cleaning services to make your world shine
                   </p>
                 </div>
                 <div className="col-lg-5 d-none d-lg-block">
@@ -151,20 +173,42 @@ function HomeCampaign() {
           <div className="container mt-120">
             <div className="row">
               <div className="col-lg-6 col-md-12 col-sm-12 block-img-we-do text-center">
-                <img
-                  className="img-small img-responsive"
-                  src="assets/imgs/page/home/img-1.png"
-                  alt="Zimkey"
-                />
-                <div className="block-card">
-                  <img src="/assets/imgs/page/home/card.png" alt="Zimkey" />
-                </div>
-                <div className="block-control">
-                  <img
-                    src="/assets/imgs/page/home/img-safety.png"
-                    alt="Zimkey"
-                  />
-                </div>
+                {windowSize?.innerWidth < 500 &&
+                windowSize?.innerHeight > 600 ? (
+                  <>
+                    <img
+                      className="img-small img-responsive"
+                      src="assets/imgs/page/home/img-1.png"
+                      alt="Zimkey"
+                    />
+                    <div className="block-card" style={{ marginTop: "-153px" }}>
+                      <img src="/assets/imgs/page/home/card.png" alt="Zimkey" />
+                    </div>
+                    <div className="block-control">
+                      <img
+                        src="/assets/imgs/page/home/img-safety.png"
+                        alt="Zimkey"
+                      />
+                    </div>
+                  </>
+                ) : (
+                  <>
+                    <img
+                      className="img-small img-responsive"
+                      src="assets/imgs/page/home/img-1.png"
+                      alt="Zimkey"
+                    />
+                    <div className="block-card">
+                      <img src="/assets/imgs/page/home/card.png" alt="Zimkey" />
+                    </div>
+                    <div className="block-control">
+                      <img
+                        src="/assets/imgs/page/home/img-safety.png"
+                        alt="Zimkey"
+                      />
+                    </div>
+                  </>
+                )}
               </div>
               <div className="col-lg-6 col-md-12 col-sm-12 block-we-do">
                 <h3 className="text-heading-1 mt-30">What we offer</h3>
@@ -263,7 +307,8 @@ function HomeCampaign() {
                 </div>
 
                 <div className="mt-40">
-                  <Link href="https://api.whatsapp.com/send?phone=917733001121">
+                  {/* <Link href="https://api.whatsapp.com/send?phone=917733001121"> */}
+                  <Link href="/campaign">
                     <a className="btn btn-pink icon-arrow-right-white text-heading-6">
                       Book now
                     </a>
@@ -537,7 +582,9 @@ function HomeCampaign() {
                                 style={{ minHeight: "206px" }}
                               >
                                 <li className="clr-white">Dusting</li>
-                                <li className="clr-white">Sweeping and Mopping</li>
+                                <li className="clr-white">
+                                  Sweeping and Mopping
+                                </li>
                                 <div
                                   id="card1-1"
                                   style={{ display: "none" }}
@@ -627,7 +674,9 @@ function HomeCampaign() {
                                 style={{ minHeight: "206px" }}
                               >
                                 <li className="clr-white">Dusting</li>
-                                <li className="clr-white">Sweeping and Mopping</li>
+                                <li className="clr-white">
+                                  Sweeping and Mopping
+                                </li>
                                 <div
                                   id="card1-1"
                                   style={{ display: "none" }}
@@ -717,7 +766,9 @@ function HomeCampaign() {
                                 style={{ minHeight: "206px" }}
                               >
                                 <li className="clr-white">Dusting</li>
-                                <li className="clr-white">Sweeping and Mopping</li>
+                                <li className="clr-white">
+                                  Sweeping and Mopping
+                                </li>
                                 <div
                                   id="card1-1"
                                   style={{ display: "none" }}
@@ -1023,7 +1074,9 @@ function HomeCampaign() {
                                   Dusting of walls, windows, ceilings and
                                   balcony
                                 </li>
-                                <li className="clr-white">Stain removal if any</li>
+                                <li className="clr-white">
+                                  Stain removal if any
+                                </li>
 
                                 <div id="card2" style={{ display: "none" }}>
                                   <li className="clr-white">
@@ -1130,7 +1183,9 @@ function HomeCampaign() {
                                   Dusting of walls, windows, ceilings and
                                   balcony
                                 </li>
-                                <li className="clr-white">Stain removal if any</li>
+                                <li className="clr-white">
+                                  Stain removal if any
+                                </li>
 
                                 <div id="card2" style={{ display: "none" }}>
                                   <li className="clr-white">
@@ -1237,7 +1292,9 @@ function HomeCampaign() {
                                   Dusting of walls, windows, ceilings and
                                   balcony
                                 </li>
-                                <li className="clr-white">Stain removal if any</li>
+                                <li className="clr-white">
+                                  Stain removal if any
+                                </li>
 
                                 <div id="card2" style={{ display: "none" }}>
                                   <li className="clr-white">
@@ -1344,7 +1401,9 @@ function HomeCampaign() {
                                   Dusting of walls, windows, ceilings and
                                   balcony
                                 </li>
-                                <li className="clr-white">Stain removal if any</li>
+                                <li className="clr-white">
+                                  Stain removal if any
+                                </li>
 
                                 <div id="card2" style={{ display: "none" }}>
                                   <li className="clr-white">
@@ -1439,13 +1498,17 @@ function HomeCampaign() {
                           </li>
 
                           <div id="card3" style={{ display: "none" }}>
-                            <li className="clr-white">Degreasing of stove and chimney </li>
+                            <li className="clr-white">
+                              Degreasing of stove and chimney{" "}
+                            </li>
 
                             <li className="clr-white">
                               Deep cleaning of fridge, microwave and other
                               appliances{" "}
                             </li>
-                            <li className="clr-white">Cabinet cleaning including inside shelves </li>
+                            <li className="clr-white">
+                              Cabinet cleaning including inside shelves{" "}
+                            </li>
                           </div>
                         </ul>
                         <p
