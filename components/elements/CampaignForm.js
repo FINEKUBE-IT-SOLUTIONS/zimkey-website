@@ -4,7 +4,9 @@ import DropdownButton from "react-bootstrap/DropdownButton";
 
 function CampaignForm() {
   const [values, setValues] = useState({
-    apartmentType: "",
+    name: "",
+    phone: "",
+    propertyType: "",
   });
 
   const handleValueChange = (name) => (event) => {
@@ -12,7 +14,35 @@ function CampaignForm() {
   };
 
   const handleDropdownChange = (value) => {
-    setValues({ ...values, apartmentType: value });
+    setValues({ ...values, propertyType: value });
+  };
+
+  const handleSubmit = async (e) => {
+    console.log('ee',e)
+    e.preventDefault()
+    console.log('values::-',values)
+    if (
+      values.name == "" ||
+      values.phone == "" ||
+      values.apartmentType == ""
+    ) {
+    //   document.getElementById("validationMessage").style.display = "block";
+    } else {
+    //   document.getElementById("validationMessage").style.display = "none";
+
+      const rawResponse = await fetch('/api/submit-campaign', {
+        method: 'POST',
+        headers: {
+            'Accept': 'application/json',
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(values)
+      });
+      const content = await rawResponse.json();
+
+    //   openSuccessPopup();
+
+    }
   };
 
   return (
@@ -28,6 +58,7 @@ function CampaignForm() {
           method="post"
           id="contactForm"
           name="contactForm"
+          onSubmit={handleSubmit}
         >
           <div className="row">
             <div className="col-md-12 form-group">
@@ -37,6 +68,7 @@ function CampaignForm() {
                 name="name"
                 id="name"
                 placeholder="Your name"
+                onChange={handleValueChange('name')}
               />
             </div>
           </div>
@@ -50,6 +82,7 @@ function CampaignForm() {
                 placeholder="Phone"
                 maxLength={10}
                 pattern="\d*"
+                onChange={handleValueChange('phone')}
               />
             </div>
           </div>
