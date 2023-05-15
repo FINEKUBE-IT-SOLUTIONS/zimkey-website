@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+import Dropdown from "react-bootstrap/Dropdown";
+import DropdownButton from "react-bootstrap/DropdownButton";
 
 function CampaignForm() {
   const [values, setValues] = useState({
@@ -48,7 +50,7 @@ function CampaignForm() {
           </div>
           <div className="row">
             <div className="col-md-12 form-group">
-              <div
+              {/* <div
                 className="dropdown"
                 onChange={handleValueChange("apartmentType")}
               >
@@ -62,7 +64,7 @@ function CampaignForm() {
                 >
                   {values?.apartmentType
                     ? values?.apartmentType
-                    : "Apartment Type"}
+                    : "Property Type"}
                 </button>
                 <div
                   className="dropdown-menu"
@@ -83,7 +85,7 @@ function CampaignForm() {
                   </a>
                   <a
                     className="campaignDropdownItem dropdown-item"
-                    onClick={() => handleDropdownChange("Property")}
+                    onClick={() => handleDropdownChange("Office")}
                   >
                     Property
                   </a>
@@ -94,7 +96,52 @@ function CampaignForm() {
                     Other
                   </a>
                 </div>
-              </div>
+              </div> */}
+
+              <Dropdown>
+                <Dropdown.Toggle
+                  id="dropdown-basic"
+                  className="campaignDropdown compaignInput"
+                >
+                  {values?.apartmentType
+                    ? values?.apartmentType
+                    : "Property Type"}
+                </Dropdown.Toggle>
+
+                <Dropdown.Menu style={{ width: "100%" }}>
+                  <Dropdown.Item
+                    className="campaignDropdownItem"
+                    onClick={() => handleDropdownChange("Apartment")}
+                  >
+                    Apartment
+                  </Dropdown.Item>
+                  <Dropdown.Item
+                    className="campaignDropdownItem"
+                    onClick={() => handleDropdownChange("Villa")}
+                  >
+                    Villa
+                  </Dropdown.Item>
+                  <Dropdown.Item
+                    className="campaignDropdownItem"
+                    onClick={() => handleDropdownChange("Office")}
+                  >
+                    Office
+                  </Dropdown.Item>
+                  <Dropdown.Item
+                    className="campaignDropdownItem"
+                    onClick={() => handleDropdownChange("Other")}
+                  >
+                    Other
+                  </Dropdown.Item>
+                </Dropdown.Menu>
+              </Dropdown>
+
+              {/* <DropdownButton id="dropdown-basic-button" title="Dropdown button">
+                    <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+                    <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+                    <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+                </DropdownButton> */}
+
               {/* <input
                 type="text"
                 className="compaignInput form-control"
