@@ -15,7 +15,7 @@ function About() {
   const [isOpen, setOpen] = useState(false);
   return (
     <>
-      <Layout currentPage={'about-us'}>
+      <Layout currentPage={"about-us"}>
         <section className="section-box">
           <div className="banner-hero bg-about-3">
             <div className="container">

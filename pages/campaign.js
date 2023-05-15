@@ -1,13 +1,14 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable @next/next/no-img-element */
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Layout from "../components/layout/Layout";
 import Head from "next/head";
 import Link from "next/link";
 import CampaignFooter from "../components/elements/CampaignFooter";
 import CampaignForm from "../components/elements/CampaignForm";
 import LayoutCampaign from "../components/layout/LayoutCampaign";
+import Carousel from 'react-bootstrap/Carousel';
 
 function HomeCampaign() {
   const [isOpen, setOpen] = useState(false);
@@ -93,6 +94,28 @@ function HomeCampaign() {
       document.getElementById("card2Bhk3").style.fontWeight = 100;
     }
   };
+  const [windowSize, setWindowSize] = useState();
+
+  useEffect(() => {
+    const { innerWidth, innerHeight } = window;
+    setWindowSize({ innerWidth, innerHeight });
+  }, []);
+
+  useEffect(() => {
+    function handleWindowResize() {
+      setWindowSize({ innerWidth, innerHeight });
+    }
+
+    window.addEventListener("resize", handleWindowResize);
+
+    return () => {
+      window.removeEventListener("resize", handleWindowResize);
+    };
+  }, []);
+
+  useEffect(() => {
+    console.log("button", windowSize);
+  }, [windowSize]);
 
   return (
     <>
@@ -123,11 +146,11 @@ function HomeCampaign() {
               <div className="row">
                 <div className="col-lg-7">
                   <h1 className="text-display-2">
-                  Transforming spaces, squeaky clean!
+                    Transforming spaces, squeaky clean!
                     {/* <br /> Tap of a Key */}
                   </h1>
                   <p className="text-body-lead-large color-gray-500 mt-40 pr-40">
-                  Try Zimkey cleaning services to make your world shine
+                    Try Zimkey cleaning services to make your world shine
                   </p>
                 </div>
                 <div className="col-lg-5 d-none d-lg-block">
@@ -151,20 +174,42 @@ function HomeCampaign() {
           <div className="container mt-120">
             <div className="row">
               <div className="col-lg-6 col-md-12 col-sm-12 block-img-we-do text-center">
-                <img
-                  className="img-small img-responsive"
-                  src="assets/imgs/page/home/img-1.png"
-                  alt="Zimkey"
-                />
-                <div className="block-card">
-                  <img src="/assets/imgs/page/home/card.png" alt="Zimkey" />
-                </div>
-                <div className="block-control">
-                  <img
-                    src="/assets/imgs/page/home/img-safety.png"
-                    alt="Zimkey"
-                  />
-                </div>
+                {windowSize?.innerWidth < 500 &&
+                windowSize?.innerHeight > 600 ? (
+                  <>
+                    <img
+                      className="img-small img-responsive"
+                      src="assets/imgs/page/home/img-1.png"
+                      alt="Zimkey"
+                    />
+                    <div className="block-card" style={{ marginTop: "-153px" }}>
+                      <img src="/assets/imgs/page/home/card.png" alt="Zimkey" />
+                    </div>
+                    <div className="block-control">
+                      <img
+                        src="/assets/imgs/page/home/img-safety.png"
+                        alt="Zimkey"
+                      />
+                    </div>
+                  </>
+                ) : (
+                  <>
+                    <img
+                      className="img-small img-responsive"
+                      src="assets/imgs/page/home/img-1.png"
+                      alt="Zimkey"
+                    />
+                    <div className="block-card">
+                      <img src="/assets/imgs/page/home/card.png" alt="Zimkey" />
+                    </div>
+                    <div className="block-control">
+                      <img
+                        src="/assets/imgs/page/home/img-safety.png"
+                        alt="Zimkey"
+                      />
+                    </div>
+                  </>
+                )}
               </div>
               <div className="col-lg-6 col-md-12 col-sm-12 block-we-do">
                 <h3 className="text-heading-1 mt-30">What we offer</h3>
@@ -263,7 +308,8 @@ function HomeCampaign() {
                 </div>
 
                 <div className="mt-40">
-                  <Link href="https://api.whatsapp.com/send?phone=917733001121">
+                  {/* <Link href="https://api.whatsapp.com/send?phone=917733001121"> */}
+                  <Link href="/campaign">
                     <a className="btn btn-pink icon-arrow-right-white text-heading-6">
                       Book now
                     </a>
@@ -293,63 +339,10 @@ function HomeCampaign() {
                         className="box-pricing-item hover-up"
                         style={{ background: "#ff6c37", color: "white" }}
                       >
-                        <div
-                          id="carouselExampleIndicators"
-                          className="carousel slide"
-                          data-ride="carousel"
-                        >
-                          <ol
-                            className="carousel-indicators"
-                            style={{ marginBottom: "-1rem" }}
-                          >
-                            <li
-                              style={{
-                                backgroundColor: "rgb(255 161 161)",
-                                width: "10px",
-                                height: "10px",
-                                borderRadius: "50%",
-                              }}
-                              data-target="#carouselExampleIndicators"
-                              data-slide-to="0"
-                              className="active"
-                            ></li>
-                            <li
-                              style={{
-                                backgroundColor: "rgb(255 161 161)",
-                                width: "10px",
-                                height: "10px",
-                                borderRadius: "50%",
-                              }}
-                              data-target="#carouselExampleIndicators"
-                              data-slide-to="1"
-                            ></li>
-                            <li
-                              style={{
-                                backgroundColor: "rgb(255 161 161)",
-                                width: "10px",
-                                height: "10px",
-                                borderRadius: "50%",
-                              }}
-                              data-target="#carouselExampleIndicators"
-                              data-slide-to="2"
-                            ></li>
-                            <li
-                              style={{
-                                backgroundColor: "rgb(255 161 161)",
-                                width: "10px",
-                                height: "10px",
-                                borderRadius: "50%",
-                              }}
-                              data-target="#carouselExampleIndicators"
-                              data-slide-to="3"
-                            ></li>
-                          </ol>
+                        <Carousel className="price-carousel-2">
+                          
 
-                          <div className="carousel-inner">
-                            <div
-                              className="carousel-item active"
-                              id="cardContentContainer"
-                            >
+                            <Carousel.Item>
                               <div
                                 style={{
                                   display: "flex",
@@ -454,12 +447,9 @@ function HomeCampaign() {
                                 ></div>
                               </ul>
                               {/* <p className="view-more" style={{float: 'right', cursor: 'pointer'}} onClick={handleViewMore('card1-1')}>View more</p> */}
-                            </div>
+                            </Carousel.Item>
 
-                            <div
-                              className="carousel-item"
-                              id="cardContentContainer"
-                            >
+                            <Carousel.Item>
                               <div
                                 style={{
                                   display: "flex",
@@ -537,19 +527,18 @@ function HomeCampaign() {
                                 style={{ minHeight: "206px" }}
                               >
                                 <li className="clr-white">Dusting</li>
-                                <li className="clr-white">Sweeping and Mopping</li>
+                                <li className="clr-white">
+                                  Sweeping and Mopping
+                                </li>
                                 <div
                                   id="card1-1"
                                   style={{ display: "none" }}
                                 ></div>
                               </ul>
                               {/* <p className="view-more" style={{float: 'right', cursor: 'pointer'}} onClick={handleViewMore('card1-1')}>View more</p> */}
-                            </div>
+                            </Carousel.Item>
 
-                            <div
-                              className="carousel-item"
-                              id="cardContentContainer"
-                            >
+                            <Carousel.Item>
                               <div
                                 style={{
                                   display: "flex",
@@ -627,19 +616,18 @@ function HomeCampaign() {
                                 style={{ minHeight: "206px" }}
                               >
                                 <li className="clr-white">Dusting</li>
-                                <li className="clr-white">Sweeping and Mopping</li>
+                                <li className="clr-white">
+                                  Sweeping and Mopping
+                                </li>
                                 <div
                                   id="card1-1"
                                   style={{ display: "none" }}
                                 ></div>
                               </ul>
                               {/* <p className="view-more" style={{float: 'right', cursor: 'pointer'}} onClick={handleViewMore('card1-1')}>View more</p> */}
-                            </div>
+                            </Carousel.Item>
 
-                            <div
-                              className="carousel-item"
-                              id="cardContentContainer"
-                            >
+                            <Carousel.Item>
                               <div
                                 style={{
                                   display: "flex",
@@ -717,43 +705,18 @@ function HomeCampaign() {
                                 style={{ minHeight: "206px" }}
                               >
                                 <li className="clr-white">Dusting</li>
-                                <li className="clr-white">Sweeping and Mopping</li>
+                                <li className="clr-white">
+                                  Sweeping and Mopping
+                                </li>
                                 <div
                                   id="card1-1"
                                   style={{ display: "none" }}
                                 ></div>
                               </ul>
                               {/* <p className="view-more" style={{float: 'right', cursor: 'pointer'}} onClick={handleViewMore('card1-1')}>View more</p> */}
-                            </div>
-                          </div>
+                            </Carousel.Item>
 
-                          <a
-                            className="carousel-control-prev"
-                            href="#carouselExampleIndicators"
-                            role="button"
-                            data-slide="prev"
-                            style={{ marginLeft: "-2rem" }}
-                          >
-                            <span
-                              className="carousel-control-prev-icon"
-                              aria-hidden="true"
-                            ></span>
-                            <span className="sr-only">Previous</span>
-                          </a>
-                          <a
-                            className="carousel-control-next"
-                            href="#carouselExampleIndicators"
-                            role="button"
-                            data-slide="next"
-                            style={{ marginRight: "-2rem" }}
-                          >
-                            <span
-                              className="carousel-control-next-icon"
-                              aria-hidden="true"
-                            ></span>
-                            <span className="sr-only">Next</span>
-                          </a>
-                        </div>
+                        </Carousel>
                       </div>
 
                       {/* </div> */}
@@ -881,63 +844,8 @@ function HomeCampaign() {
                         className="clr-white box-pricing-item hover-up"
                         style={{ background: "#ff6c37" }}
                       >
-                        <div
-                          id="carouselExampleIndicators2"
-                          className="carousel slide"
-                          data-ride="carousel"
-                        >
-                          <ol
-                            className="carousel-indicators"
-                            style={{ marginBottom: "-1rem" }}
-                          >
-                            <li
-                              style={{
-                                backgroundColor: "rgb(255 161 161)",
-                                width: "10px",
-                                height: "10px",
-                                borderRadius: "50%",
-                              }}
-                              data-target="#carouselExampleIndicators2"
-                              data-slide-to="0"
-                              className="active"
-                            ></li>
-                            <li
-                              style={{
-                                backgroundColor: "rgb(255 161 161)",
-                                width: "10px",
-                                height: "10px",
-                                borderRadius: "50%",
-                              }}
-                              data-target="#carouselExampleIndicators2"
-                              data-slide-to="1"
-                            ></li>
-                            <li
-                              style={{
-                                backgroundColor: "rgb(255 161 161)",
-                                width: "10px",
-                                height: "10px",
-                                borderRadius: "50%",
-                              }}
-                              data-target="#carouselExampleIndicators2"
-                              data-slide-to="2"
-                            ></li>
-                            <li
-                              style={{
-                                backgroundColor: "rgb(255 161 161)",
-                                width: "10px",
-                                height: "10px",
-                                borderRadius: "50%",
-                              }}
-                              data-target="#carouselExampleIndicators2"
-                              data-slide-to="3"
-                            ></li>
-                          </ol>
-
-                          <div className="carousel-inner">
-                            <div
-                              className="carousel-item active"
-                              id="cardContentContainer2"
-                            >
+                        <Carousel className="price-carousel-2">
+                            <Carousel.Item>
                               <div
                                 style={{
                                   display: "flex",
@@ -1023,7 +931,9 @@ function HomeCampaign() {
                                   Dusting of walls, windows, ceilings and
                                   balcony
                                 </li>
-                                <li className="clr-white">Stain removal if any</li>
+                                <li className="clr-white">
+                                  Stain removal if any
+                                </li>
 
                                 <div id="card2" style={{ display: "none" }}>
                                   <li className="clr-white">
@@ -1039,12 +949,9 @@ function HomeCampaign() {
                               >
                                 View more
                               </p>
-                            </div>
+                            </Carousel.Item>
 
-                            <div
-                              className="carousel-item"
-                              id="cardContentContainer2"
-                            >
+                            <Carousel.Item>
                               <div
                                 style={{
                                   display: "flex",
@@ -1130,7 +1037,9 @@ function HomeCampaign() {
                                   Dusting of walls, windows, ceilings and
                                   balcony
                                 </li>
-                                <li className="clr-white">Stain removal if any</li>
+                                <li className="clr-white">
+                                  Stain removal if any
+                                </li>
 
                                 <div id="card2" style={{ display: "none" }}>
                                   <li className="clr-white">
@@ -1146,12 +1055,9 @@ function HomeCampaign() {
                               >
                                 View more
                               </p>
-                            </div>
+                            </Carousel.Item>
 
-                            <div
-                              className="carousel-item"
-                              id="cardContentContainer2"
-                            >
+                            <Carousel.Item>
                               <div
                                 style={{
                                   display: "flex",
@@ -1237,7 +1143,9 @@ function HomeCampaign() {
                                   Dusting of walls, windows, ceilings and
                                   balcony
                                 </li>
-                                <li className="clr-white">Stain removal if any</li>
+                                <li className="clr-white">
+                                  Stain removal if any
+                                </li>
 
                                 <div id="card2" style={{ display: "none" }}>
                                   <li className="clr-white">
@@ -1253,12 +1161,9 @@ function HomeCampaign() {
                               >
                                 View more
                               </p>
-                            </div>
+                            </Carousel.Item>
 
-                            <div
-                              className="carousel-item"
-                              id="cardContentContainer2"
-                            >
+                            <Carousel.Item>
                               <div
                                 style={{
                                   display: "flex",
@@ -1344,7 +1249,9 @@ function HomeCampaign() {
                                   Dusting of walls, windows, ceilings and
                                   balcony
                                 </li>
-                                <li className="clr-white">Stain removal if any</li>
+                                <li className="clr-white">
+                                  Stain removal if any
+                                </li>
 
                                 <div id="card2" style={{ display: "none" }}>
                                   <li className="clr-white">
@@ -1360,36 +1267,8 @@ function HomeCampaign() {
                               >
                                 View more
                               </p>
-                            </div>
-                          </div>
-
-                          <a
-                            className="carousel-control-prev"
-                            href="#carouselExampleIndicators2"
-                            role="button"
-                            data-slide="prev"
-                            style={{ marginLeft: "-2rem" }}
-                          >
-                            <span
-                              className="carousel-control-prev-icon"
-                              aria-hidden="true"
-                            ></span>
-                            <span className="sr-only">Previous</span>
-                          </a>
-                          <a
-                            className="carousel-control-next"
-                            href="#carouselExampleIndicators2"
-                            role="button"
-                            data-slide="next"
-                            style={{ marginRight: "-2rem" }}
-                          >
-                            <span
-                              className="carousel-control-next-icon"
-                              aria-hidden="true"
-                            ></span>
-                            <span className="sr-only">Next</span>
-                          </a>
-                        </div>
+                            </Carousel.Item>
+                        </Carousel>
                       </div>
                     </div>
 
@@ -1439,13 +1318,17 @@ function HomeCampaign() {
                           </li>
 
                           <div id="card3" style={{ display: "none" }}>
-                            <li className="clr-white">Degreasing of stove and chimney </li>
+                            <li className="clr-white">
+                              Degreasing of stove and chimney{" "}
+                            </li>
 
                             <li className="clr-white">
                               Deep cleaning of fridge, microwave and other
                               appliances{" "}
                             </li>
-                            <li className="clr-white">Cabinet cleaning including inside shelves </li>
+                            <li className="clr-white">
+                              Cabinet cleaning including inside shelves{" "}
+                            </li>
                           </div>
                         </ul>
                         <p

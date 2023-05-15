@@ -5,6 +5,7 @@ import { useState } from "react";
 import Layout from "../components/layout/Layout";
 import Head from "next/head";
 import Link from "next/link";
+import Carousel from 'react-bootstrap/Carousel';
 
 function Home() {
   const [isOpen, setOpen] = useState(false);
@@ -264,64 +265,9 @@ function Home() {
                       {/* <div className="carousel-item active"> */}
                       <div className="box-pricing-item hover-up">
 
-                      <div
-                          id="carouselExampleIndicators"
-                          className="carousel slide"
-                          data-ride="carousel"
-                        >
-                          <ol
-                            className="carousel-indicators"
-                            style={{ marginBottom: "-1rem" }}
-                          >
-                            <li
-                              style={{
-                                backgroundColor: "rgb(255 161 161)",
-                                width: "10px",
-                                height: "10px",
-                                borderRadius: "50%",
-                              }}
-                              data-target="#carouselExampleIndicators"
-                              data-slide-to="0"
-                              className="active"
-                            ></li>
-                            <li
-                              style={{
-                                backgroundColor: "rgb(255 161 161)",
-                                width: "10px",
-                                height: "10px",
-                                borderRadius: "50%",
-                              }}
-                              data-target="#carouselExampleIndicators"
-                              data-slide-to="1"
-                            ></li>
-                            <li
-                              style={{
-                                backgroundColor: "rgb(255 161 161)",
-                                width: "10px",
-                                height: "10px",
-                                borderRadius: "50%",
-                              }}
-                              data-target="#carouselExampleIndicators"
-                              data-slide-to="2"
-                            ></li>
-                            <li
-                              style={{
-                                backgroundColor: "rgb(255 161 161)",
-                                width: "10px",
-                                height: "10px",
-                                borderRadius: "50%",
-                              }}
-                              data-target="#carouselExampleIndicators"
-                              data-slide-to="3"
-                            ></li>
-                          </ol>
+                      <Carousel className="my__carousel_main">
 
-                          <div className="carousel-inner">
-
-                            <div
-                              className="carousel-item active"
-                              id="cardContentContainer"
-                            >
+                      <Carousel.Item>
 
                         <div style={{display: 'flex', marginTop: '-27px', marginBottom: '5px', justifyContent: 'center', color: '#acacac', opacity: '75%'}}>
                           <p id="card1Bhk1" onClick={handleBhkOptions(1)} style={{fontWeight: 501, cursor: 'pointer'}}>1 BHK</p>
@@ -384,14 +330,10 @@ function Home() {
                               </ul>
                               {/* <p className="view-more" style={{float: 'right', cursor: 'pointer'}} onClick={handleViewMore('card1-1')}>View more</p> */}
 
-                        </div>
+                              </Carousel.Item>
 
-                        <div
-                              className="carousel-item"
-                              id="cardContentContainer"
-                            >
-
-                        <div style={{display: 'flex', marginTop: '-27px', marginBottom: '5px', justifyContent: 'center', color: '#acacac', opacity: '75%'}}>
+                      <Carousel.Item>
+                      <div style={{display: 'flex', marginTop: '-27px', marginBottom: '5px', justifyContent: 'center', color: '#acacac', opacity: '75%'}}>
                           <p id="card1Bhk1" onClick={handleBhkOptions(1)} style={{fontWeight: 501, cursor: 'pointer'}}>1 BHK</p>
                           <span>&nbsp;|&nbsp;</span>
                           <p id="card1Bhk2" onClick={handleBhkOptions(2)} style={{cursor: 'pointer'}}>2 BHK</p>
@@ -437,14 +379,9 @@ function Home() {
                                   style={{ display: "none" }}
                                 ></div>
                               </ul>
-                              {/* <p className="view-more" style={{float: 'right', cursor: 'pointer'}} onClick={handleViewMore('card1-1')}>View more</p> */}
+                      </Carousel.Item>
 
-                        </div>
-
-                        <div
-                              className="carousel-item"
-                              id="cardContentContainer"
-                            >
+                      <Carousel.Item>
 
                         <div style={{display: 'flex', marginTop: '-27px', marginBottom: '5px', justifyContent: 'center', color: '#acacac', opacity: '75%'}}>
                           <p id="card1Bhk1" onClick={handleBhkOptions(1)} style={{fontWeight: 501, cursor: 'pointer'}}>1 BHK</p>
@@ -494,9 +431,9 @@ function Home() {
                               </ul>
                               {/* <p className="view-more" style={{float: 'right', cursor: 'pointer'}} onClick={handleViewMore('card1-1')}>View more</p> */}
 
-                        </div>
+                        </Carousel.Item>
 
-                        <div
+                        <Carousel.Item
                               className="carousel-item"
                               id="cardContentContainer"
                             >
@@ -549,12 +486,11 @@ function Home() {
                               </ul>
                               {/* <p className="view-more" style={{float: 'right', cursor: 'pointer'}} onClick={handleViewMore('card1-1')}>View more</p> */}
 
-                        </div>
+                        </Carousel.Item>
 
                         
-                        </div>
 
-                        <a
+                        {/* <a
                             className="carousel-control-prev"
                             href="#carouselExampleIndicators"
                             role="button"
@@ -579,9 +515,9 @@ function Home() {
                               aria-hidden="true"
                             ></span>
                             <span className="sr-only">Next</span>
-                          </a>
+                          </a> */}
 
-                        </div>
+                        </Carousel>
 
                       </div>
 
@@ -709,63 +645,11 @@ function Home() {
                     >
                       <div className="box-pricing-item hover-up">
 
-                      <div
-                          id="carouselExampleIndicators2"
-                          className="carousel slide"
-                          data-ride="carousel"
-                        >
-                          <ol
-                            className="carousel-indicators"
-                            style={{ marginBottom: "-1rem" }}
-                          >
-                            <li
-                              style={{
-                                backgroundColor: "rgb(255 161 161)",
-                                width: "10px",
-                                height: "10px",
-                                borderRadius: "50%",
-                              }}
-                              data-target="#carouselExampleIndicators2"
-                              data-slide-to="0"
-                              className="active"
-                            ></li>
-                            <li
-                              style={{
-                                backgroundColor: "rgb(255 161 161)",
-                                width: "10px",
-                                height: "10px",
-                                borderRadius: "50%",
-                              }}
-                              data-target="#carouselExampleIndicators2"
-                              data-slide-to="1"
-                            ></li>
-                            <li
-                              style={{
-                                backgroundColor: "rgb(255 161 161)",
-                                width: "10px",
-                                height: "10px",
-                                borderRadius: "50%",
-                              }}
-                              data-target="#carouselExampleIndicators2"
-                              data-slide-to="2"
-                            ></li>
-                            <li
-                              style={{
-                                backgroundColor: "rgb(255 161 161)",
-                                width: "10px",
-                                height: "10px",
-                                borderRadius: "50%",
-                              }}
-                              data-target="#carouselExampleIndicators2"
-                              data-slide-to="3"
-                            ></li>
-                          </ol>
+                      <Carousel className="price-carousel-2">
 
-                          <div className="carousel-inner">
 
-                          <div
-                              className="carousel-item active"
-                              id="cardContentContainer2"
+                          <Carousel.Item
+                              
                             >
 
                         <div style={{display: 'flex', marginTop: '-27px', marginBottom: '5px', justifyContent: 'center', color: '#acacac', opacity: '75%'}}>
@@ -828,12 +712,11 @@ function Home() {
                           View more
                         </p>
 
-                        </div>
+                        </Carousel.Item>
 
 
-                        <div
-                              className="carousel-item"
-                              id="cardContentContainer2"
+                        <Carousel.Item
+                          
                             >
 
                         <div style={{display: 'flex', marginTop: '-27px', marginBottom: '5px', justifyContent: 'center', color: '#acacac', opacity: '75%'}}>
@@ -896,11 +779,9 @@ function Home() {
                           View more
                         </p>
 
-                        </div>
+                        </Carousel.Item>
 
-                        <div
-                              className="carousel-item"
-                              id="cardContentContainer2"
+                        <Carousel.Item
                             >
 
                         <div style={{display: 'flex', marginTop: '-27px', marginBottom: '5px', justifyContent: 'center', color: '#acacac', opacity: '75%'}}>
@@ -963,11 +844,9 @@ function Home() {
                           View more
                         </p>
 
-                        </div>
+                        </Carousel.Item>
 
-                        <div
-                              className="carousel-item"
-                              id="cardContentContainer2"
+                        <Carousel.Item
                             >
 
                         <div style={{display: 'flex', marginTop: '-27px', marginBottom: '5px', justifyContent: 'center', color: '#acacac', opacity: '75%'}}>
@@ -1030,38 +909,10 @@ function Home() {
                           View more
                         </p>
 
-                        </div>
+                        </Carousel.Item>
 
-                      </div>
+                      </Carousel>               
 
-                      <a
-                            className="carousel-control-prev"
-                            href="#carouselExampleIndicators2"
-                            role="button"
-                            data-slide="prev"
-                            style={{ marginLeft: "-2rem" }}
-                          >
-                            <span
-                              className="carousel-control-prev-icon"
-                              aria-hidden="true"
-                            ></span>
-                            <span className="sr-only">Previous</span>
-                          </a>
-                          <a
-                            className="carousel-control-next"
-                            href="#carouselExampleIndicators2"
-                            role="button"
-                            data-slide="next"
-                            style={{ marginRight: "-2rem" }}
-                          >
-                            <span
-                              className="carousel-control-next-icon"
-                              aria-hidden="true"
-                            ></span>
-                            <span className="sr-only">Next</span>
-                          </a>
-
-                      </div>
                       </div>
 
                     </div>
