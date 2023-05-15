@@ -7,7 +7,7 @@ import images from "../public/assets/imgs/template/thanku.svg";
 // import images from "../public/assets/imgs/template/thanks.png";
 import Image from "next/image";
 
-function ThankYou() {
+function CampaignSuccess() {
   const [isOpen, setOpen] = useState(false);
   return (
     <>
@@ -41,4 +41,4 @@ function ThankYou() {
   );
 }
 
-export default ThankYou;
+export default CampaignSuccess;

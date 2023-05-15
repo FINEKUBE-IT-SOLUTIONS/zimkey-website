@@ -1,16 +1,58 @@
 import React, { useEffect, useState } from "react";
+import Dropdown from "react-bootstrap/Dropdown";
+import DropdownButton from "react-bootstrap/DropdownButton";
+import Router from "next/router";
+import Spinner from "react-bootstrap/Spinner";
 
 function CampaignForm() {
   const [values, setValues] = useState({
-    apartmentType: "",
+    name: "",
+    phone: "",
+    propertyType: "",
   });
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   const handleValueChange = (name) => (event) => {
     setValues({ ...values, [name]: event.target.value });
   };
 
   const handleDropdownChange = (value) => {
-    setValues({ ...values, apartmentType: value });
+    setValues({ ...values, propertyType: value });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    console.log("values::-", values);
+
+    try {
+      if (
+        values.name == "" ||
+        values.phone == "" ||
+        values.apartmentType == ""
+      ) {
+        //   document.getElementById("validationMessage").style.display = "block";
+      } else {
+        setIsSubmitting(true);
+
+        //   document.getElementById("validationMessage").style.display = "none";
+
+        const rawResponse = await fetch("/api/submit-campaign", {
+          method: "POST",
+          headers: {
+            Accept: "application/json",
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(values),
+        });
+        const content = await rawResponse.json();
+
+        setIsSubmitting(false);
+
+        Router.push("/campaign-success");
+      }
+    } catch (error) {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -26,6 +68,7 @@ function CampaignForm() {
           method="post"
           id="contactForm"
           name="contactForm"
+          onSubmit={handleSubmit}
         >
           <div className="row">
             <div className="col-md-12 form-group">
@@ -35,6 +78,7 @@ function CampaignForm() {
                 name="name"
                 id="name"
                 placeholder="Your name"
+                onChange={handleValueChange("name")}
               />
             </div>
           </div>
@@ -48,12 +92,13 @@ function CampaignForm() {
                 placeholder="Phone"
                 maxLength={10}
                 pattern="\d*"
+                onChange={handleValueChange("phone")}
               />
             </div>
           </div>
           <div className="row">
             <div className="col-md-12 form-group">
-              <div
+              {/* <div
                 className="dropdown"
                 onChange={handleValueChange("apartmentType")}
               >
@@ -67,7 +112,7 @@ function CampaignForm() {
                 >
                   {values?.apartmentType
                     ? values?.apartmentType
-                    : "Apartment Type"}
+                    : "Property Type"}
                 </button>
                 <div
                   className="dropdown-menu"
@@ -88,7 +133,7 @@ function CampaignForm() {
                   </a>
                   <a
                     className="campaignDropdownItem dropdown-item"
-                    onClick={() => handleDropdownChange("Property")}
+                    onClick={() => handleDropdownChange("Office")}
                   >
                     Property
                   </a>
@@ -99,7 +144,52 @@ function CampaignForm() {
                     Other
                   </a>
                 </div>
-              </div>
+              </div> */}
+
+              <Dropdown>
+                <Dropdown.Toggle
+                  id="dropdown-basic"
+                  className="campaignDropdown compaignInput"
+                >
+                  {values?.propertyType
+                    ? values?.propertyType
+                    : "Property Type"}
+                </Dropdown.Toggle>
+
+                <Dropdown.Menu style={{ width: "100%" }}>
+                  <Dropdown.Item
+                    className="campaignDropdownItem"
+                    onClick={() => handleDropdownChange("Apartment")}
+                  >
+                    Apartment
+                  </Dropdown.Item>
+                  <Dropdown.Item
+                    className="campaignDropdownItem"
+                    onClick={() => handleDropdownChange("Villa")}
+                  >
+                    Villa
+                  </Dropdown.Item>
+                  <Dropdown.Item
+                    className="campaignDropdownItem"
+                    onClick={() => handleDropdownChange("Office")}
+                  >
+                    Office
+                  </Dropdown.Item>
+                  <Dropdown.Item
+                    className="campaignDropdownItem"
+                    onClick={() => handleDropdownChange("Other")}
+                  >
+                    Other
+                  </Dropdown.Item>
+                </Dropdown.Menu>
+              </Dropdown>
+
+              {/* <DropdownButton id="dropdown-basic-button" title="Dropdown button">
+                    <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+                    <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+                    <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+                </DropdownButton> */}
+
               {/* <input
                 type="text"
                 className="compaignInput form-control"
@@ -124,12 +214,16 @@ function CampaignForm() {
           </div> */}
           <div className="row">
             <div className="col-12 text-center">
-              <input
-                type="submit"
-                defaultValue="Send Message"
-                className="btnCampaign btnCampaign-primary rounded-0 py-2 px-4"
-                style={{ backgroundColor: "#333333" }}
-              />
+              {isSubmitting ? (
+                <Spinner animation="border" />
+              ) : (
+                <input
+                  type="submit"
+                  defaultValue="Send Message"
+                  className="btnCampaign btnCampaign-primary rounded-0 py-2 px-4"
+                  style={{ backgroundColor: "#333333" }}
+                />
+              )}
               <span className="submitting" />
             </div>
           </div>
