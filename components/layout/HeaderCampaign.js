@@ -22,7 +22,7 @@ const HeaderCampaign = ({ handleOpen, headerStyle, activePage }) => {
         }
         style={{ background: "#FAEDE3" }}
       >
-        <div className="container" id="header">
+        <div className="container" id="header" style={{ marginTop: "1rem" }}>
           <div className="row d-flex flex-row" style={{ textAlign: "right" }}>
             <div className="d-flex justify-content-end px-4 gap-4">
               {/* <a href="tel:+917733001121" style={{ paddingRight: "8px" }}> */}
