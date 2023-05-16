@@ -276,6 +276,14 @@ label.error {
   #mobileBookNowButton {
     display: block;
   }
+
+  .block-pricing .box-pricing-item .line-bd-bottom {
+    padding-bottom: 18px !important;
+  }
+
+  .zs-bullet-12 {
+    margin-bottom: -2rem;
+  }
 }
 
 @media (min-width: 769px) {
@@ -286,7 +294,7 @@ label.error {
   #mobileQuoteButton {
     display: none;
   }
-  
+
   #desktopBookNowButton {
     display: block;
   }
