@@ -181,15 +181,15 @@ function HomeCampaign() {
                   <>
                     <img
                       className="img-small img-responsive"
-                      src="assets/imgs/page/home/img-1.png"
+                      src="assets/imgs/page/new-images/6.jpg"
                       alt="Zimkey"
                     />
                     <div className="block-card" style={{ marginTop: "-153px" }}>
-                      <img src="/assets/imgs/page/home/card.png" alt="Zimkey" />
+                      <img src="/assets/imgs/page/new-images/7.jpg" alt="Zimkey" />
                     </div>
                     <div className="block-control">
                       <img
-                        src="/assets/imgs/page/home/img-safety.png"
+                        src="/assets/imgs/page/new-images/8.jpg"
                         alt="Zimkey"
                       />
                     </div>
@@ -198,15 +198,16 @@ function HomeCampaign() {
                   <>
                     <img
                       className="img-small img-responsive"
-                      src="assets/imgs/page/home/img-1.png"
+                      src="assets/imgs/page/new-images/6.jpg"
                       alt="Zimkey"
+                      style={{borderRadius: '1rem'}}
                     />
                     <div className="block-card">
-                      <img src="/assets/imgs/page/home/card.png" alt="Zimkey" />
+                      <img src="/assets/imgs/page/new-images/7.jpg" alt="Zimkey" />
                     </div>
                     <div className="block-control">
                       <img
-                        src="/assets/imgs/page/home/img-safety.png"
+                        src="/assets/imgs/page/new-images/8.jpg"
                         alt="Zimkey"
                       />
                     </div>
@@ -1404,7 +1405,7 @@ function HomeCampaign() {
                 <div className="box-image mt-30 mb-30">
                   <img
                     className="img-responsive bdrd-16"
-                    src="https://media.istockphoto.com/id/1128180520/photo/professional-cleaning-service-team-working-with-cleaning-equipment-in-room-cleaning-service.jpg?s=1024x1024&w=is&k=20&c=kNn4b-ywyEkkuDsCaokzLlRqH8E4Dy9slCpCouwbVmM="
+                    src="/assets/imgs/page/new-images/4.jpg"
                   />
                 </div>
               </div>

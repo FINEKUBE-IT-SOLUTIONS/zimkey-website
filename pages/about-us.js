@@ -62,7 +62,7 @@ function About() {
 
                   <img
                     className="img-responsive bdrd-16"
-                    src="assets/imgs/page/about/3/img.png"
+                    src="assets/imgs/page/new-images/2.jpg"
                     alt="Zimkey"
                   />
                 </div>

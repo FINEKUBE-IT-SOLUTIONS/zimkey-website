@@ -366,3 +366,8 @@ label.error {
   .qoutes-right {
 	float: right;
   }
+
+.testimonials-card {
+  min-height: 26rem;
+  position: relative;
+}
