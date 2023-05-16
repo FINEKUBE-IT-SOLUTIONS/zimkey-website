@@ -98,13 +98,20 @@ const TeamSlider = () => {
                   <div className="col-lg-3 col-md-6 col-sm-6">
                     <div
                       className="card-grid-style-5 hover-up"
-                      style={{
-                        boxShadow:
-                          "rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px",
-                        maxWidth: "99%",
-                        marginLeft: "auto",
-                        // borderRight: "auto",
-                      }}
+                      style={
+                        k == 0 ? {
+                          boxShadow:
+                            "rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px",
+                          maxWidth: "99%",
+                          marginLeft: "auto"
+                          // borderRight: "auto",
+                        } : {
+                          boxShadow:
+                            "rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px",
+                          maxWidth: "99%",
+                          
+                          // borderRight: "auto",
+                        }}
                     >
                       <div className="grid-5-img mb-15">
                         {/* <img src="/assets/imgs/page/about/1/team-1.png" alt="Agon" /> */}
