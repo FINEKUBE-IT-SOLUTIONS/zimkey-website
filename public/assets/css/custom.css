@@ -250,3 +250,7 @@
 		display: none;
 	}
   }
+
+  .qoutes-right {
+	float: right;
+  }
