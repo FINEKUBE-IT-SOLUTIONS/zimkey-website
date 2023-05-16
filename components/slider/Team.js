@@ -122,10 +122,10 @@ const TeamSlider = () => {
                           Marketing CEO
                         </span> */}
                       {/* <div> */}
-                      <div style={{ display: "flex", paddingTop: "1rem" }}>
+                      <div style={{ display: "flex", paddingTop: "1rem", position: "relative" }}>
                         <h3 style={{ paddingLeft: "1rem" }}>
                           <span>&#10077;</span>
-                        </h3>{" "}
+                        </h3>
                         <p
                           className="text-body-excerpt text-desc color-gray-500 mt-15 mb-20"
                           style={{
@@ -135,11 +135,14 @@ const TeamSlider = () => {
                           }}
                         >
                           {i.review}
-                          <h3 className="qoutes-right">
+                          
+                        </p>
+                        <h3 className="qoutes-right">
                             <span>&#10078;</span>
                           </h3>
-                        </p>{" "}
                       </div>
+
+                      
                       </div>
                       {/* </div> */}
                       <div

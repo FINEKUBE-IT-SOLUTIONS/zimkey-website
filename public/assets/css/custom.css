@@ -365,9 +365,14 @@ label.error {
 
   .qoutes-right {
 	float: right;
+  position: absolute;
+  bottom: -1rem;
+  right: 14px;
   }
 
 .testimonials-card {
-  min-height: 26rem;
+  min-height: 27rem;
   position: relative;
+  display: grid;
+  place-items: center;
 }
