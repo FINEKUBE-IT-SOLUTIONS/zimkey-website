@@ -254,7 +254,7 @@ function Home() {
             </h3>
           </div>
           <div className="container mt-20">
-            <div className="block-pricing block-pricing-2 mt-70">
+            <div className="block-pricing block-pricing-2 mt-70 block-pricing-custom">
               <div className="row">
                 <div className="col-xl-12 col-lg-12">
                   <div className="row">
@@ -265,7 +265,7 @@ function Home() {
                       {/* <div className="carousel-item active"> */}
                       <div className="box-pricing-item hover-up">
 
-                      <Carousel className="my__carousel_main">
+                      <Carousel className="my__carousel_main" interval={null}>
 
                       <Carousel.Item>
 
@@ -306,7 +306,7 @@ function Home() {
                                   &nbsp; 1 BHK
                                 </span>
                                 <span className="text-month text-body-small color-gray-400">
-                                  &nbsp; <br/>1-2 hours
+                                  &nbsp; <br/>3-5 hours
                                 </span>
                                 <span className="text-month for-year text-body-small color-gray-400">
                                   /year
@@ -320,15 +320,19 @@ function Home() {
                                   3 - 4 Hours
                                 </p> */}
                               </div>
-                              <ul className="list-package-feature" style={{minHeight: '206px'}}>
-                                <li>Dusting</li>
-                                <li>Sweeping and Mopping</li>
+                              <ul className="list-package-feature" style={{minHeight: '178px'}}>
+                                <li>Bathroom deep cleaning</li>
+                                <li>Kitchen regular cleaning</li>
+                                <li>Dusting, sweeping, and mopping</li>
                                 <div
                                   id="card1-1"
                                   style={{ display: "none" }}
-                                ></div>
+                                >
+                                <li>Dry vacuuming of carpets, upholstery and furniture</li>
+
+                                </div>
                               </ul>
-                              {/* <p className="view-more" style={{float: 'right', cursor: 'pointer'}} onClick={handleViewMore('card1-1')}>View more</p> */}
+                              <p className="view-more" style={{float: 'right', cursor: 'pointer'}} onClick={handleViewMore('card1-1')}>View more</p>
 
                               </Carousel.Item>
 
@@ -357,7 +361,7 @@ function Home() {
                                   &nbsp; 2 BHK
                                 </span>
                                 <span className="text-month text-body-small color-gray-400">
-                                  &nbsp; <br/>1-2 hours
+                                  &nbsp; <br/>3-5 hours
                                 </span>
                                 <span className="text-month for-year text-body-small color-gray-400">
                                   /year
@@ -371,14 +375,19 @@ function Home() {
                                   3 - 4 Hours
                                 </p> */}
                               </div>
-                              <ul className="list-package-feature" style={{minHeight: '206px'}}>
-                                <li>Dusting</li>
-                                <li>Sweeping and Mopping</li>
+                              <ul className="list-package-feature" style={{minHeight: '178px'}}>
+                                <li>Bathroom deep cleaning</li>
+                                <li>Kitchen regular cleaning</li>
+                                <li>Dusting, sweeping, and mopping</li>
                                 <div
-                                  id="card1-1"
+                                  id="card1-2"
                                   style={{ display: "none" }}
-                                ></div>
+                                >
+                                <li>Dry vacuuming of carpets, upholstery and furniture</li>
+
+                                </div>
                               </ul>
+                              <p className="view-more" style={{float: 'right', cursor: 'pointer'}} onClick={handleViewMore('card1-2')}>View more</p>
                       </Carousel.Item>
 
                       <Carousel.Item>
@@ -407,7 +416,7 @@ function Home() {
                                   &nbsp; 3 BHK
                                 </span>
                                 <span className="text-month text-body-small color-gray-400">
-                                  &nbsp; <br/>1-2 hours
+                                  &nbsp; <br/>3-5 hours
                                 </span>
                                 <span className="text-month for-year text-body-small color-gray-400">
                                   /year
@@ -421,15 +430,19 @@ function Home() {
                                   3 - 4 Hours
                                 </p> */}
                               </div>
-                              <ul className="list-package-feature" style={{minHeight: '206px'}}>
-                                <li>Dusting</li>
-                                <li>Sweeping and Mopping</li>
+                              <ul className="list-package-feature" style={{minHeight: '178px'}}>
+                                <li>Bathroom deep cleaning</li>
+                                <li>Kitchen regular cleaning</li>
+                                <li>Dusting, sweeping, and mopping</li>
                                 <div
-                                  id="card1-1"
+                                  id="card1-3"
                                   style={{ display: "none" }}
-                                ></div>
+                                >
+                                <li>Dry vacuuming of carpets, upholstery and furniture</li>
+
+                                </div>
                               </ul>
-                              {/* <p className="view-more" style={{float: 'right', cursor: 'pointer'}} onClick={handleViewMore('card1-1')}>View more</p> */}
+                              <p className="view-more" style={{float: 'right', cursor: 'pointer'}} onClick={handleViewMore('card1-3')}>View more</p>
 
                         </Carousel.Item>
 
@@ -462,7 +475,7 @@ function Home() {
                                   &nbsp; 4 BHK
                                 </span>
                                 <span className="text-month text-body-small color-gray-400">
-                                  &nbsp; <br/>1-2 hours
+                                  &nbsp; <br/>3-5 hours
                                 </span>
                                 <span className="text-month for-year text-body-small color-gray-400">
                                   /year
@@ -476,15 +489,19 @@ function Home() {
                                   3 - 4 Hours
                                 </p> */}
                               </div>
-                              <ul className="list-package-feature" style={{minHeight: '206px'}}>
-                                <li>Dusting</li>
-                                <li>Sweeping and Mopping</li>
+                              <ul className="list-package-feature" style={{minHeight: '178px'}}>
+                                <li>Bathroom deep cleaning</li>
+                                <li>Kitchen regular cleaning</li>
+                                <li>Dusting, sweeping, and mopping</li>
                                 <div
-                                  id="card1-1"
+                                  id="card1-4"
                                   style={{ display: "none" }}
-                                ></div>
+                                >
+                                <li>Dry vacuuming of carpets, upholstery and furniture</li>
+
+                                </div>
                               </ul>
-                              {/* <p className="view-more" style={{float: 'right', cursor: 'pointer'}} onClick={handleViewMore('card1-1')}>View more</p> */}
+                              <p className="view-more" style={{float: 'right', cursor: 'pointer'}} onClick={handleViewMore('card1-4')}>View more</p>
 
                         </Carousel.Item>
 
@@ -645,7 +662,7 @@ function Home() {
                     >
                       <div className="box-pricing-item hover-up">
 
-                      <Carousel className="price-carousel-2">
+                      <Carousel className="price-carousel-2" interval={null}>
 
 
                           <Carousel.Item
@@ -671,7 +688,7 @@ function Home() {
                             &nbsp; 1 BHK
                           </span>
                           <span className="text-month text-body-small color-gray-400">
-                            &nbsp; <br/>3-7 hours
+                            &nbsp; <br/>4-7 hours
                           </span>
                           <span className="text-month for-year text-body-small color-gray-400">
                             /year
@@ -692,22 +709,23 @@ function Home() {
                             Balcony
                           </li>
                           <li>
-                            Dusting of walls, windows, ceilings and balcony
+                          Cleaning and stain removal of kitchen cabinets and appliances
                           </li>
-                          <li>Stain removal if any</li>
 
-                          <div id="card2" style={{ display: "none" }}>
+                          <div id="card2-1" style={{ display: "none" }}>
 
                             <li>
-                              Vacuuming of sofas, carpets, curtains, and window
-                              sills
+                            Dusting of walls, windows, ceilings and balcony
                             </li>
+                          <li>Wet wiping of ceiling fans, decor items and switch boards</li>
+                          <li>Vacuuming of sofas, carpets, curtains, and window sills</li>
+
                           </div>
                         </ul>
                         <p
                           className="view-more"
                           style={{ float: "right", cursor: "pointer" }}
-                          onClick={handleViewMore("card2")}
+                          onClick={handleViewMore("card2-1")}
                         >
                           View more
                         </p>
@@ -738,7 +756,7 @@ function Home() {
                             &nbsp; 2 BHK
                           </span>
                           <span className="text-month text-body-small color-gray-400">
-                            &nbsp; <br/>3-7 hours
+                            &nbsp; <br/>4-7 hours
                           </span>
                           <span className="text-month for-year text-body-small color-gray-400">
                             /year
@@ -759,22 +777,23 @@ function Home() {
                             Balcony
                           </li>
                           <li>
-                            Dusting of walls, windows, ceilings and balcony
+                          Cleaning and stain removal of kitchen cabinets and appliances
                           </li>
-                          <li>Stain removal if any</li>
 
-                          <div id="card2" style={{ display: "none" }}>
+                          <div id="card2-2" style={{ display: "none" }}>
 
                             <li>
-                              Vacuuming of sofas, carpets, curtains, and window
-                              sills
+                            Dusting of walls, windows, ceilings and balcony
                             </li>
+                          <li>Wet wiping of ceiling fans, decor items and switch boards</li>
+                          <li>Vacuuming of sofas, carpets, curtains, and window sills</li>
+
                           </div>
                         </ul>
                         <p
                           className="view-more"
                           style={{ float: "right", cursor: "pointer" }}
-                          onClick={handleViewMore("card2")}
+                          onClick={handleViewMore("card2-2")}
                         >
                           View more
                         </p>
@@ -803,7 +822,7 @@ function Home() {
                             &nbsp; 3 BHK
                           </span>
                           <span className="text-month text-body-small color-gray-400">
-                            &nbsp; <br/>3-7 hours
+                            &nbsp; <br/>4-7 hours
                           </span>
                           <span className="text-month for-year text-body-small color-gray-400">
                             /year
@@ -824,22 +843,23 @@ function Home() {
                             Balcony
                           </li>
                           <li>
-                            Dusting of walls, windows, ceilings and balcony
+                          Cleaning and stain removal of kitchen cabinets and appliances
                           </li>
-                          <li>Stain removal if any</li>
 
-                          <div id="card2" style={{ display: "none" }}>
+                          <div id="card2-3" style={{ display: "none" }}>
 
                             <li>
-                              Vacuuming of sofas, carpets, curtains, and window
-                              sills
+                            Dusting of walls, windows, ceilings and balcony
                             </li>
+                          <li>Wet wiping of ceiling fans, decor items and switch boards</li>
+                          <li>Vacuuming of sofas, carpets, curtains, and window sills</li>
+
                           </div>
                         </ul>
                         <p
                           className="view-more"
                           style={{ float: "right", cursor: "pointer" }}
-                          onClick={handleViewMore("card2")}
+                          onClick={handleViewMore("card2-3")}
                         >
                           View more
                         </p>
@@ -868,7 +888,7 @@ function Home() {
                             &nbsp; 4 BHK
                           </span>
                           <span className="text-month text-body-small color-gray-400">
-                            &nbsp; <br/>3-7 hours
+                            &nbsp; <br/>4-7 hours
                           </span>
                           <span className="text-month for-year text-body-small color-gray-400">
                             /year
@@ -889,22 +909,23 @@ function Home() {
                             Balcony
                           </li>
                           <li>
-                            Dusting of walls, windows, ceilings and balcony
+                          Cleaning and stain removal of kitchen cabinets and appliances
                           </li>
-                          <li>Stain removal if any</li>
 
-                          <div id="card2" style={{ display: "none" }}>
+                          <div id="card2-4" style={{ display: "none" }}>
 
                             <li>
-                              Vacuuming of sofas, carpets, curtains, and window
-                              sills
+                            Dusting of walls, windows, ceilings and balcony
                             </li>
+                          <li>Wet wiping of ceiling fans, decor items and switch boards</li>
+                          <li>Vacuuming of sofas, carpets, curtains, and window sills</li>
+
                           </div>
                         </ul>
                         <p
                           className="view-more"
                           style={{ float: "right", cursor: "pointer" }}
-                          onClick={handleViewMore("card2")}
+                          onClick={handleViewMore("card2-4")}
                         >
                           View more
                         </p>
@@ -944,22 +965,19 @@ function Home() {
                         </div>
                         <ul className="list-package-feature" style={{minHeight: '183px'}}>
                           <li>
-                            Dirt, deposit & stain removal of kitchen floor,
-                            tiles, slab, sink, and fittings
+                          Dirt, deposit & stain removal of kitchen floor, tiles, slab, sink, and fittings
                           </li>
                           <li>
-                            Cleaning of kitchen windows, ceiling fan and exhaust
-                            fan
+                          Cleaning of kitchen windows, ceiling fan and exhaust fan
                           </li>
 
                           <div id="card3" style={{ display: "none" }}>
                           <li>Degreasing of stove and chimney </li>
 
                             <li>
-                              Deep cleaning of fridge, microwave and other
-                              appliances{" "}
+                            Deep cleaning of fridge, microwave and other appliances
                             </li>
-                            <li>Cabinet cleaning including inside shelves </li>
+                            <li>Cabinet cleaning including inside shelves</li>
                           </div>
                         </ul>
                         <p
@@ -982,7 +1000,7 @@ function Home() {
                           </span>
                           <span className="text-heading-3 for-year">$420</span>
                           <span className="text-month text-body-small color-gray-400">
-                            &nbsp; <br/>3-4 hours
+                            &nbsp; <br/>Upto 2 hours
                           </span>
                           <span className="text-month for-year text-body-small color-gray-400">
                             /year
@@ -1001,12 +1019,10 @@ function Home() {
                         <ul className="list-package-feature">
                           
                         <li>
-                            Deep cleaning and unclogging of floor, toilet, and
-                            bathtub
+                        Dirt, hard water stains & tile grouting stain removal from all surfaces including mirror
                           </li>
                           <li>
-                            Dirt, hard water stains & tile grouting stain
-                            removal from all surfaces including mirror
+                          Deep cleaning and unclogging of floor, toilet, and bathtub 
                           </li>
                           <li>Stain removal if any</li>
 

@@ -348,7 +348,7 @@ function HomeCampaign() {
                         className="box-pricing-item hover-up"
                         style={{ background: "#ff6c37", color: "white" }}
                       >
-                        <Carousel className="price-carousel-2" interval={null} id="campaignCarousel1">
+                        <Carousel className="price-carousel-2" id="campaignCarousel1">
                           
 
                             <Carousel.Item>
@@ -425,7 +425,7 @@ function HomeCampaign() {
                                 </span>
                                 <span className="clr-white text-month text-body-small color-gray-400">
                                   &nbsp; <br />
-                                  1-2 hours
+                                  3-5 hours
                                 </span>
                                 <span className="text-month for-year text-body-small color-gray-400">
                                   /year
@@ -442,20 +442,19 @@ function HomeCampaign() {
                                   3 - 4 Hours
                                 </p> */}
                               </div>
-                              <ul
-                                className="list-package-feature"
-                                style={{ minHeight: "206px" }}
-                              >
-                                <li className="clr-white">Dusting</li>
-                                <li className="clr-white">
-                                  Sweeping and Mopping
-                                </li>
+                              <ul className="list-package-feature" style={{minHeight: '178px'}}>
+                                <li className="clr-white">Bathroom deep cleaning</li>
+                                <li className="clr-white">Kitchen regular cleaning</li>
+                                <li className="clr-white">Dusting, sweeping, and mopping</li>
                                 <div
                                   id="card1-1"
                                   style={{ display: "none" }}
-                                ></div>
+                                >
+                                <li className="clr-white">Dry vacuuming of carpets, upholstery and furniture</li>
+
+                                </div>
                               </ul>
-                              {/* <p className="view-more" style={{float: 'right', cursor: 'pointer'}} onClick={handleViewMore('card1-1')}>View more</p> */}
+                              <p className="view-more" style={{float: 'right', cursor: 'pointer'}} onClick={handleViewMore('card1-1')}>View more</p>
                             </Carousel.Item>
 
                             <Carousel.Item>
@@ -517,7 +516,7 @@ function HomeCampaign() {
                                 </span>
                                 <span className="clr-white text-month text-body-small color-gray-400">
                                   &nbsp; <br />
-                                  1-2 hours
+                                  3-5 hours
                                 </span>
                                 <span className="text-month for-year text-body-small color-gray-400">
                                   /year
@@ -531,20 +530,19 @@ function HomeCampaign() {
                                   3 - 4 Hours
                                 </p> */}
                               </div>
-                              <ul
-                                className="list-package-feature"
-                                style={{ minHeight: "206px" }}
-                              >
-                                <li className="clr-white">Dusting</li>
-                                <li className="clr-white">
-                                  Sweeping and Mopping
-                                </li>
+                              <ul className="list-package-feature" style={{minHeight: '178px'}}>
+                                <li className="clr-white">Bathroom deep cleaning</li>
+                                <li className="clr-white">Kitchen regular cleaning</li>
+                                <li className="clr-white">Dusting, sweeping, and mopping</li>
                                 <div
                                   id="card1-1"
                                   style={{ display: "none" }}
-                                ></div>
+                                >
+                                <li className="clr-white">Dry vacuuming of carpets, upholstery and furniture</li>
+
+                                </div>
                               </ul>
-                              {/* <p className="view-more" style={{float: 'right', cursor: 'pointer'}} onClick={handleViewMore('card1-1')}>View more</p> */}
+                              <p className="view-more" style={{float: 'right', cursor: 'pointer'}} onClick={handleViewMore('card1-1')}>View more</p>
                             </Carousel.Item>
 
                             <Carousel.Item>
@@ -606,7 +604,7 @@ function HomeCampaign() {
                                 </span>
                                 <span className="clr-white text-month text-body-small color-gray-400">
                                   &nbsp; <br />
-                                  1-2 hours
+                                  3-5 hours
                                 </span>
                                 <span className="text-month for-year text-body-small color-gray-400">
                                   /year
@@ -620,20 +618,19 @@ function HomeCampaign() {
                                   3 - 4 Hours
                                 </p> */}
                               </div>
-                              <ul
-                                className="list-package-feature"
-                                style={{ minHeight: "206px" }}
-                              >
-                                <li className="clr-white">Dusting</li>
-                                <li className="clr-white">
-                                  Sweeping and Mopping
-                                </li>
+                              <ul className="list-package-feature" style={{minHeight: '178px'}}>
+                                <li className="clr-white">Bathroom deep cleaning</li>
+                                <li className="clr-white">Kitchen regular cleaning</li>
+                                <li className="clr-white">Dusting, sweeping, and mopping</li>
                                 <div
                                   id="card1-1"
                                   style={{ display: "none" }}
-                                ></div>
+                                >
+                                <li className="clr-white">Dry vacuuming of carpets, upholstery and furniture</li>
+
+                                </div>
                               </ul>
-                              {/* <p className="view-more" style={{float: 'right', cursor: 'pointer'}} onClick={handleViewMore('card1-1')}>View more</p> */}
+                              <p className="view-more" style={{float: 'right', cursor: 'pointer'}} onClick={handleViewMore('card1-1')}>View more</p>
                             </Carousel.Item>
 
                             <Carousel.Item>
@@ -695,7 +692,7 @@ function HomeCampaign() {
                                 </span>
                                 <span className="clr-white text-month text-body-small color-gray-400">
                                   &nbsp; <br />
-                                  1-2 hours
+                                  3-5 hours
                                 </span>
                                 <span className="text-month for-year text-body-small color-gray-400">
                                   /year
@@ -709,20 +706,19 @@ function HomeCampaign() {
                                   3 - 4 Hours
                                 </p> */}
                               </div>
-                              <ul
-                                className="list-package-feature"
-                                style={{ minHeight: "206px" }}
-                              >
-                                <li className="clr-white">Dusting</li>
-                                <li className="clr-white">
-                                  Sweeping and Mopping
-                                </li>
+                              <ul className="list-package-feature" style={{minHeight: '178px'}}>
+                                <li className="clr-white">Bathroom deep cleaning</li>
+                                <li className="clr-white">Kitchen regular cleaning</li>
+                                <li className="clr-white">Dusting, sweeping, and mopping</li>
                                 <div
                                   id="card1-1"
                                   style={{ display: "none" }}
-                                ></div>
+                                >
+                                <li className="clr-white">Dry vacuuming of carpets, upholstery and furniture</li>
+
+                                </div>
                               </ul>
-                              {/* <p className="view-more" style={{float: 'right', cursor: 'pointer'}} onClick={handleViewMore('card1-1')}>View more</p> */}
+                              <p className="view-more" style={{float: 'right', cursor: 'pointer'}} onClick={handleViewMore('card1-1')}>View more</p>
                             </Carousel.Item>
 
                         </Carousel>
@@ -853,7 +849,7 @@ function HomeCampaign() {
                         className="clr-white box-pricing-item hover-up"
                         style={{ background: "#ff6c37" }}
                       >
-                        <Carousel className="price-carousel-2" interval={null}>
+                        <Carousel className="price-carousel-2">
                             <Carousel.Item>
                               <div
                                 style={{
@@ -913,7 +909,7 @@ function HomeCampaign() {
                                 </span>
                                 <span className="clr-white text-month text-body-small color-gray-400">
                                   &nbsp; <br />
-                                  3-7 hours
+                                  4-7 hours
                                 </span>
                                 <span className="text-month for-year text-body-small color-gray-400">
                                   /year
@@ -928,29 +924,25 @@ function HomeCampaign() {
                             week.
                           </p> */}
                               </div>
-                              <ul
-                                className="list-package-feature"
-                                style={{ minHeight: "178px" }}
-                              >
-                                <li className="clr-white">
-                                  Deep cleaning of all rooms including Kitchen
-                                  and Balcony
-                                </li>
-                                <li className="clr-white">
-                                  Dusting of walls, windows, ceilings and
-                                  balcony
-                                </li>
-                                <li className="clr-white">
-                                  Stain removal if any
-                                </li>
+                              <ul className="list-package-feature" style={{minHeight: '178px'}}>
+                          <li className="clr-white">
+                            Deep cleaning of all rooms including Kitchen and
+                            Balcony
+                          </li>
+                          <li className="clr-white">
+                          Cleaning and stain removal of kitchen cabinets and appliances
+                          </li>
 
-                                <div id="card2" style={{ display: "none" }}>
-                                  <li className="clr-white">
-                                    Vacuuming of sofas, carpets, curtains, and
-                                    window sills
-                                  </li>
-                                </div>
-                              </ul>
+                          <div id="card2" style={{ display: "none" }}>
+
+                            <li className="clr-white">
+                            Dusting of walls, windows, ceilings and balcony
+                            </li>
+                          <li className="clr-white">Wet wiping of ceiling fans, decor items and switch boards</li>
+                          <li className="clr-white">Vacuuming of sofas, carpets, curtains, and window sills</li>
+
+                          </div>
+                        </ul>
                               <p
                                 className="view-more"
                                 style={{ float: "right", cursor: "pointer" }}
@@ -1019,7 +1011,7 @@ function HomeCampaign() {
                                 </span>
                                 <span className="clr-white text-month text-body-small color-gray-400">
                                   &nbsp; <br />
-                                  3-7 hours
+                                  4-7 hours
                                 </span>
                                 <span className="text-month for-year text-body-small color-gray-400">
                                   /year
@@ -1034,29 +1026,25 @@ function HomeCampaign() {
                             week.
                           </p> */}
                               </div>
-                              <ul
-                                className="list-package-feature"
-                                style={{ minHeight: "178px" }}
-                              >
-                                <li className="clr-white">
-                                  Deep cleaning of all rooms including Kitchen
-                                  and Balcony
-                                </li>
-                                <li className="clr-white">
-                                  Dusting of walls, windows, ceilings and
-                                  balcony
-                                </li>
-                                <li className="clr-white">
-                                  Stain removal if any
-                                </li>
+                              <ul className="list-package-feature" style={{minHeight: '178px'}}>
+                          <li className="clr-white">
+                            Deep cleaning of all rooms including Kitchen and
+                            Balcony
+                          </li>
+                          <li className="clr-white">
+                          Cleaning and stain removal of kitchen cabinets and appliances
+                          </li>
 
-                                <div id="card2" style={{ display: "none" }}>
-                                  <li className="clr-white">
-                                    Vacuuming of sofas, carpets, curtains, and
-                                    window sills
-                                  </li>
-                                </div>
-                              </ul>
+                          <div id="card2" style={{ display: "none" }}>
+
+                            <li className="clr-white">
+                            Dusting of walls, windows, ceilings and balcony
+                            </li>
+                          <li className="clr-white">Wet wiping of ceiling fans, decor items and switch boards</li>
+                          <li className="clr-white">Vacuuming of sofas, carpets, curtains, and window sills</li>
+
+                          </div>
+                        </ul>
                               <p
                                 className="view-more"
                                 style={{ float: "right", cursor: "pointer" }}
@@ -1125,7 +1113,7 @@ function HomeCampaign() {
                                 </span>
                                 <span className="clr-white text-month text-body-small color-gray-400">
                                   &nbsp; <br />
-                                  3-7 hours
+                                  4-7 hours
                                 </span>
                                 <span className="text-month for-year text-body-small color-gray-400">
                                   /year
@@ -1140,29 +1128,25 @@ function HomeCampaign() {
                             week.
                           </p> */}
                               </div>
-                              <ul
-                                className="list-package-feature"
-                                style={{ minHeight: "178px" }}
-                              >
-                                <li className="clr-white">
-                                  Deep cleaning of all rooms including Kitchen
-                                  and Balcony
-                                </li>
-                                <li className="clr-white">
-                                  Dusting of walls, windows, ceilings and
-                                  balcony
-                                </li>
-                                <li className="clr-white">
-                                  Stain removal if any
-                                </li>
+                              <ul className="list-package-feature" style={{minHeight: '178px'}}>
+                          <li className="clr-white">
+                            Deep cleaning of all rooms including Kitchen and
+                            Balcony
+                          </li>
+                          <li className="clr-white">
+                          Cleaning and stain removal of kitchen cabinets and appliances
+                          </li>
 
-                                <div id="card2" style={{ display: "none" }}>
-                                  <li className="clr-white">
-                                    Vacuuming of sofas, carpets, curtains, and
-                                    window sills
-                                  </li>
-                                </div>
-                              </ul>
+                          <div id="card2" style={{ display: "none" }}>
+
+                            <li className="clr-white">
+                            Dusting of walls, windows, ceilings and balcony
+                            </li>
+                          <li className="clr-white">Wet wiping of ceiling fans, decor items and switch boards</li>
+                          <li className="clr-white">Vacuuming of sofas, carpets, curtains, and window sills</li>
+
+                          </div>
+                        </ul>
                               <p
                                 className="view-more"
                                 style={{ float: "right", cursor: "pointer" }}
@@ -1231,7 +1215,7 @@ function HomeCampaign() {
                                 </span>
                                 <span className="clr-white text-month text-body-small color-gray-400">
                                   &nbsp; <br />
-                                  3-7 hours
+                                  4-7 hours
                                 </span>
                                 <span className="text-month for-year text-body-small color-gray-400">
                                   /year
@@ -1246,29 +1230,25 @@ function HomeCampaign() {
                             week.
                           </p> */}
                               </div>
-                              <ul
-                                className="list-package-feature"
-                                style={{ minHeight: "178px" }}
-                              >
-                                <li className="clr-white">
-                                  Deep cleaning of all rooms including Kitchen
-                                  and Balcony
-                                </li>
-                                <li className="clr-white">
-                                  Dusting of walls, windows, ceilings and
-                                  balcony
-                                </li>
-                                <li className="clr-white">
-                                  Stain removal if any
-                                </li>
+                              <ul className="list-package-feature" style={{minHeight: '178px'}}>
+                          <li className="clr-white">
+                            Deep cleaning of all rooms including Kitchen and
+                            Balcony
+                          </li>
+                          <li className="clr-white">
+                          Cleaning and stain removal of kitchen cabinets and appliances
+                          </li>
 
-                                <div id="card2" style={{ display: "none" }}>
-                                  <li className="clr-white">
-                                    Vacuuming of sofas, carpets, curtains, and
-                                    window sills
-                                  </li>
-                                </div>
-                              </ul>
+                          <div id="card2" style={{ display: "none" }}>
+
+                            <li className="clr-white">
+                            Dusting of walls, windows, ceilings and balcony
+                            </li>
+                          <li className="clr-white">Wet wiping of ceiling fans, decor items and switch boards</li>
+                          <li className="clr-white">Vacuuming of sofas, carpets, curtains, and window sills</li>
+
+                          </div>
+                        </ul>
                               <p
                                 className="view-more"
                                 style={{ float: "right", cursor: "pointer" }}
@@ -1364,7 +1344,7 @@ function HomeCampaign() {
                           <span className="text-heading-3 for-year">$420</span>
                           <span className="clr-white text-month text-body-small color-gray-400">
                             &nbsp; <br />
-                            3-4 hours
+                            Upto 2 hours
                           </span>
                           <span className="text-month for-year text-body-small color-gray-400">
                             /year
@@ -1384,12 +1364,12 @@ function HomeCampaign() {
                         </div>
                         <ul className="list-package-feature">
                           <li className="clr-white">
-                            Deep cleaning and unclogging of floor, toilet, and
-                            bathtub
-                          </li>
-                          <li className="clr-white">
                             Dirt, hard water stains & tile grouting stain
                             removal from all surfaces including mirror
+                          </li>
+                          <li className="clr-white">
+                            Deep cleaning and unclogging of floor, toilet, and
+                            bathtub
                           </li>
                           <li className="clr-white">Stain removal if any</li>
 
