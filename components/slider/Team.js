@@ -97,7 +97,7 @@ const TeamSlider = () => {
                 {customerData.map((i, k) => (
                   <div className="col-lg-3 col-md-6 col-sm-6">
                     <div
-                      className="card-grid-style-5 hover-up"
+                      className="card-grid-style-5 hover-up testimonials-card"
                       style={
                         k == 0 ? {
                           boxShadow:
@@ -113,6 +113,8 @@ const TeamSlider = () => {
                           // borderRight: "auto",
                         }}
                     >
+
+                      <div>
                       <div className="grid-5-img mb-15">
                         {/* <img src="/assets/imgs/page/about/1/team-1.png" alt="Agon" /> */}
                       </div>
@@ -138,6 +140,7 @@ const TeamSlider = () => {
                           </h3>
                         </p>{" "}
                       </div>
+                      </div>
                       {/* </div> */}
                       <div
                         style={{ textAlign: "center", paddingBottom: "1rem" }}
@@ -162,6 +165,8 @@ const TeamSlider = () => {
                                                     <Link href="#"><a className="icon-socials icon-instagram"></a></Link>
                                                     <Link href="#"><a className="icon-socials icon-linkedin"></a></Link>
                                                 </div> */}
+
+
                     </div>
                   </div>
                 ))}
