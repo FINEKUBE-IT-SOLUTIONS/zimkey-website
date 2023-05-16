@@ -92,36 +92,74 @@ const TeamSlider = () => {
           >
             {/* {data.map((item, i) => ( */}
             {/* <SwiperSlide> */}
-              <div className="swiper-slide active">
-                <div className="row">
-                  {customerData.map((i, k) => (
-                    <div className="col-lg-3 col-md-6 col-sm-6">
-                      <div className="card-grid-style-5 hover-up">
-                        <div className="grid-5-img mb-15">
-                          {/* <img src="/assets/imgs/page/about/1/team-1.png" alt="Agon" /> */}
-                        </div>
-                        {/* <span className="text-body-text-md color-gray-500">
+            <div className="swiper-slide active">
+              <div className="row">
+                {customerData.map((i, k) => (
+                  <div className="col-lg-3 col-md-6 col-sm-6">
+                    <div
+                      className="card-grid-style-5 hover-up"
+                      style={{
+                        boxShadow:
+                          "rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px",
+                        maxWidth: "99%",
+                        marginLeft: "auto",
+                        // borderRight: "auto",
+                      }}
+                    >
+                      <div className="grid-5-img mb-15">
+                        {/* <img src="/assets/imgs/page/about/1/team-1.png" alt="Agon" /> */}
+                      </div>
+                      {/* <span className="text-body-text-md color-gray-500">
                           Marketing CEO
                         </span> */}
-                        <h3 className="text-heading-5 mb-5 mt-5">{i.name}</h3>
-                        <span className="text-body-text-md color-gray-500">
-                          {i.location}
-                        </span>
-                        <p className="text-body-excerpt text-desc color-gray-500 mt-15 mb-20">
+                      {/* <div> */}
+                      <div style={{ display: "flex", paddingTop: "1rem" }}>
+                        <h3 style={{ paddingLeft: "1rem" }}>
+                          <span>&#10077;</span>
+                        </h3>{" "}
+                        <p
+                          className="text-body-excerpt text-desc color-gray-500 mt-15 mb-20"
+                          style={{
+                            paddingLeft: "25px",
+                            marginTop: "-3rem",
+                            paddingRight: "2rem",
+                          }}
+                        >
                           {i.review}
+                          <h3 className="qoutes-right">
+                            <span>&#10078;</span>
+                          </h3>
+                        </p>{" "}
+                      </div>
+                      {/* </div> */}
+                      <div
+                        style={{ textAlign: "center", paddingBottom: "1rem" }}
+                      >
+                        <h3
+                          className="text-heading-5 mb-5 mt-5"
+                          // style={{ textAlign: "center" }}
+                        >
+                          {i.name}
+                        </h3>
+                        <p
+                          className="text-body-text-md color-gray-500"
+                          // style={{ textAlign: "center" }}
+                        >
+                          {i.location}
                         </p>
-                        {/* <span className="text-body-text-md color-gray-600">Let’s Connect</span> */}
-                        {/* <div className="social-bottom">
+                      </div>
+                      {/* <span className="text-body-text-md color-gray-600">Let’s Connect</span> */}
+                      {/* <div className="social-bottom">
                                                     <Link href="#"><a className="icon-socials icon-facebook"></a></Link>
                                                     <Link href="#"><a className="icon-socials icon-twitter"></a></Link>
                                                     <Link href="#"><a className="icon-socials icon-instagram"></a></Link>
                                                     <Link href="#"><a className="icon-socials icon-linkedin"></a></Link>
                                                 </div> */}
-                      </div>
                     </div>
-                  ))}
+                  </div>
+                ))}
 
-                  {/* <div className="col-lg-3 col-md-6 col-sm-6">
+                {/* <div className="col-lg-3 col-md-6 col-sm-6">
                                             <div className="card-grid-style-5 hover-up">
                                                 <div className="grid-5-img mb-15"><img src="/assets/imgs/page/about/1/team-2.png" alt="Agon" /></div><span className="text-body-text-md color-gray-500">Marketing CEO</span>
                                                 <h3 className="text-heading-5 mb-5 mt-5">Theresa Webb</h3>
@@ -212,8 +250,8 @@ const TeamSlider = () => {
                                                 </div>
                                             </div>
                                         </div> */}
-                </div>
               </div>
+            </div>
             {/* </SwiperSlide> */}
             {/* // ))} */}
           </Swiper>
