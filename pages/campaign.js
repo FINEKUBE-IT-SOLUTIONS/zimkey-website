@@ -348,7 +348,7 @@ function HomeCampaign() {
                         className="box-pricing-item hover-up"
                         style={{ background: "#ff6c37", color: "white" }}
                       >
-                        <Carousel className="price-carousel-2">
+                        <Carousel className="price-carousel-2" interval={null} id="campaignCarousel1">
                           
 
                             <Carousel.Item>
@@ -853,7 +853,7 @@ function HomeCampaign() {
                         className="clr-white box-pricing-item hover-up"
                         style={{ background: "#ff6c37" }}
                       >
-                        <Carousel className="price-carousel-2">
+                        <Carousel className="price-carousel-2" interval={null}>
                             <Carousel.Item>
                               <div
                                 style={{
@@ -1429,7 +1429,7 @@ function HomeCampaign() {
                 </div>
               </div>
               <div className="row">
-                <div className="col-lg-4 col-md-12 col-sm-12">
+                <div className="col-lg-4 col-md-12 col-sm-12 zs-bullet-12">
                   <div className="list-icons mt-25">
                     <div
                       className="item-icon none-bd"
@@ -1446,7 +1446,7 @@ function HomeCampaign() {
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-4 col-md-12 col-sm-12">
+                <div className="col-lg-4 col-md-12 col-sm-12 zs-bullet-12">
                   <div className="list-icons mt-25">
                     <div
                       className="item-icon none-bd"
