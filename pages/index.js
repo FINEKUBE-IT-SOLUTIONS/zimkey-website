@@ -6,6 +6,7 @@ import Layout from "../components/layout/Layout";
 import Head from "next/head";
 import Link from "next/link";
 import Carousel from 'react-bootstrap/Carousel';
+import { NextSeo } from 'next-seo';
 
 function Home() {
   const [isOpen, setOpen] = useState(false);
@@ -97,10 +98,15 @@ function Home() {
       {/* <Link href="/#">
                 <a>Link</a></Link>
             </Link> */}
+            <NextSeo
+      title="Best Home Services at the Tap of a Key."
+      description="Zimkey guarantees safe and hassle-free home services by verified professionals"
+    />
       <Layout currentPage={'home'}>
         <Head>
           <title>Zimkey</title>
-          <meta name="description" content="Your genie, a tap away!F" />
+          <meta name="description" content="Best Home Services at the Tap of a Key. 
+          Zimkey guarantees safe and hassle-free home services by verified professionals" />
           <link rel="icon" type="image/x-icon" href="/icon.svg" />
           <meta
             name="viewport"
