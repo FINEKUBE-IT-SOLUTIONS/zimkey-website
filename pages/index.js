@@ -98,16 +98,19 @@ function Home() {
       {/* <Link href="/#">
                 <a>Link</a></Link>
             </Link> */}
-            <NextSeo
+            {/* <NextSeo
       title="Best Home Services at the Tap of a Key."
       description="Zimkey guarantees safe and hassle-free home services by verified professionals"
-    />
+    /> */}
       <Layout currentPage={'home'}>
         <Head>
           <title>Zimkey</title>
           <meta name="description" content="Best Home Services at the Tap of a Key. 
           Zimkey guarantees safe and hassle-free home services by verified professionals" />
+          <meta name="keywords" content="zimkey, zimkey.in" />  
+
           <link rel="icon" type="image/x-icon" href="/icon.svg" />
+
           <meta
             name="viewport"
             content="initial-scale=1.0, width=device-width"
@@ -972,7 +975,7 @@ function Home() {
                         </div>
                         <ul className="list-package-feature" style={{minHeight: '183px'}}>
                           <li>
-                          Dirt, deposit & stain removal of kitchen floor, tiles, slab, sink, and fittings
+                          Dirt, deposit & stain removal of kitchen floor, tiles, slab, sink, and fittings -
                           </li>
                           <li>
                           Cleaning of kitchen windows, ceiling fan and exhaust fan

@@ -35,11 +35,11 @@ function MyApp({ Component, pageProps }) {
           crossOrigin="anonymous"
         ></link>
         <link rel="stylesheet" href="/public/assets/css/custom.css" />
-        <meta
+        {/* <meta
           name="description"
           content="Best Home Services at the Tap of a Key. 
           Zimkey guarantees safe and hassle-free home services by verified professionals"
-        />
+        /> */}
       </Head>
       <Script
         src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
