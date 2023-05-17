@@ -81,7 +81,7 @@ function CampaignFooter() {
                 className="campaign-dark-btn-width btn btn-dark mx-1 phone-btn"
                 id="lp-pom-button-646"
               >
-                Call: 77-33-00-11-21
+                Call Us
               </a>
               <a
                 href="https://wheatonvl.com/callback.php"
@@ -118,7 +118,7 @@ function CampaignFooter() {
                 className="campaign-dark-btn btn btn-dark mx-1 phone-btn"
                 id="lp-pom-button-646"
               >
-                Call: 77-33-00-11-21
+                Call: 77 33 00 11 21
               </a>
               <a
                 href="https://wheatonvl.com/callback.php"

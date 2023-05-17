@@ -44,14 +44,14 @@
 	background: #ff2b01;
     border-color: #ff2b01;
     border-radius: 10px;
-	height: 61px;
+	height: 54px;
     padding: 18px 19px;
 }
 .campaign-dark-btn {
 	background-color: #343332;
 	border-color: #343332;
 	border-radius: 10px;
-	height: 61px;
+	height: 54px;
     padding:18px 19px;
 }
 .campaign-primary-btn-width {
@@ -59,14 +59,14 @@
 	background: #ff2b01;
     border-color: #ff2b01;
     border-radius: 10px;
-	height: 61px;
+	height: 54px;
     padding: 12px 19px;
 }
 .campaign-dark-btn-width {
 	background-color: #343332;
 	border-color: #343332;
 	border-radius: 10px;
-	height: 61px;
+	height: 54px;
     padding: 12px 19px;
 }
 
@@ -262,9 +262,27 @@ label.error {
   /* Styles for mobile screen size */
   #mobileQuoteButton {
     display: block;
+	padding: 16px 19px !important;
   }
   #pcQuoteButton {
     display: none;
+  }
+  #lp-pom-button-646 {
+	padding: 16px 19px !important;
+  }
+  #desktopBookNowButton {
+    display: none;
+  }
+  #mobileBookNowButton {
+    display: block;
+  }
+
+  .block-pricing .box-pricing-item .line-bd-bottom {
+    padding-bottom: 18px !important;
+  }
+
+  .zs-bullet-12 {
+    margin-bottom: -2rem;
   }
 }
 
@@ -274,6 +292,13 @@ label.error {
     display: block;
   }
   #mobileQuoteButton {
+    display: none;
+  }
+
+  #desktopBookNowButton {
+    display: block;
+  }
+  #mobileBookNowButton {
     display: none;
   }
 }
@@ -314,4 +339,40 @@ label.error {
 
 .price-carousel-2 .carousel-indicators {
   margin-bottom: -1rem;
+}
+
+@media (max-width: 1200px) {
+.burger-icon {
+  display: block;
+}
+}
+
+
+
+.block-pricing-custom .box-pricing-item:hover .list-package-feature li,.block-pricing-2 .box-pricing-item.active .list-package-feature li{
+  background:url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMiAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEwLjk5OTkgMEM0LjkzNDYxIDAgMCA0LjkzNDUgMCAxMC45OTk5QzAgMTcuMDY1NCA0LjkzNDYxIDIyIDEwLjk5OTkgMjJDMTcuMDY1MyAyMiAyMS45OTk5IDE3LjA2NTQgMjEuOTk5OSAxMC45OTk5QzIxLjk5OTkgNC45MzQ1IDE3LjA2NTQgMCAxMC45OTk5IDBaTTE3LjMxNjMgOS4xNDE5NkwxMC40MDU2IDE2LjA1MjdDMTAuMTExOCAxNi4zNDY1IDkuNzIxMTUgMTYuNTA4MiA5LjMwNTY0IDE2LjUwODJDOC44OTAxMyAxNi41MDgyIDguNDk5NTIgMTYuMzQ2NSA4LjIwNTY4IDE2LjA1MjdMNC42ODM1OCAxMi41MzA2QzQuMzg5NzQgMTIuMjM2NyA0LjIyNzkgMTEuODQ2MSA0LjIyNzkgMTEuNDMwNkM0LjIyNzkgMTEuMDE1IDQuMzg5NzQgMTAuNjI0NCA0LjY4MzU4IDEwLjMzMDVDNC45NzczMSAxMC4wMzY3IDUuMzY3OTEgOS44NzQ4NSA1Ljc4MzU0IDkuODc0ODVDNi4xOTkwNSA5Ljg3NDg1IDYuNTg5NzcgMTAuMDM2NyA2Ljg4MzUgMTAuMzMwNkw5LjMwNTUyIDEyLjc1MjZMMTUuMTE2MiA2Ljk0MTkzQzE1LjQxIDYuNjQ4MDggMTUuODAwNiA2LjQ4NjM1IDE2LjIxNjEgNi40ODYzNUMxNi42MzE2IDYuNDg2MzUgMTcuMDIyMiA2LjY0ODA4IDE3LjMxNjEgNi45NDE5M0MxNy45MjI4IDcuNTQ4NjcgMTcuOTIyOCA4LjUzNTQ1IDE3LjMxNjMgOS4xNDE5NloiIGZpbGw9IiNFMjk1NzgiLz4KPC9zdmc+Cg==) no-repeat left top
+}
+  
+  @media (min-width: 769px) {
+	/* Styles for desktop screen size */
+	#pcQuoteButton {
+		display: block;
+	}
+	#mobileQuoteButton {
+		display: none;
+	}
+  }
+
+  .qoutes-right {
+	float: right;
+  position: absolute;
+  bottom: -1rem;
+  right: 14px;
+  }
+
+.testimonials-card {
+  min-height: 27rem;
+  position: relative;
+  display: grid;
+  place-items: center;
 }
