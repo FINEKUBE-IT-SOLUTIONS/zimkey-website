@@ -106,7 +106,7 @@ function Home() {
         <Head>
           <title>Zimkey</title>
           <meta name="description" content="Best Home Services at the Tap of a Key. 
-          Zimkey guarantees safe and hassle-free home services by verified professionals" />
+               Zimkey guarantees safe and hassle-free home services by verified professionals" />
           <meta name="keywords" content="zimkey, zimkey.in" />  
 
           <link rel="icon" type="image/x-icon" href="/icon.svg" />
@@ -975,7 +975,7 @@ function Home() {
                         </div>
                         <ul className="list-package-feature" style={{minHeight: '183px'}}>
                           <li>
-                          Dirt, deposit & stain removal of kitchen floor, tiles, slab, sink, and fittings -
+                          Dirt, deposit & stain removal of kitchen floor, tiles , slab, sink, and fittings -
                           </li>
                           <li>
                           Cleaning of kitchen windows, ceiling fan and exhaust fan
