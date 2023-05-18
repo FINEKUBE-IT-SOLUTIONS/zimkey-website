@@ -262,10 +262,16 @@ label.error {
   /* Styles for mobile screen size */
   .whatWeOfferImg1 {
     margin-top: 8.5rem !important;
-    height: 12rem !important;
+    height: 10rem !important;
   }
   .whatWeOfferImg3 {
-    height: 11rem !important;
+    height: 9rem !important;
+  }
+  .whatWeOfferImg2 {
+    max-width: 70% !important;
+  }
+  .whatWeOfferImg1Container {
+    margin-top: -14rem;
   }
 }
 
