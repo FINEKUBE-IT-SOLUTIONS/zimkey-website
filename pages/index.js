@@ -158,18 +158,19 @@ function Home() {
             <div className="row">
               <div className="col-lg-6 col-md-12 col-sm-12 block-img-we-do text-center">
                 <img
-                  className="img-small img-responsive"
+                  className="img-small img-responsive whatWeOfferImg2"
                   src="assets/imgs/page/new-images/6.jpg"
                   alt="Zimkey"
                   style={{borderRadius: '1rem'}}
                 />
-                <div className="block-card">
-                  <img src="/assets/imgs/page/new-images/7.jpg" alt="Zimkey" />
+                <div className="block-card whatWeOfferImg1Container">
+                  <img className="whatWeOfferImg1" src="/assets/imgs/page/new-images/7.jpg" alt="Zimkey" />
                 </div>
                 <div className="block-control">
                   <img
                     src="/assets/imgs/page/new-images/8.jpg"
                     alt="Zimkey"
+                    className="whatWeOfferImg3"
                   />
                 </div>
               </div>
