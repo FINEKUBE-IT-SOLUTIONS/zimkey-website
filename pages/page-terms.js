@@ -92,7 +92,7 @@ function Terms() {
                     <div className="single-detail">
                       <img
                         className="img-responsive bdr-16"
-                        src="assets/imgs/page/blog/single/img-1.png"
+                        src="assets/imgs/page/blog/single/imgprivacy.jpg"
                         alt="Agon"
                       />
                       {/* <h6 className="mt-35 mb-25" id="section-1">
@@ -104,13 +104,14 @@ function Terms() {
                         bound by the following terms and conditions of use,
                         which together with our privacy policy ZIMKEY
                         relationship with you in relation to this website and
-                        the Service (as described below). The term &apos; ZIMKEY&apos; or
-                        &apos;us&apos; or &apos;we&apos; refers to the owner of the website whose
-                        registered office is Taskey Home Services Private
-                        Limited, No. 6/858-M, 2nd Floor, Valamkottil Towers,
-                        Judgemukku, Thrikkakara P.O., Kakkanad, Kochi,
-                        Ernakulam, Kerala – 682 021, India. The term &apos;you&apos;
-                        refers to the user or viewer of our website.
+                        the Service (as described below). The term &apos;
+                        ZIMKEY&apos; or &apos;us&apos; or &apos;we&apos; refers
+                        to the owner of the website whose registered office is
+                        Taskey Home Services Private Limited, No. 6/858-M, 2nd
+                        Floor, Valamkottil Towers, Judgemukku, Thrikkakara P.O.,
+                        Kakkanad, Kochi, Ernakulam, Kerala – 682 021, India. The
+                        term &apos;you&apos; refers to the user or viewer of our
+                        website.
                       </p>
                       <h6 className="mt-35 mb-25" id="section-2">
                         I. USER(S) ELIGIBILITY
@@ -188,9 +189,9 @@ function Terms() {
                         system is unable to establish unique identity of the
                         user against a valid mobile number or e-mail ID, the
                         account shall be indefinitely suspended. ZIMKEY reserves
-                        the full discretion to suspend a user&apos;s account in the
-                        above event and does not have the liability to share any
-                        account information whatsoever.
+                        the full discretion to suspend a user&apos;s account in
+                        the above event and does not have the liability to share
+                        any account information whatsoever.
                       </p>
                       <h6 className="mt-35 mb-25" id="section-6">
                         V. LINKS TO THIRD PARTY SITES
@@ -202,16 +203,16 @@ function Terms() {
                         provided by them. ZIMKEY may allow user(s) access to
                         content, products or Services offered by third parties
                         through hyperlinks (in the form of word link, banners,
-                        channels or otherwise) to such Third Party&apos;s web site.
-                        You are cautioned to read such sites&apos; terms and
-                        conditions and/or privacy policies before using such
+                        channels or otherwise) to such Third Party&apos;s web
+                        site. You are cautioned to read such sites&apos; terms
+                        and conditions and/or privacy policies before using such
                         sites in order to be aware of the terms and conditions
                         of your use of such sites. ZIMKEY believes that user(s)
                         acknowledge that ZIMKEY has no control over such third
-                        party&apos;s site, does not monitor such sites, and ZIMKEY
-                        shall not be responsible or liable to anyone for such
-                        third-party site, or any content, products or Services
-                        made available on such a site.
+                        party&apos;s site, does not monitor such sites, and
+                        ZIMKEY shall not be responsible or liable to anyone for
+                        such third-party site, or any content, products or
+                        Services made available on such a site.
                       </p>
                       <h6 className="mt-35 mb-25" id="section-7">
                         VI. TERMINATION
@@ -258,8 +259,8 @@ function Terms() {
                         ➢ Asking the Serviceman to break any government rules
                         for any purpose. The Serviceman has the right to refuse
                         such a request by the customer. The Serviceman also has
-                        the right to refuse such a work or leave such customer&apos;s
-                        house.
+                        the right to refuse such a work or leave such
+                        customer&apos;s house.
                         <br />
                         ➢ Misusing the Service or the Software for unlawful
                         purposes or for causing nuisance, annoyance or
@@ -282,7 +283,8 @@ function Terms() {
                         representation or warranty that:
                         <br />
                         <br />
-                        ➢ The Services will meet the customer&apos;s requirements
+                        ➢ The Services will meet the customer&apos;s
+                        requirements
                         <br />
                         ➢ The Services will be uninterrupted, timely, secure, or
                         error-free
@@ -294,13 +296,14 @@ function Terms() {
                         of the use of service offered by Company or due to the
                         failure of Company to provide Services to the Customer
                         for any reason whatsoever including but not limited to
-                        the Customer&apos;s non-compliance with the Services&apos;
-                        recorded voice instructions, malfunction, partial or
-                        total failure of any network terminal, data processing
-                        system, computer tele-transmission or telecommunications
-                        system or other circumstances whether or not beyond the
-                        control of Company or any person or any organization
-                        involved in the above mentioned systems.
+                        the Customer&apos;s non-compliance with the
+                        Services&apos; recorded voice instructions, malfunction,
+                        partial or total failure of any network terminal, data
+                        processing system, computer tele-transmission or
+                        telecommunications system or other circumstances whether
+                        or not beyond the control of Company or any person or
+                        any organization involved in the above mentioned
+                        systems.
                         <br />
                         ➢ The Company will not be liable for any damages of any
                         kind arising from the use of the Service offered by the
@@ -352,9 +355,9 @@ function Terms() {
                         i) The Company encourages all its customers to take full
                         responsibility of his/her items. In case of lost items
                         inside the Company during the journey, Company will try
-                        to locate the items on a &quot;best-effort&quot; basis but is not
-                        responsible for the same in case of loss or damage to
-                        the same.
+                        to locate the items on a &quot;best-effort&quot; basis
+                        but is not responsible for the same in case of loss or
+                        damage to the same.
                         <br />
                         <br />
                         j) If the Customer suspects any Serviceman of any
@@ -376,13 +379,13 @@ function Terms() {
                         and the Customer shall be bound by such addition,
                         variation or amendment once such addition, variation or
                         amendment are incorporated into these terms and
-                        conditions at Company&apos;s website at www.zimkey.com on the
-                        date that Company may indicate that such addition,
-                        variation or amendment is to come into effect.
+                        conditions at Company&apos;s website at www.zimkey.com
+                        on the date that Company may indicate that such
+                        addition, variation or amendment is to come into effect.
                         <br />
                         <br />
-                        m) All the calls made to the Company&apos;s call centre are
-                        recorded by the Company for quality and training
+                        m) All the calls made to the Company&apos;s call centre
+                        are recorded by the Company for quality and training
                         purposes.
                         <br />
                         <br />

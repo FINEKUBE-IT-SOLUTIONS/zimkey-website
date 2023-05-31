@@ -92,7 +92,7 @@ function Terms() {
                     <div className="single-detail">
                       <img
                         className="img-responsive bdr-16"
-                        src="assets/imgs/page/blog/single/img-1.png"
+                        src="assets/imgs/page/blog/single/imgpp.jpg"
                         alt="Agon"
                       />
                       <h6 className="mt-35 mb-25" id="section-1">
@@ -245,12 +245,12 @@ function Terms() {
                       </p> */}
                       <h6 className="mt-50">- Zimkey Team -</h6>
 
-                      <div style={{width: '25rem'}}>
+                      <div style={{ width: "25rem" }}>
                         <p style={{ fontSize: "11px" }}>
-                          Zimkey Home Services<br/> No. 6/858-M, 2nd
-                          Floor, Valamkottil Towers, Judgemukku, Thrikkakara
-                          P.O., Kakkanad, Kochi, Ernakulam, Kerala – 682 021,
-                          India
+                          Zimkey Home Services
+                          <br /> No. 6/858-M, 2nd Floor, Valamkottil Towers,
+                          Judgemukku, Thrikkakara P.O., Kakkanad, Kochi,
+                          Ernakulam, Kerala – 682 021, India
                         </p>
                       </div>
                     </div>
