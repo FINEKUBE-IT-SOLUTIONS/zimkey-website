@@ -177,7 +177,7 @@ const FooterV1 = () => {
                   {/* <div className="col-md-4"> */}
                   <Link href="/page-terms">
                     <a className="text-body-text color-gray-400 ml-50">
-                      Terms of service
+                      Terms and Conditions
                     </a>
                   </Link>
                   {/* </div> */}
