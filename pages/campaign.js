@@ -351,10 +351,10 @@ function HomeCampaign() {
             <div className="block-pricing block-pricing-2 mt-70">
               <div className="row">
                 <div className="col-xl-12 col-lg-12">
-                  <div className="row">
-                    <div className="col-xl-3 col-lg-6 col-md-6">
-                      {/* <div className="carousel-item active"> */}
-                      {/* <div
+                  <div className="row" style={{ justifyContent: "center" }}>
+                    {/* <div className="col-xl-3 col-lg-6 col-md-6"> */}
+                    {/* <div className="carousel-item active"> */}
+                    {/* <div
                         className="box-pricing-item hover-up"
                         style={{ background: "#ff6c37", color: "white" }}
                       >
@@ -362,7 +362,7 @@ function HomeCampaign() {
                           className="price-carousel-2"
                           id="campaignCarousel1"
                         > */}
-                      {/* <Carousel.Item>
+                    {/* <Carousel.Item>
                             <div
                               style={{
                                 display: "flex",
@@ -406,7 +406,7 @@ function HomeCampaign() {
                               </p>
                             </div> */}
 
-                      {/* <ul className="nav nav-tabs">
+                    {/* <ul className="nav nav-tabs">
                         <li className="nav-item">
                           <a className="nav-link active" href="#">1 BHK</a>
                         </li>
@@ -421,7 +421,7 @@ function HomeCampaign() {
                         </li>
                       </ul> */}
 
-                      {/* <div className="box-info-price">
+                    {/* <div className="box-info-price">
                               <span
                                 id="card1Price"
                                 className="text-heading-3 for-month display-month"
@@ -442,7 +442,7 @@ function HomeCampaign() {
                                 /year
                               </span>
                             </div> */}
-                      {/* <div className="line-bd-bottom">
+                    {/* <div className="line-bd-bottom">
                               <h4
                                 className="text-heading-5 mb-15 clr-white"
                                 style={{ color: "white" }}
@@ -451,7 +451,7 @@ function HomeCampaign() {
                               </h4>
                         
                             </div> */}
-                      {/* <ul
+                    {/* <ul
                               className="list-package-feature"
                               style={{ minHeight: "178px" }}
                             >
@@ -471,16 +471,16 @@ function HomeCampaign() {
                                 </li>
                               </div>
                             </ul> */}
-                      {/* <p
+                    {/* <p
                               className="view-more"
                               style={{ float: "right", cursor: "pointer" }}
                               onClick={handleViewMore("card1-1")}
                             >
                               View more
                             </p> */}
-                      {/* </Carousel.Item> */}
+                    {/* </Carousel.Item> */}
 
-                      {/* <Carousel.Item>
+                    {/* <Carousel.Item>
                             <div
                               style={{
                                 display: "flex",
@@ -579,7 +579,7 @@ function HomeCampaign() {
                             </p>
                           </Carousel.Item> */}
 
-                      {/* <Carousel.Item>
+                    {/* <Carousel.Item>
                             <div
                               style={{
                                 display: "flex",
@@ -678,7 +678,7 @@ function HomeCampaign() {
                               View more
                             </p>
                           </Carousel.Item> */}
-                      {/* 
+                    {/* 
                           <Carousel.Item>
                             <div
                               style={{
@@ -777,13 +777,13 @@ function HomeCampaign() {
                               View more
                             </p>
                           </Carousel.Item> */}
-                      {/* </Carousel>
+                    {/* </Carousel>
                       </div> */}
 
-                      {/* </div> */}
+                    {/* </div> */}
 
-                      {/* <div className="carousel-item"> */}
-                      {/* <div className="box-pricing-item hover-up">
+                    {/* <div className="carousel-item"> */}
+                    {/* <div className="box-pricing-item hover-up">
                             <div className="box-info-price">
                               <span className="text-heading-3 for-month display-month">
                                 ₹ 100001
@@ -811,10 +811,10 @@ function HomeCampaign() {
                               <li>Service includes general cleaning</li>
                             </ul>
                           </div> */}
-                      {/* </div> */}
+                    {/* </div> */}
 
-                      {/* </div> */}
-                      {/* <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    {/* </div> */}
+                    {/* <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                       <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                       <span className="sr-only">Previous</span>
                     </a>
@@ -822,7 +822,7 @@ function HomeCampaign() {
                       <span className="carousel-control-next-icon" aria-hidden="true"></span>
                       <span className="sr-only">Next</span>
                     </a> */}
-                    </div>
+                    {/* </div> */}
 
                     {/* <div
                       id="carouselExampleIndicators"
