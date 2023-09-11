@@ -302,12 +302,12 @@ function Home() {
             <div className="block-pricing block-pricing-2 mt-70 block-pricing-custom">
               <div className="row">
                 <div className="col-xl-12 col-lg-12">
-                  <div className="row">
-                    <div className="col-xl-3 col-lg-6 col-md-6">
-                      {/* <div className="carousel-item active"> */}
-                      <div className="box-pricing-item hover-up">
-                        <Carousel className="my__carousel_main">
-                          <Carousel.Item>
+                  <div className="row" style={{ justifyContent: "center" }}>
+                    {/* <div className="col-xl-3 col-lg-12 col-md-12"> */}
+                    {/* <div className="carousel-item active"> */}
+                    {/* <div className="box-pricing-item hover-up">
+                        <Carousel className="my__carousel_main"> */}
+                    {/* <Carousel.Item>
                             <div
                               style={{
                                 display: "flex",
@@ -349,9 +349,9 @@ function Home() {
                               >
                                 4 BHK
                               </p>
-                            </div>
+                            </div> */}
 
-                            {/* <ul className="nav nav-tabs">
+                    {/* <ul className="nav nav-tabs">
                         <li className="nav-item">
                           <a className="nav-link active" href="#">1 BHK</a>
                         </li>
@@ -365,7 +365,7 @@ function Home() {
                           <a className="nav-link" href="#">4 BHK</a>
                         </li>
                       </ul> */}
-
+                    {/* 
                             <div className="box-info-price">
                               <span
                                 id="card1Price"
@@ -390,9 +390,7 @@ function Home() {
                               <h4 className="text-heading-5 mb-15">
                                 General Cleaning
                               </h4>
-                              {/* <p className="text-body-small color-gray-400">
-                                  3 - 4 Hours
-                                </p> */}
+                              
                             </div>
                             <ul
                               className="list-package-feature"
@@ -415,9 +413,9 @@ function Home() {
                             >
                               View more
                             </p>
-                          </Carousel.Item>
+                          </Carousel.Item> */}
 
-                          <Carousel.Item>
+                    {/* <Carousel.Item>
                             <div
                               style={{
                                 display: "flex",
@@ -485,9 +483,9 @@ function Home() {
                               <h4 className="text-heading-5 mb-15">
                                 General Cleaning
                               </h4>
-                              {/* <p className="text-body-small color-gray-400">
+                              <p className="text-body-small color-gray-400">
                                   3 - 4 Hours
-                                </p> */}
+                                </p>
                             </div>
                             <ul
                               className="list-package-feature"
@@ -580,9 +578,7 @@ function Home() {
                               <h4 className="text-heading-5 mb-15">
                                 General Cleaning
                               </h4>
-                              {/* <p className="text-body-small color-gray-400">
-                                  3 - 4 Hours
-                                </p> */}
+                          
                             </div>
                             <ul
                               className="list-package-feature"
@@ -678,9 +674,7 @@ function Home() {
                               <h4 className="text-heading-5 mb-15">
                                 General Cleaning
                               </h4>
-                              {/* <p className="text-body-small color-gray-400">
-                                  3 - 4 Hours
-                                </p> */}
+                         
                             </div>
                             <ul
                               className="list-package-feature"
@@ -776,9 +770,7 @@ function Home() {
                               <h4 className="text-heading-5 mb-15">
                                 General Cleaning
                               </h4>
-                              {/* <p className="text-body-small color-gray-400">
-                                  3 - 4 Hours
-                                </p> */}
+                         
                             </div>
                             <ul
                               className="list-package-feature"
@@ -801,9 +793,9 @@ function Home() {
                             >
                               View more
                             </p>
-                          </Carousel.Item>
+                          </Carousel.Item> */}
 
-                          {/* <a
+                    {/* <a
                             className="carousel-control-prev"
                             href="#carouselExampleIndicators"
                             role="button"
@@ -829,13 +821,13 @@ function Home() {
                             ></span>
                             <span className="sr-only">Next</span>
                           </a> */}
-                        </Carousel>
-                      </div>
+                    {/* </Carousel>
+                      </div> */}
 
-                      {/* </div> */}
+                    {/* </div> */}
 
-                      {/* <div className="carousel-item"> */}
-                      {/* <div className="box-pricing-item hover-up">
+                    {/* <div className="carousel-item"> */}
+                    {/* <div className="box-pricing-item hover-up">
                             <div className="box-info-price">
                               <span className="text-heading-3 for-month display-month">
                                 ₹ 100001
@@ -863,10 +855,10 @@ function Home() {
                               <li>Service includes general cleaning</li>
                             </ul>
                           </div> */}
-                      {/* </div> */}
+                    {/* </div> */}
 
-                      {/* </div> */}
-                      {/* <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    {/* </div> */}
+                    {/* <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                       <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                       <span className="sr-only">Previous</span>
                     </a>
@@ -874,7 +866,7 @@ function Home() {
                       <span className="carousel-control-next-icon" aria-hidden="true"></span>
                       <span className="sr-only">Next</span>
                     </a> */}
-                    </div>
+                    {/* </div> */}
 
                     {/* <div
                       id="carouselExampleIndicators"
@@ -1004,7 +996,7 @@ function Home() {
                                 id="card2Price"
                                 className="text-heading-3 for-month display-month"
                               >
-                                ₹ 4499
+                                ₹ 4500
                               </span>
                               <span className="text-heading-3 for-year">
                                 $1068
@@ -1013,8 +1005,7 @@ function Home() {
                                 &nbsp; 1 BHK
                               </span>
                               <span className="text-month text-body-small color-gray-400">
-                                &nbsp; <br />
-                                2-4 hours
+                                &nbsp; <br />3 hours
                               </span>
                               <span className="text-month for-year text-body-small color-gray-400">
                                 /year
@@ -1115,7 +1106,7 @@ function Home() {
                                 id="card2Price"
                                 className="text-heading-3 for-month display-month"
                               >
-                                ₹ 4999
+                                ₹ 5500
                               </span>
                               <span className="text-heading-3 for-year">
                                 $1068
@@ -1125,7 +1116,7 @@ function Home() {
                               </span>
                               <span className="text-month text-body-small color-gray-400">
                                 &nbsp; <br />
-                                3-4 hours
+                                4-5 hours
                               </span>
                               <span className="text-month for-year text-body-small color-gray-400">
                                 /year
@@ -1226,7 +1217,7 @@ function Home() {
                                 id="card2Price"
                                 className="text-heading-3 for-month display-month"
                               >
-                                ₹ 5999
+                                ₹ 6500
                               </span>
                               <span className="text-heading-3 for-year">
                                 $1068
@@ -1337,7 +1328,7 @@ function Home() {
                                 id="card2Price"
                                 className="text-heading-3 for-month display-month"
                               >
-                                ₹ 7999
+                                ₹ 8500
                               </span>
                               <span className="text-heading-3 for-year">
                                 $1068
@@ -1347,7 +1338,7 @@ function Home() {
                               </span>
                               <span className="text-month text-body-small color-gray-400">
                                 &nbsp; <br />
-                                6-7 hours
+                                7-8 hours
                               </span>
                               <span className="text-month for-year text-body-small color-gray-400">
                                 /year
@@ -1448,7 +1439,7 @@ function Home() {
                                 id="card2Price"
                                 className="text-heading-3 for-month display-month"
                               >
-                                ₹ 8999
+                                ₹ 10000
                               </span>
                               <span className="text-heading-3 for-year">
                                 $1068
@@ -1458,7 +1449,7 @@ function Home() {
                               </span>
                               <span className="text-month text-body-small color-gray-400">
                                 &nbsp; <br />
-                                7-8 hours
+                                8-9 hours
                               </span>
                               <span className="text-month for-year text-body-small color-gray-400">
                                 /year
@@ -1520,7 +1511,7 @@ function Home() {
                       <div className="box-pricing-item hover-up">
                         <div className="box-info-price">
                           <span className="text-heading-3 for-month display-month">
-                            ₹ 3499
+                            ₹ 3000
                           </span>
                           <span className="text-heading-3 for-year">$420</span>
                           <span className="text-month text-body-small color-gray-400">
@@ -1584,7 +1575,7 @@ function Home() {
                           <Carousel.Item>
                             <div className="box-info-price">
                               <span className="text-heading-3 for-month display-month">
-                                ₹ 799
+                                ₹ 800
                               </span>
                               <span className="text-heading-3 for-year">
                                 $420
@@ -1645,7 +1636,8 @@ function Home() {
                                 &nbsp; 2 Bathroom
                               </span>
                               <span className="text-month text-body-small color-gray-400">
-                                &nbsp; <br />2 hours
+                                &nbsp; <br />
+                                1-2 hours
                               </span>
                               <span className="text-month for-year text-body-small color-gray-400">
                                 /year
@@ -1697,7 +1689,61 @@ function Home() {
                                 &nbsp; 3 Bathroom
                               </span>
                               <span className="text-month text-body-small color-gray-400">
-                                &nbsp; <br />3 hours
+                                &nbsp; <br />
+                                2-3 hours
+                              </span>
+                              <span className="text-month for-year text-body-small color-gray-400">
+                                /year
+                              </span>
+                            </div>
+                            <div
+                              className="line-bd-bottom"
+                              style={{ paddingBottom: "18px" }}
+                            >
+                              <h4 className="text-heading-5 mb-15">
+                                Deep Cleaning (Bathroom)
+                              </h4>
+                              {/* <p className="text-body-small color-gray-400">
+                            Service includes general cleaning for 2 times per
+                            week.
+                          </p> */}
+                            </div>
+                            <ul className="list-package-feature">
+                              <li>
+                                Dirt, hard water stains & tile grouting stain
+                                removal from all surfaces including mirror
+                              </li>
+                              <li>
+                                Deep cleaning and unclogging of floor, toilet,
+                                and bathtub
+                              </li>
+                              <li>Stain removal if any</li>
+
+                              <div id="card4" style={{ display: "none" }}></div>
+                            </ul>
+                            {/* <p
+                          className="view-more"
+                          style={{ float: "right", cursor: "pointer" }}
+                          onClick={handleViewMore("card4")}
+                        >
+                          View more
+                        </p> */}
+                          </Carousel.Item>
+
+                          <Carousel.Item>
+                            <div className="box-info-price">
+                              <span className="text-heading-3 for-month display-month">
+                                ₹ 3500
+                              </span>
+                              <span className="text-heading-3 for-year">
+                                $420
+                              </span>
+                              <span className="text-month text-body-small color-gray-400">
+                                &nbsp; 4 Bathroom
+                              </span>
+                              <span className="text-month text-body-small color-gray-400">
+                                &nbsp; <br />
+                                3-4 hours
                               </span>
                               <span className="text-month for-year text-body-small color-gray-400">
                                 /year
