@@ -258,6 +258,23 @@ label.error {
 
 /* Form Css Ends*/
 
+@media (max-width: 480px) {
+  /* Styles for mobile screen size */
+  .whatWeOfferImg1 {
+    margin-top: 8.5rem !important;
+    height: 10rem !important;
+  }
+  .whatWeOfferImg3 {
+    height: 9rem !important;
+  }
+  .whatWeOfferImg2 {
+    max-width: 70% !important;
+  }
+  .whatWeOfferImg1Container {
+    margin-top: -14rem;
+  }
+}
+
 @media (max-width: 768px) {
   /* Styles for mobile screen size */
   #mobileQuoteButton {
@@ -283,6 +300,11 @@ label.error {
 
   .zs-bullet-12 {
     margin-bottom: -2rem;
+  }
+
+  .whatWeOfferImg1 {
+    height: 15rem;
+    margin-top: 1.5rem;
   }
 }
 
