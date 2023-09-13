@@ -1792,34 +1792,267 @@ function Home() {
           </div>
         </section>
 
-        <div className="section-box mt-70">
-          <div className="container text-center mt-100">
-            <h2 className="text-heading-1 color-gray-900">Zimkey Safety</h2>
-            <p className="text-body-lead-large color-gray-600 mt-20">
-              {/* Lorem ipsum dolor. */}&nbsp;
-            </p>
-          </div>
-          <div className="container">
-            <div className="box-bg-bottom">
-              <div className="box-video-homepage6">
-                <div className="box-image mt-30 mb-30">
-                  <img
-                    className="img-responsive bdrd-16"
-                    src="/assets/imgs/page/new-images/4.jpg"
-                  />
+        <div
+        // className="card"
+        // style={{
+        //   marginLeft: "2rem",
+        //   marginRight: "2rem",
+        //   borderRadius: "15px",
+        // }}
+        >
+          <div
+            className="row "
+            style={{
+              paddingLeft: "1rem",
+              paddingRight: "1rem",
+              marginTop: "3rem",
+            }}
+          >
+            <div className="col-lg-6 col-md-12 col-sm-12 block-img-we-do text-center">
+              <div
+                className="card"
+                style={{
+                  marginLeft: "3rem",
+                  marginRight: "3rem",
+                  borderRadius: "15px",
+                  // background: "#faede3",
+                  minHeight: "400px",
+                }}
+              >
+                <span
+                  className="color-gray-900"
+                  style={{ fontSize: "30px", paddingTop: "2rem" }}
+                >
+                  {" "}
+                  Deep Cleaning Terms and Conditions
+                </span>
+                <div
+                  className=""
+                  style={{ paddingLeft: "2rem", paddingTop: "1rem" }}
+                >
+                  <div
+                    className="item-icon none-bd"
+                    style={{ textAlign: "left" }}
+                  >
+                    <p
+                      className="text-body-text color-gray-600 mt-15 bullet-point"
+                      // style={{ paddingRight: "72px" }}
+                    >
+                      Only Floor deep cleaning: Rs 2500 per 500 sq. ft. -2 hours
+                      (approx)
+                    </p>
+                  </div>
                 </div>
+                <div className="" style={{ paddingLeft: "2rem" }}>
+                  <div
+                    className="item-icon none-bd"
+                    style={{ textAlign: "left" }}
+                  >
+                    <p className="text-body-text color-gray-600 mt-15 bullet-point">
+                      Extra room (if any) will be charged Rs.1000
+                    </p>
+                  </div>
+                </div>
+                <div
+                  className=""
+                  style={{ paddingLeft: "2rem", paddingRight: "2rem" }}
+                >
+                  <div
+                    className="item-icon none-bd"
+                    style={{ textAlign: "left" }}
+                  >
+                    <p
+                      className="text-body-text color-gray-600 mt-15 bullet-point"
+                      // style={{ paddingRight: "114px" }}
+                    >
+                      If the work extends beyond the minimum package, Hourly
+                      rates would be applicable at the rate of Rs. 1000 per
+                      hour.
+                    </p>
+                  </div>
+                </div>
+                <div
+                  className=""
+                  style={{ paddingLeft: "2rem", paddingRight: "2rem" }}
+                >
+                  <div
+                    className="item-icon none-bd"
+                    // style={{ paddingLeft: "0px" }}
+                  >
+                    <p
+                      className="text-body-text color-gray-600 mt-15 bullet-point"
+                      style={{ textAlign: "left" }}
+                    >
+                      In case the work gets extended to another day, a minimum
+                      of 3 hours (Rs. 2000) package will be applicable.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="" style={{ paddingLeft: "2rem" }}>
+                  <div
+                    className="item-icon none-bd"
+                    style={{ textAlign: "left" }}
+                  >
+                    <p
+                      className="text-body-text color-gray-600 mt-15 bullet-point"
+                      // style={{ paddingRight: "112px" }}
+                    >
+                      Commercial Space Deep Cleaning Rs. 5 per sq. ft.
+                    </p>
+                  </div>
+                </div>
+              </div>{" "}
+            </div>
+
+            {/* next */}
+            <div className="col-lg-6 col-md-12 col-sm-12 block-img-we-do text-center">
+              <div
+                className="card"
+                style={{
+                  marginLeft: "2rem",
+                  marginRight: "2rem",
+                  borderRadius: "15px",
+                  minHeight: "400px",
+                  // height: "400px",
+                  // background: "#faede3",
+                }}
+              >
+                <span
+                  className="color-gray-900"
+                  style={{ fontSize: "30px", paddingTop: "2rem" }}
+                >
+                  {" "}
+                  What's not included
+                </span>
+                <div
+                  className=""
+                  style={{ paddingLeft: "2rem", paddingTop: "1rem" }}
+                >
+                  <div
+                    className="item-icon none-bd"
+                    style={{ paddingLeft: "0px", textAlign: "left" }}
+                  >
+                    <p className="text-body-text color-gray-600 mt-15 bullet-point">
+                      Wet wiping of walls
+                    </p>
+                  </div>
+                </div>
+                <div className="" style={{ paddingLeft: "2rem" }}>
+                  <div
+                    className="item-icon none-bd"
+                    style={{ paddingLeft: "0px", textAlign: "left" }}
+                  >
+                    <p className="text-body-text color-gray-600 mt-15 bullet-point">
+                      Removal of shelf objects (Itmes in Showcase, Wardrobe &
+                      Cabinets)
+                    </p>
+                  </div>
+                </div>
+                <div className="" style={{ paddingLeft: "2rem" }}>
+                  <div
+                    className="item-icon none-bd"
+                    style={{ paddingLeft: "0px", textAlign: "left" }}
+                  >
+                    <p className="text-body-text color-gray-600 mt-15 bullet-point">
+                      interior cleaning of appliances
+                    </p>
+                  </div>
+                </div>
+                <div className="" style={{ paddingLeft: "2rem" }}>
+                  <div
+                    className="item-icon none-bd"
+                    style={{ paddingLeft: "0px", textAlign: "left" }}
+                  >
+                    <p className="text-body-text color-gray-600 mt-15 bullet-point">
+                      Cleaning of Terrace, Courtyard, Car porch
+                    </p>
+                  </div>
+                </div>
+                <div className="" style={{ paddingLeft: "2rem" }}>
+                  <div
+                    className="item-icon none-bd"
+                    style={{ paddingLeft: "0px", textAlign: "left" }}
+                  >
+                    <p className="text-body-text color-gray-600 mt-15 bullet-point">
+                      Areas inaccessible
+                    </p>
+                  </div>
+                </div>{" "}
               </div>
-              <div className="row">
+            </div>
+          </div>{" "}
+        </div>
+
+        <br />
+        <div
+          className="row "
+          style={{
+            paddingLeft: "1rem",
+            paddingRight: "1rem",
+            paddingTop: "4rem",
+          }}
+        >
+          <div className="col-lg-6 col-md-12 col-sm-12 block-img-we-do text-center">
+            <div className="container">
+              <div className="">
+                <div className="box-video-homepage6">
+                  <div className="box-image">
+                    <img
+                      className="img-small img-responsive whatWeOfferImg2"
+                      style={{ width: "650px" }}
+                      src="/assets/imgs/page/new-images/4.jpg"
+                    />
+                  </div>{" "}
+                </div>
+              </div>{" "}
+            </div>
+          </div>
+          <div
+            className="col-lg-6 col-md-12 col-sm-12 "
+            style={{ marginTop: "-70px" }}
+          >
+            <div className="container text-center mt-100">
+              <h2 className="text-heading-1 color-gray-900">Zimkey Safety</h2>
+            </div>
+            <div className="" style={{ paddingTop: "1rem" }}>
+              <div className="item-icon none-bd" style={{ paddingLeft: "0px" }}>
+                <p className="text-body-text color-gray-600 mt-15 bullet-point">
+                  All our professionals undergo a rigorous background check
+                  before getting onboarded
+                </p>
+              </div>
+            </div>
+
+            <div className="">
+              <div
+                className="item-icon none-bd"
+                style={{ paddingLeft: "0px", paddingTop: "1rem" }}
+              >
+                <p className="text-body-text color-gray-600 mt-15 bullet-point">
+                  Our service providers follow all standard safety protocols
+                </p>
+              </div>
+            </div>
+
+            <div className="">
+              <div className="item-icon none-bd" style={{ paddingTop: "1rem" }}>
+                <p className="text-body-text color-gray-600 mt-15 bullet-point">
+                  All our service providers are fully vaccinated and continue to
+                  follow the required covid safety protocols
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* </div> */}
+        {/* <div className="row">
                 <div className="col-lg-4 col-md-12 col-sm-12">
                   <div className="list-icons mt-25">
                     <div
                       className="item-icon none-bd"
                       style={{ paddingLeft: "0px" }}
                     >
-                      {/* <span className="icon-left">
-                        <img src="/assets/imgs/page/homepage6/icon-acquis.svg" />
-                      </span> */}
-                      {/* <h4 className="text-heading-4">1. Title</h4> */}
                       <p className="text-body-text color-gray-600 mt-15 bullet-point">
                         All our professionals undergo a rigorous background
                         check before getting onboarded
@@ -1833,10 +2066,6 @@ function Home() {
                       className="item-icon none-bd"
                       style={{ paddingLeft: "0px" }}
                     >
-                      {/* <span className="icon-left">
-                        <img src="/assets/imgs/page/homepage6/icon-active.svg" />
-                      </span> */}
-                      {/* <h4 className="text-heading-4">2. Title</h4> */}
                       <p className="text-body-text color-gray-600 mt-15 bullet-point">
                         Our service providers follow all standard safety
                         protocols
@@ -1850,10 +2079,6 @@ function Home() {
                       className="item-icon none-bd"
                       style={{ paddingLeft: "0px" }}
                     >
-                      {/* <span className="icon-left">
-                        <img src="/assets/imgs/page/homepage6/icon-retent.svg" />
-                      </span> */}
-                      {/* <h4 className="text-heading-4">3. Title</h4> */}
                       <p className="text-body-text color-gray-600 mt-15 bullet-point">
                         All our service providers are fully vaccinated and
                         continue to follow the required covid safety protocols
@@ -1861,10 +2086,7 @@ function Home() {
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
+              </div> */}
 
         <section className="section-box mt-100">
           <div className="container">
