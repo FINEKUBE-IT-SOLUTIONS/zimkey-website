@@ -1834,22 +1834,8 @@ function Home() {
                     className="item-icon none-bd"
                     style={{ textAlign: "left" }}
                   >
-                    <p
-                      className="text-body-text color-gray-600 mt-15 bullet-point"
-                      // style={{ paddingRight: "72px" }}
-                    >
-                      Only Floor deep cleaning: Rs 2500 per 500 sq. ft. -2 hours
-                      (approx)
-                    </p>
-                  </div>
-                </div>
-                <div className="" style={{ paddingLeft: "2rem" }}>
-                  <div
-                    className="item-icon none-bd"
-                    style={{ textAlign: "left" }}
-                  >
                     <p className="text-body-text color-gray-600 mt-15 bullet-point">
-                      Extra room (if any) will be charged Rs.1000
+                      Extra single room (if any) will be charged Rs.1000
                     </p>
                   </div>
                 </div>
@@ -1885,6 +1871,20 @@ function Home() {
                     >
                       In case the work gets extended to another day, a minimum
                       of 3 hours (Rs. 2000) package will be applicable.
+                    </p>
+                  </div>
+                </div>
+                <div className="" style={{ paddingLeft: "2rem" }}>
+                  <div
+                    className="item-icon none-bd"
+                    style={{ textAlign: "left" }}
+                  >
+                    <p
+                      className="text-body-text color-gray-600 mt-15 bullet-point"
+                      // style={{ paddingRight: "72px" }}
+                    >
+                      Only floor deep cleaning: Rs 2500 per 500 sq. ft. - 2
+                      hours (Approx.)
                     </p>
                   </div>
                 </div>
@@ -1955,7 +1955,7 @@ function Home() {
                     style={{ paddingLeft: "0px", textAlign: "left" }}
                   >
                     <p className="text-body-text color-gray-600 mt-15 bullet-point">
-                      interior cleaning of appliances
+                      Interior cleaning of appliances
                     </p>
                   </div>
                 </div>
