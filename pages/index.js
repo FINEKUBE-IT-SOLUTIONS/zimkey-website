@@ -1824,7 +1824,7 @@ function Home() {
                   style={{ fontSize: "30px", paddingTop: "2rem" }}
                 >
                   {" "}
-                  Deep Cleaning Terms and Conditions
+                  Terms and Conditions
                 </span>
                 <div
                   className=""
@@ -1910,8 +1910,8 @@ function Home() {
               <div
                 className="card"
                 style={{
-                  marginLeft: "2rem",
-                  marginRight: "2rem",
+                  marginLeft: "3rem",
+                  marginRight: "3rem",
                   borderRadius: "15px",
                   minHeight: "400px",
                   // height: "400px",
