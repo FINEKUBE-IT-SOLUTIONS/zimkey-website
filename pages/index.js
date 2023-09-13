@@ -1835,7 +1835,7 @@ function Home() {
                     style={{ textAlign: "left" }}
                   >
                     <p className="text-body-text color-gray-600 mt-15 bullet-point">
-                      Extra single room (if any) will be charged Rs.1000
+                      Extra room (if any) will be charged Rs.1000
                     </p>
                   </div>
                 </div>
