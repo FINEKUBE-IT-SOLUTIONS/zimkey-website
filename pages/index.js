@@ -2000,7 +2000,11 @@ function Home() {
                   <div className="box-image">
                     <img
                       className="img-small img-responsive whatWeOfferImg2"
-                      style={{ width: "650px" }}
+                      style={{
+                        width: "650px",
+                        borderRadius: "16px",
+                        boxShadow: "0 47px 65px rgba(21,28,38,.1)",
+                      }}
                       src="/assets/imgs/page/new-images/4.jpg"
                     />
                   </div>{" "}
