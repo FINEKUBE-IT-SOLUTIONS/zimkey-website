@@ -1025,27 +1025,28 @@ function Home() {
                               style={{ minHeight: "178px" }}
                             >
                               <li>
-                                Deep cleaning of all rooms including Kitchen and
-                                Balcony
+                                Dry dusting and damp wiping od windows
+                                (sills/grills), blinds, ceiling fans, decor
+                                items, mirrors, glasses, switchboards, and
+                                furniture
                               </li>
-                              <li>
-                                Cleaning and stain removal of kitchen cabinets
-                                (interior) and appliances
-                              </li>
+                              <li>Cobweb removal</li>
 
                               <div id="card2-1" style={{ display: "none" }}>
                                 <li>
-                                  Dusting of walls, windows, ceilings, decor
-                                  items
+                                  Dry vacuuming of sofa, carpet, chairs,
+                                  curtains, etc.
                                 </li>
                                 <li>
-                                  Wet wiping of ceiling fans, decor items and
-                                  switch boards
+                                  Floor cleaning with a single disc machine and
+                                  wet mopping
                                 </li>
+                                <li>Balcony deep clean</li>
                                 <li>
-                                  Vacuuming of sofas, carpets, curtains, and
-                                  window sills
+                                  Deep cleaning of kitchen countertops, sink,
+                                  appliances, cabinets, windows, etc.
                                 </li>
+                                <li>Deep cleaning of bathrooms</li>
                               </div>
                             </ul>
                             <p
@@ -1136,27 +1137,28 @@ function Home() {
                               style={{ minHeight: "178px" }}
                             >
                               <li>
-                                Deep cleaning of all rooms including Kitchen and
-                                Balcony
+                                Dry dusting and damp wiping od windows
+                                (sills/grills), blinds, ceiling fans, decor
+                                items, mirrors, glasses, switchboards, and
+                                furniture
                               </li>
-                              <li>
-                                Cleaning and stain removal of kitchen cabinets
-                                (interior) and appliances
-                              </li>
+                              <li>Cobweb removal</li>
 
                               <div id="card2-2" style={{ display: "none" }}>
                                 <li>
-                                  Dusting of walls, windows, ceilings, decor
-                                  items
+                                  Dry vacuuming of sofa, carpet, chairs,
+                                  curtains, etc.
                                 </li>
                                 <li>
-                                  Wet wiping of ceiling fans, decor items and
-                                  switch boards
+                                  Floor cleaning with a single disc machine and
+                                  wet mopping
                                 </li>
+                                <li>Balcony deep clean</li>
                                 <li>
-                                  Vacuuming of sofas, carpets, curtains, and
-                                  window sills
+                                  Deep cleaning of kitchen countertops, sink,
+                                  appliances, cabinets, windows, etc.
                                 </li>
+                                <li>Deep cleaning of bathrooms</li>
                               </div>
                             </ul>
                             <p
@@ -1247,27 +1249,28 @@ function Home() {
                               style={{ minHeight: "178px" }}
                             >
                               <li>
-                                Deep cleaning of all rooms including Kitchen and
-                                Balcony
+                                Dry dusting and damp wiping od windows
+                                (sills/grills), blinds, ceiling fans, decor
+                                items, mirrors, glasses, switchboards, and
+                                furniture
                               </li>
-                              <li>
-                                Cleaning and stain removal of kitchen cabinets
-                                (interior) and appliances
-                              </li>
+                              <li>Cobweb removal</li>
 
                               <div id="card2-3" style={{ display: "none" }}>
                                 <li>
-                                  Dusting of walls, windows, ceilings, decor
-                                  items
+                                  Dry vacuuming of sofa, carpet, chairs,
+                                  curtains, etc.
                                 </li>
                                 <li>
-                                  Wet wiping of ceiling fans, decor items and
-                                  switch boards
+                                  Floor cleaning with a single disc machine and
+                                  wet mopping
                                 </li>
+                                <li>Balcony deep clean</li>
                                 <li>
-                                  Vacuuming of sofas, carpets, curtains, and
-                                  window sills
+                                  Deep cleaning of kitchen countertops, sink,
+                                  appliances, cabinets, windows, etc.
                                 </li>
+                                <li>Deep cleaning of bathrooms</li>
                               </div>
                             </ul>
                             <p
@@ -1358,27 +1361,28 @@ function Home() {
                               style={{ minHeight: "178px" }}
                             >
                               <li>
-                                Deep cleaning of all rooms including Kitchen and
-                                Balcony
+                                Dry dusting and damp wiping od windows
+                                (sills/grills), blinds, ceiling fans, decor
+                                items, mirrors, glasses, switchboards, and
+                                furniture
                               </li>
-                              <li>
-                                Cleaning and stain removal of kitchen cabinets
-                                (interior) and appliances
-                              </li>
+                              <li>Cobweb removal</li>
 
                               <div id="card2-4" style={{ display: "none" }}>
                                 <li>
-                                  Dusting of walls, windows, ceilings, decor
-                                  items
+                                  Dry vacuuming of sofa, carpet, chairs,
+                                  curtains, etc.
                                 </li>
                                 <li>
-                                  Wet wiping of ceiling fans, decor items and
-                                  switch boards
+                                  Floor cleaning with a single disc machine and
+                                  wet mopping
                                 </li>
+                                <li>Balcony deep clean</li>
                                 <li>
-                                  Vacuuming of sofas, carpets, curtains, and
-                                  window sills
+                                  Deep cleaning of kitchen countertops, sink,
+                                  appliances, cabinets, windows, etc.
                                 </li>
+                                <li>Deep cleaning of bathrooms</li>
                               </div>
                             </ul>
                             <p
@@ -1469,27 +1473,28 @@ function Home() {
                               style={{ minHeight: "178px" }}
                             >
                               <li>
-                                Deep cleaning of all rooms including Kitchen and
-                                Balcony
+                                Dry dusting and damp wiping od windows
+                                (sills/grills), blinds, ceiling fans, decor
+                                items, mirrors, glasses, switchboards, and
+                                furniture
                               </li>
-                              <li>
-                                Cleaning and stain removal of kitchen cabinets
-                                (interior) and appliances
-                              </li>
+                              <li>Cobweb removal</li>
 
                               <div id="card2-5" style={{ display: "none" }}>
                                 <li>
-                                  Dusting of walls, windows, ceilings, decor
-                                  items
+                                  Dry vacuuming of sofa, carpet, chairs,
+                                  curtains, etc.
                                 </li>
                                 <li>
-                                  Wet wiping of ceiling fans, decor items and
-                                  switch boards
+                                  Floor cleaning with a single disc machine and
+                                  wet mopping
                                 </li>
+                                <li>Balcony deep clean</li>
                                 <li>
-                                  Vacuuming of sofas, carpets, curtains, and
-                                  window sills
+                                  Deep cleaning of kitchen countertops, sink,
+                                  appliances, cabinets, windows, etc.
                                 </li>
+                                <li>Deep cleaning of bathrooms</li>
                               </div>
                             </ul>
                             <p
