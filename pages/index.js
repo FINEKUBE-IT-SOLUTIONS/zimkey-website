@@ -1531,7 +1531,7 @@ function Home() {
                           style={{ paddingBottom: "18px" }}
                         >
                           <h4 className="text-heading-5 mb-15">
-                            Deep Cleaning (Kitchen)
+                            Kitchen Deep Cleaning
                           </h4>
                           {/* <p className="text-body-small color-gray-400">
                             3-4 hours
@@ -1600,7 +1600,7 @@ function Home() {
                               style={{ paddingBottom: "18px" }}
                             >
                               <h4 className="text-heading-5 mb-15">
-                                Deep Cleaning (Bathroom)
+                                Bathroom Deep Cleaning
                               </h4>
                               {/* <p className="text-body-small color-gray-400">
                             Service includes general cleaning for 2 times per
@@ -1653,7 +1653,7 @@ function Home() {
                               style={{ paddingBottom: "18px" }}
                             >
                               <h4 className="text-heading-5 mb-15">
-                                Deep Cleaning (Bathroom)
+                                Bathroom Deep Cleaning
                               </h4>
                               {/* <p className="text-body-small color-gray-400">
                             Service includes general cleaning for 2 times per
@@ -1706,7 +1706,7 @@ function Home() {
                               style={{ paddingBottom: "18px" }}
                             >
                               <h4 className="text-heading-5 mb-15">
-                                Deep Cleaning (Bathroom)
+                                Bathroom Deep Cleaning
                               </h4>
                               {/* <p className="text-body-small color-gray-400">
                             Service includes general cleaning for 2 times per
@@ -1759,7 +1759,7 @@ function Home() {
                               style={{ paddingBottom: "18px" }}
                             >
                               <h4 className="text-heading-5 mb-15">
-                                Deep Cleaning (Bathroom)
+                                Bathroom Deep Cleaning
                               </h4>
                               {/* <p className="text-body-small color-gray-400">
                             Service includes general cleaning for 2 times per
@@ -1840,7 +1840,7 @@ function Home() {
                     style={{ textAlign: "left" }}
                   >
                     <p className="text-body-text color-gray-600 mt-15 bullet-point">
-                      Extra room (if any) will be charged Rs.1000
+                      Extra room (if any) will be charged Rs.1000.
                     </p>
                   </div>
                 </div>
@@ -1889,7 +1889,7 @@ function Home() {
                       // style={{ paddingRight: "72px" }}
                     >
                       Only floor deep cleaning: Rs 2500 per 500 sq. ft. - 2
-                      hours (Approx.)
+                      hours (Approx.).
                     </p>
                   </div>
                 </div>
