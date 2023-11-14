@@ -946,7 +946,53 @@ function Home() {
                       data-wow-delay=".2s"
                     >
                       <div className="box-pricing-item hover-up">
-                        <Carousel className="price-carousel-2">
+
+                      <div className="line-bd-bottom">
+                              <h4 className="text-heading-5 mb-15">
+                                Deep Cleaning
+                              </h4>
+                        
+                            </div>
+                            <ul
+                              className="list-package-feature"
+                              style={{ minHeight: "178px" }}
+                            >
+                              <li>
+                                Dry dusting and damp wiping od windows
+                                (sills/grills), blinds, ceiling fans, decor
+                                items, mirrors, glasses, switchboards, and
+                                furniture
+                              </li>
+                              <li>Cobweb removal</li>
+
+                              <div id="card2-2" style={{ display: "none" }}>
+                                <li>
+                                  Dry vacuuming of sofa, carpet, chairs,
+                                  curtains, etc.
+                                </li>
+                                <li>
+                                  Floor cleaning with a single disc machine and
+                                  wet mopping
+                                </li>
+                                <li>Balcony deep clean</li>
+                                <li>
+                                  Deep cleaning of kitchen countertops, sink,
+                                  appliances, cabinets, windows, etc.
+                                </li>
+                                <li>Deep cleaning of bathrooms</li>
+                              </div>
+                            </ul>
+                            <p
+                              className="view-more"
+                              style={{ float: "right", cursor: "pointer" }}
+                              onClick={handleViewMore("card2-2")}
+                            >
+                              View more
+                            </p>
+
+                        {/* Below are the carousel (slider). Commented now, because the pricings are removed*/}
+                      
+                        {/* <Carousel className="price-carousel-2">
                           <Carousel.Item>
                             <div
                               style={{
@@ -991,34 +1037,12 @@ function Home() {
                               </p>
                             </div>
 
-                            <div className="box-info-price">
-                              <span
-                                id="card2Price"
-                                className="text-heading-3 for-month display-month"
-                              >
-                                ₹ 4500
-                              </span>
-                              <span className="text-heading-3 for-year">
-                                $1068
-                              </span>
-                              <span className="text-month text-body-small color-gray-400">
-                                &nbsp; 1 BHK
-                              </span>
-                              <span className="text-month text-body-small color-gray-400">
-                                &nbsp; <br />3 hours
-                              </span>
-                              <span className="text-month for-year text-body-small color-gray-400">
-                                /year
-                              </span>
-                            </div>
+                            
                             <div className="line-bd-bottom">
                               <h4 className="text-heading-5 mb-15">
                                 Deep Cleaning
                               </h4>
-                              {/* <p className="text-body-small color-gray-400">
-                            Service includes general cleaning for 4 times per
-                            week.
-                          </p> */}
+                              
                             </div>
                             <ul
                               className="list-package-feature"
@@ -1102,35 +1126,11 @@ function Home() {
                               </p>
                             </div>
 
-                            <div className="box-info-price">
-                              <span
-                                id="card2Price"
-                                className="text-heading-3 for-month display-month"
-                              >
-                                ₹ 5500
-                              </span>
-                              <span className="text-heading-3 for-year">
-                                $1068
-                              </span>
-                              <span className="text-month text-body-small color-gray-400">
-                                &nbsp; 2 BHK
-                              </span>
-                              <span className="text-month text-body-small color-gray-400">
-                                &nbsp; <br />
-                                4-5 hours
-                              </span>
-                              <span className="text-month for-year text-body-small color-gray-400">
-                                /year
-                              </span>
-                            </div>
                             <div className="line-bd-bottom">
                               <h4 className="text-heading-5 mb-15">
                                 Deep Cleaning
                               </h4>
-                              {/* <p className="text-body-small color-gray-400">
-                            Service includes general cleaning for 4 times per
-                            week.
-                          </p> */}
+                        
                             </div>
                             <ul
                               className="list-package-feature"
@@ -1214,35 +1214,12 @@ function Home() {
                               </p>
                             </div>
 
-                            <div className="box-info-price">
-                              <span
-                                id="card2Price"
-                                className="text-heading-3 for-month display-month"
-                              >
-                                ₹ 6500
-                              </span>
-                              <span className="text-heading-3 for-year">
-                                $1068
-                              </span>
-                              <span className="text-month text-body-small color-gray-400">
-                                &nbsp; 3 BHK
-                              </span>
-                              <span className="text-month text-body-small color-gray-400">
-                                &nbsp; <br />
-                                5-6 hours
-                              </span>
-                              <span className="text-month for-year text-body-small color-gray-400">
-                                /year
-                              </span>
-                            </div>
+                            
                             <div className="line-bd-bottom">
                               <h4 className="text-heading-5 mb-15">
                                 Deep Cleaning
                               </h4>
-                              {/* <p className="text-body-small color-gray-400">
-                            Service includes general cleaning for 4 times per
-                            week.
-                          </p> */}
+                              
                             </div>
                             <ul
                               className="list-package-feature"
@@ -1326,35 +1303,12 @@ function Home() {
                               </p>
                             </div>
 
-                            <div className="box-info-price">
-                              <span
-                                id="card2Price"
-                                className="text-heading-3 for-month display-month"
-                              >
-                                ₹ 8500
-                              </span>
-                              <span className="text-heading-3 for-year">
-                                $1068
-                              </span>
-                              <span className="text-month text-body-small color-gray-400">
-                                &nbsp; 4 BHK
-                              </span>
-                              <span className="text-month text-body-small color-gray-400">
-                                &nbsp; <br />
-                                7-8 hours
-                              </span>
-                              <span className="text-month for-year text-body-small color-gray-400">
-                                /year
-                              </span>
-                            </div>
+                            
                             <div className="line-bd-bottom">
                               <h4 className="text-heading-5 mb-15">
                                 Deep Cleaning
                               </h4>
-                              {/* <p className="text-body-small color-gray-400">
-                            Service includes general cleaning for 4 times per
-                            week.
-                          </p> */}
+                              
                             </div>
                             <ul
                               className="list-package-feature"
@@ -1438,35 +1392,12 @@ function Home() {
                               </p>
                             </div>
 
-                            <div className="box-info-price">
-                              <span
-                                id="card2Price"
-                                className="text-heading-3 for-month display-month"
-                              >
-                                ₹ 10000
-                              </span>
-                              <span className="text-heading-3 for-year">
-                                $1068
-                              </span>
-                              <span className="text-month text-body-small color-gray-400">
-                                &nbsp; 5 BHK
-                              </span>
-                              <span className="text-month text-body-small color-gray-400">
-                                &nbsp; <br />
-                                8-9 hours
-                              </span>
-                              <span className="text-month for-year text-body-small color-gray-400">
-                                /year
-                              </span>
-                            </div>
+                            
                             <div className="line-bd-bottom">
                               <h4 className="text-heading-5 mb-15">
                                 Deep Cleaning
                               </h4>
-                              {/* <p className="text-body-small color-gray-400">
-                            Service includes general cleaning for 4 times per
-                            week.
-                          </p> */}
+                              
                             </div>
                             <ul
                               className="list-package-feature"
@@ -1505,7 +1436,7 @@ function Home() {
                               View more
                             </p>
                           </Carousel.Item>
-                        </Carousel>
+                        </Carousel> */}
                       </div>
                     </div>
 
@@ -1514,7 +1445,7 @@ function Home() {
                       data-wow-delay=".1s"
                     >
                       <div className="box-pricing-item hover-up">
-                        <div className="box-info-price">
+                        {/* <div className="box-info-price">
                           <span className="text-heading-3 for-month display-month">
                             ₹ 3000
                           </span>
@@ -1525,10 +1456,10 @@ function Home() {
                           <span className="text-month for-year text-body-small color-gray-400">
                             /year
                           </span>
-                        </div>
+                        </div> */}
                         <div
                           className="line-bd-bottom"
-                          style={{ paddingBottom: "18px" }}
+                          style={{ paddingBottom: "41px" }}
                         >
                           <h4 className="text-heading-5 mb-15">
                             Kitchen Deep Cleaning
@@ -1576,36 +1507,15 @@ function Home() {
                       data-wow-delay=".1s"
                     >
                       <div className="box-pricing-item hover-up">
-                        <Carousel className="price-carousel-2">
-                          <Carousel.Item>
-                            <div className="box-info-price">
-                              <span className="text-heading-3 for-month display-month">
-                                ₹ 800
-                              </span>
-                              <span className="text-heading-3 for-year">
-                                $420
-                              </span>
-                              <span className="text-month text-body-small color-gray-400">
-                                &nbsp; 1 Bathroom
-                              </span>
-                              <span className="text-month text-body-small color-gray-400">
-                                &nbsp; <br />1 hour
-                              </span>
-                              <span className="text-month for-year text-body-small color-gray-400">
-                                /year
-                              </span>
-                            </div>
-                            <div
+
+                      <div
                               className="line-bd-bottom"
                               style={{ paddingBottom: "18px" }}
                             >
                               <h4 className="text-heading-5 mb-15">
                                 Bathroom Deep Cleaning
                               </h4>
-                              {/* <p className="text-body-small color-gray-400">
-                            Service includes general cleaning for 2 times per
-                            week.
-                          </p> */}
+                             
                             </div>
                             <ul className="list-package-feature">
                               <li>
@@ -1620,34 +1530,13 @@ function Home() {
 
                               <div id="card4" style={{ display: "none" }}></div>
                             </ul>
-                            {/* <p
-                          className="view-more"
-                          style={{ float: "right", cursor: "pointer" }}
-                          onClick={handleViewMore("card4")}
-                        >
-                          View more
-                        </p> */}
-                          </Carousel.Item>
 
+
+                            {/* Below slider is removed because of the pricings are removed */}
+
+                        {/* <Carousel className="price-carousel-2">
                           <Carousel.Item>
-                            <div className="box-info-price">
-                              <span className="text-heading-3 for-month display-month">
-                                ₹ 1500
-                              </span>
-                              <span className="text-heading-3 for-year">
-                                $420
-                              </span>
-                              <span className="text-month text-body-small color-gray-400">
-                                &nbsp; 2 Bathroom
-                              </span>
-                              <span className="text-month text-body-small color-gray-400">
-                                &nbsp; <br />
-                                1-2 hours
-                              </span>
-                              <span className="text-month for-year text-body-small color-gray-400">
-                                /year
-                              </span>
-                            </div>
+                           
                             <div
                               className="line-bd-bottom"
                               style={{ paddingBottom: "18px" }}
@@ -1655,10 +1544,7 @@ function Home() {
                               <h4 className="text-heading-5 mb-15">
                                 Bathroom Deep Cleaning
                               </h4>
-                              {/* <p className="text-body-small color-gray-400">
-                            Service includes general cleaning for 2 times per
-                            week.
-                          </p> */}
+                             
                             </div>
                             <ul className="list-package-feature">
                               <li>
@@ -1673,34 +1559,11 @@ function Home() {
 
                               <div id="card4" style={{ display: "none" }}></div>
                             </ul>
-                            {/* <p
-                          className="view-more"
-                          style={{ float: "right", cursor: "pointer" }}
-                          onClick={handleViewMore("card4")}
-                        >
-                          View more
-                        </p> */}
+                            
                           </Carousel.Item>
 
                           <Carousel.Item>
-                            <div className="box-info-price">
-                              <span className="text-heading-3 for-month display-month">
-                                ₹ 2500
-                              </span>
-                              <span className="text-heading-3 for-year">
-                                $420
-                              </span>
-                              <span className="text-month text-body-small color-gray-400">
-                                &nbsp; 3 Bathroom
-                              </span>
-                              <span className="text-month text-body-small color-gray-400">
-                                &nbsp; <br />
-                                2-3 hours
-                              </span>
-                              <span className="text-month for-year text-body-small color-gray-400">
-                                /year
-                              </span>
-                            </div>
+                            
                             <div
                               className="line-bd-bottom"
                               style={{ paddingBottom: "18px" }}
@@ -1708,10 +1571,7 @@ function Home() {
                               <h4 className="text-heading-5 mb-15">
                                 Bathroom Deep Cleaning
                               </h4>
-                              {/* <p className="text-body-small color-gray-400">
-                            Service includes general cleaning for 2 times per
-                            week.
-                          </p> */}
+                            
                             </div>
                             <ul className="list-package-feature">
                               <li>
@@ -1726,34 +1586,11 @@ function Home() {
 
                               <div id="card4" style={{ display: "none" }}></div>
                             </ul>
-                            {/* <p
-                          className="view-more"
-                          style={{ float: "right", cursor: "pointer" }}
-                          onClick={handleViewMore("card4")}
-                        >
-                          View more
-                        </p> */}
+                           
                           </Carousel.Item>
 
                           <Carousel.Item>
-                            <div className="box-info-price">
-                              <span className="text-heading-3 for-month display-month">
-                                ₹ 3500
-                              </span>
-                              <span className="text-heading-3 for-year">
-                                $420
-                              </span>
-                              <span className="text-month text-body-small color-gray-400">
-                                &nbsp; 4 Bathroom
-                              </span>
-                              <span className="text-month text-body-small color-gray-400">
-                                &nbsp; <br />
-                                3-4 hours
-                              </span>
-                              <span className="text-month for-year text-body-small color-gray-400">
-                                /year
-                              </span>
-                            </div>
+                            
                             <div
                               className="line-bd-bottom"
                               style={{ paddingBottom: "18px" }}
@@ -1761,10 +1598,7 @@ function Home() {
                               <h4 className="text-heading-5 mb-15">
                                 Bathroom Deep Cleaning
                               </h4>
-                              {/* <p className="text-body-small color-gray-400">
-                            Service includes general cleaning for 2 times per
-                            week.
-                          </p> */}
+                              
                             </div>
                             <ul className="list-package-feature">
                               <li>
@@ -1779,15 +1613,36 @@ function Home() {
 
                               <div id="card4" style={{ display: "none" }}></div>
                             </ul>
-                            {/* <p
-                          className="view-more"
-                          style={{ float: "right", cursor: "pointer" }}
-                          onClick={handleViewMore("card4")}
-                        >
-                          View more
-                        </p> */}
+                           
                           </Carousel.Item>
-                        </Carousel>
+
+                          <Carousel.Item>
+                            
+                            <div
+                              className="line-bd-bottom"
+                              style={{ paddingBottom: "18px" }}
+                            >
+                              <h4 className="text-heading-5 mb-15">
+                                Bathroom Deep Cleaning
+                              </h4>
+                             
+                            </div>
+                            <ul className="list-package-feature">
+                              <li>
+                                Dirt, hard water stains & tile grouting stain
+                                removal from all surfaces including mirror
+                              </li>
+                              <li>
+                                Deep cleaning and unclogging of floor, toilet,
+                                and bathtub
+                              </li>
+                              <li>Stain removal if any</li>
+
+                              <div id="card4" style={{ display: "none" }}></div>
+                            </ul>
+                            
+                          </Carousel.Item>
+                        </Carousel> */}
                       </div>
                     </div>
                   </div>
@@ -1840,7 +1695,7 @@ function Home() {
                     style={{ textAlign: "left" }}
                   >
                     <p className="text-body-text color-gray-600 mt-15 bullet-point">
-                      Extra room (if any) will be charged Rs.1000.
+                      Extra room (if any) will be charged.
                     </p>
                   </div>
                 </div>
@@ -1857,8 +1712,7 @@ function Home() {
                       // style={{ paddingRight: "114px" }}
                     >
                       If the work extends beyond the minimum package, Hourly
-                      rates would be applicable at the rate of Rs. 1000 per
-                      hour.
+                      rates would be applicable.
                     </p>
                   </div>
                 </div>
@@ -1875,11 +1729,11 @@ function Home() {
                       style={{ textAlign: "left" }}
                     >
                       In case the work gets extended to another day, a minimum
-                      of 3 hours (Rs. 2000) package will be applicable.
+                      of 3 hours package will be applicable.
                     </p>
                   </div>
                 </div>
-                <div className="" style={{ paddingLeft: "2rem" }}>
+                {/* <div className="" style={{ paddingLeft: "2rem" }}>
                   <div
                     className="item-icon none-bd"
                     style={{ textAlign: "left" }}
@@ -1906,7 +1760,7 @@ function Home() {
                       Commercial Space Deep Cleaning Rs. 5 per sq. ft.
                     </p>
                   </div>
-                </div>
+                </div> */}
               </div>{" "}
             </div>
 
